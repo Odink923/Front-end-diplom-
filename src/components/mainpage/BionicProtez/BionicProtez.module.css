@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 .gradient {
     background: linear-gradient(to bottom right, #BAC0DA, #2D3361);
     height: 1268px;
@@ -14,7 +14,7 @@
     font-size: 48px;
     color: #F2F5FF;
     font-family: 'Unbounded', sans-serif;
-    font-weight: bold;
+
 
 }
 .items{
@@ -23,6 +23,7 @@
     height: 214px;
     display: flex;
     align-items: center;
+
 
 }
 .itemContent{
@@ -62,7 +63,7 @@
 }
 
 .icon{
-    width: 447px;
+    width: 432px;
     height: 411px;
     background: #D4D8FF;
     border-radius: 60px;

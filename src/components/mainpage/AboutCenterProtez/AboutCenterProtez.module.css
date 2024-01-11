@@ -1,0 +1,70 @@
+
+.content{
+    display: flex;
+    padding-top: 213px;
+    height: 710px;
+    padding-bottom: 278px;
+}
+.leftItems{
+
+    font-size: 48px;
+    color: #2D3361;
+    width: 85.52%;
+    display: flex;
+    font-family: 'Unbounded', sans-serif;
+
+
+}
+.items{
+
+    display: flex;
+    margin-left: 5.2083%;
+    flex-direction: column;
+
+
+}
+.itemsRight{
+    width: 53.96%;
+    display: flex;
+    margin-left: 5.2083%;
+    flex-direction: column;
+}
+
+
+.descriptions{
+    margin-top: 25px;
+
+    width: 90.54%;
+    font-size: 20px;
+    margin-bottom: 33px;
+    font-family: 'Unbounded', sans-serif;
+
+}
+.descriptionsRight{
+    margin-top: 385px;
+    font-size: 20px;
+}
+
+.icon{
+
+
+    height: 504px;
+    background: #D4D8FF;
+    border-radius: 60px;
+
+}
+.itemContent{
+
+    display: flex;
+
+}
+
+.rightItems{
+
+}
+
+.reusableItem{
+    margin-top: 79px;
+    font-size: 20px;
+
+}
