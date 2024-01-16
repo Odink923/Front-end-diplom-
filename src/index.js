@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import {Provider} from "react-redux";
 import {store} from "./store";
+import './/fonts/Unbounded-Black.ttf'
+import './/fonts/Unbounded-Bold.ttf'
+import './/fonts/Unbounded-ExtraBold.ttf'
+import './/fonts/Unbounded-ExtraLight.ttf'
+import './/fonts/Unbounded-Light.ttf'
+import './/fonts/Unbounded-Medium.ttf'
+import './/fonts/Unbounded-Regular.ttf'
+import './/fonts/Unbounded-SemiBold.ttf'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

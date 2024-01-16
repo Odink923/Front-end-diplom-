@@ -1,0 +1,15 @@
+.textWrapper3 {
+    color: #2D3361;
+    font-family: Unbounded-Light;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    line-height: 27px;
+    margin-bottom: -4px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: auto;
+}
+.textWrapper3:hover{
+    color: #5D638C;
+}

@@ -1,14 +1,13 @@
 import './App.css';
-import {Button} from "antd";
+import MainPage from "./pages/MainPage";
 
 
 function App() {
 
-    let lol = "lol"
 
   return (
     <div className="App">
-
+        <MainPage></MainPage>
     </div>
   );
 }

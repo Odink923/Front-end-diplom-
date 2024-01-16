@@ -1,0 +1,116 @@
+
+.component {
+    height: 76px;
+    position: relative;
+    width: 89.73%;
+    left: 5.21%;
+    top: 14px;
+}
+
+.component .overlapGroup {
+    -webkit-backdrop-filter: blur(40px) brightness(100%);
+    backdrop-filter: blur(40px) brightness(100%);
+    background: linear-gradient(93deg, rgba(243, 243, 253, 0.40) -12.78%, rgba(243, 243, 253, 0.08) 120.45%);
+    border-radius: 50px;
+    box-shadow: 0 6px 13px -1px rgba(173, 183, 198, 0.30);
+    height: 75px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width:69.53%;
+}
+
+.component .div {
+    align-items: flex-start;
+    display: flex;
+    gap:48.34%;
+    height: 22px;
+    left: 2.75%;
+    position: relative;
+    top: 26px;
+    width: 94.4%;
+    flex-shrink: 0;
+}
+
+.component .textWrapper2 {
+    color: #4E516C;
+    font-feature-settings: 'ss12' on;
+    font-family: Unbounded-Regular;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.22px;
+    text-transform: uppercase;
+
+    width: 102px;
+    height: 21px;
+    flex-shrink: 0;
+}
+
+.component .frame2 {
+    align-items: flex-start;
+    display: flex;
+    gap: 13.63%;
+    height: 22px;
+    width: 44.12%;
+}
+
+
+.component .overlap {
+    -webkit-backdrop-filter: blur(40px) brightness(100%);
+    backdrop-filter: blur(40px) brightness(100%);
+    background: linear-gradient(93deg, rgba(243, 243, 253, 0.40) -12.78%, rgba(243, 243, 253, 0.08) 120.45%);
+    border-radius: 50px;
+    box-shadow: 0 6px 13px -1px #adb6c54c;
+    height: 75px;
+    left: 71.85%;
+    position: absolute;
+    top: 0;
+    width: 28.14%;
+}
+
+.component .frame3 {
+    align-items: center;
+    display: flex;
+    gap: 7.56%;
+    height: 68px;
+    left: 8.247%;
+    position: relative;
+    top: 3px;
+    width: 87.21%;
+}
+
+.component .ENG {
+    color: transparent;
+    font-family: "Unbounded-Light", Helvetica;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    line-height: 150%;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.component .span {
+    color: #8b95c1;
+}
+
+.component .textWrapper4 {
+    color: #2d3361;
+}
+
+.component .textWrapper5 {
+    color: #2D3361;
+    font-family: "Unbounded-Light", Helvetica;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    line-height: 150%;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+
