@@ -1,0 +1,79 @@
+.box {
+    display: block;
+    position: relative;
+    height: 980px;
+    width: 100%;
+    max-width: 1920px;
+}
+.image {
+    position: absolute;
+    width: 644px;
+    height: 657px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: url('///images/image2.jpg'), lightgray 50% / cover no-repeat;
+    left: 5.21%;
+    top: 237px;
+}
+
+
+
+.label {
+    top: 237px;
+    left: 42.81%;
+    height: 116px;
+    width: 23.54%;
+    position: absolute;
+}
+.label .textWrapper {
+    color: #2D3361;
+    font-family: Unbounded-Regular;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -0.53px;
+    line-height: 120%;
+}
+
+.label2 {
+    top: 385px;
+    left: 42.81%;
+    width: 30.05%;
+    position: absolute;
+}
+.textWrapper2 {
+    color: #2D3361;
+    font-family: Unbounded-Light;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    line-height: 150%;
+}
+
+.label3 {
+    top: 571px;
+    left: 42.81%;
+    width: 30.05%;
+    position: absolute;
+}
+.textWrapper3 {
+    color: #2D3361;
+    font-family: Unbounded-Light;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    line-height: 150%;
+}
+.other {
+    top: 840px;
+    left: 42.81%;
+    width: 320px;
+    position: absolute;
+
+}
+.scroll {
+    color: #2D3361;
+    right: 5.20%;
+    width: 320px;
+    position: absolute;
+
+}

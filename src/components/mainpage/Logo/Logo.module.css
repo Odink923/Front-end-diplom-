@@ -1,5 +1,7 @@
 .box {
-    height: auto;
+    display: block;
+    position: static;
+    height: 980px;
     width: 100%;
     max-width: 1920px;
 }
@@ -19,10 +21,10 @@
     border-radius: 0 0 60px 60px;
     height: 980px;
     left: 0;
-    position: fixed;
     top: 0;
     width: 100%;
     align-items: flex-start;
+    position: absolute;
 }
 
 .label {
@@ -30,7 +32,7 @@
     width: 49.32%;
     top: 142px;
     left: 5.21%;
-    position: fixed;
+    position: absolute;
 }
 
 .label .textWrapper {
@@ -40,7 +42,7 @@
     font-weight: 400;
     letter-spacing: -0.71px;
     line-height: 120%;
-    position: fixed;
+    position: absolute;
     text-transform: uppercase;
     font-style: normal;
 }
@@ -52,22 +54,23 @@
     font-style: normal;
     line-height: 36px;
     margin: 0;
+    position: absolute;
 }
 .label2 {
-    position: fixed;
     left: 5.21%;
     top: 322px;
     width: 20%;
+    position: absolute;
 }
 
 .frame {
     color: #F2F5FF;
     align-items: flex-start;
     display: inline-flex;
-    position: fixed;
     top: 676px;
     left: 5.21%;
     gap: -6px;
+    position: absolute;
 }
 .frame .vector {
     position: relative;
@@ -91,7 +94,7 @@
 }
 
 .frameGif {
-    position: fixed;
+    position: absolute;
     top: 605px;
     left: 50.93%;
 
