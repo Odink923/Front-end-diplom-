@@ -1,0 +1,25 @@
+.frame {
+    align-items: flex-start;
+    display: inline-flex;
+    position: relative;
+}
+
+.vector {
+    position: relative;
+}
+.textWrapper {
+    color: #F2F5FF;
+    font-family: Unbounded-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    height: 20px;
+    letter-spacing: 0;
+    line-height: 27px;
+    margin-left: -95px;
+    margin-top: 88px;
+    position: relative;
+    transform: rotate(90deg);
+    white-space: nowrap;
+}
+
+

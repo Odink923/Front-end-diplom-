@@ -1,9 +1,10 @@
 .box {
     display: block;
     position: relative;
-    height: 980px;
+    height: 1099px;
     width: 100%;
     max-width: 1920px;
+
 }
 .image {
     position: absolute;

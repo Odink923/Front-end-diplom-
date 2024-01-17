@@ -1,7 +1,7 @@
 .box {
     display: block;
     position: static;
-    height: 980px;
+    height: 1078px;
     width: 100%;
     max-width: 1920px;
 }
@@ -19,7 +19,7 @@
 .box .rectangle {
     background: linear-gradient(95deg, #A0A9C1 14.72%, #E0E3FF 103.96%);
     border-radius: 0 0 60px 60px;
-    height: 980px;
+    height: 1078px;
     left: 0;
     top: 0;
     width: 100%;
@@ -63,35 +63,32 @@
     position: absolute;
 }
 
-.frame {
-    color: #F2F5FF;
-    align-items: flex-start;
-    display: inline-flex;
-    top: 676px;
+.viewMore {
+    top: 755px;
     left: 5.21%;
-    gap: -6px;
+    width: auto;
     position: absolute;
 }
-.frame .vector {
-    position: relative;
-    height: 212px;
-    margin-right: -19px;
-}
+/*.frame .vector {*/
+/*    position: relative;*/
+/*    height: 212px;*/
+/*    margin-right: -19px;*/
+/*}*/
 
-.frame .textWrapper {
-    font-family: Unbounded-Regular;
-    font-size: 18px;
-    height: 20px;
-    letter-spacing: 0;
-    line-height: 27px;
-    transform: rotate(90deg);
-    white-space: nowrap;
-    width: 208px;
-    margin-left: -83px;
-    margin-right: -94px;
-    margin-top: 93px;
+/*.frame .textWrapper {*/
+/*    font-family: Unbounded-Regular;*/
+/*    font-size: 18px;*/
+/*    height: 20px;*/
+/*    letter-spacing: 0;*/
+/*    line-height: 27px;*/
+/*    transform: rotate(90deg);*/
+/*    white-space: nowrap;*/
+/*    width: 208px;*/
+/*    margin-left: -83px;*/
+/*    margin-right: -94px;*/
+/*    margin-top: 93px;*/
 
-}
+/*}*/
 
 .frameGif {
     position: absolute;
