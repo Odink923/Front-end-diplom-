@@ -6,10 +6,11 @@
 
 .vector {
     position: relative;
+    height: 214px;
 }
 .textWrapper {
     color: #F2F5FF;
-    font-family: Unbounded-Regular;
+    font-family: Unbounded-Regular, serif;
     font-size: 18px;
     font-weight: 400;
     height: 20px;

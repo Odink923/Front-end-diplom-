@@ -1,5 +1,5 @@
 .box {
-    display: block;
+    display: flex;
     position: static;
     height: 1078px;
     width: 100%;
@@ -16,7 +16,7 @@
     }
 }
 
-.box .rectangle {
+.rectangle {
     background: linear-gradient(95deg, #A0A9C1 14.72%, #E0E3FF 103.96%);
     border-radius: 0 0 60px 60px;
     height: 1078px;
@@ -24,44 +24,63 @@
     top: 0;
     width: 100%;
     align-items: flex-start;
-    position: absolute;
+    position: static;
+    display: flex;
 }
 
-.label {
-    height: 154px;
-    width: 49.32%;
+.text {
     top: 142px;
     left: 5.21%;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
 }
 
-.label .textWrapper {
+.label {
+    height: fit-content;
+    display: flex;
+    width: fit-content;
+}
+
+.textWrapper {
     color: #F2F5FF;
-    font-family: Unbounded-Regular;
+    font-family: Unbounded-Regular, serif;
     font-size: 64px;
     font-weight: 400;
     letter-spacing: -0.71px;
     line-height: 120%;
-    position: absolute;
     text-transform: uppercase;
     font-style: normal;
+    white-space: nowrap;
+}
+@media (max-width: 768px) {
+    .textWrapper {
+        white-space: normal;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+    .textWrapper {
+        white-space: normal;
+        margin-bottom: 20px;
+    }
+}
+.label2 {
+    width: 384px;
+
 }
 
 .description{
     color: #F2F5FF;
-    font-family: Unbounded-ExtraLight;
+    font-family: Unbounded-Light, serif;
     font-size: 24px;
+    letter-spacing: -0.264px;
     font-style: normal;
-    line-height: 36px;
+    line-height: 150%;
     margin: 0;
-    position: absolute;
 }
-.label2 {
-    left: 5.21%;
-    top: 322px;
-    width: 20%;
-    position: absolute;
-}
+
 
 .viewMore {
     top: 755px;
@@ -69,26 +88,7 @@
     width: auto;
     position: absolute;
 }
-/*.frame .vector {*/
-/*    position: relative;*/
-/*    height: 212px;*/
-/*    margin-right: -19px;*/
-/*}*/
 
-/*.frame .textWrapper {*/
-/*    font-family: Unbounded-Regular;*/
-/*    font-size: 18px;*/
-/*    height: 20px;*/
-/*    letter-spacing: 0;*/
-/*    line-height: 27px;*/
-/*    transform: rotate(90deg);*/
-/*    white-space: nowrap;*/
-/*    width: 208px;*/
-/*    margin-left: -83px;*/
-/*    margin-right: -94px;*/
-/*    margin-top: 93px;*/
-
-/*}*/
 
 .frameGif {
     position: absolute;
@@ -98,7 +98,7 @@
 }
 .gif {
     color: #E1E4FF;
-    font-family: "PP Neue Machina-InktrapUltrabold";
+    font-family: "PP Neue Machina-InktrapUltrabold", serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 800;

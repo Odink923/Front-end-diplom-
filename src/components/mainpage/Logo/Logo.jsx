@@ -9,16 +9,18 @@ const Logo = () => {
             <div className={classes.rectangle}>
 
                 <Navbar></Navbar>
-                <div className={classes.label}>
-                    <div className={classes.textWrapper}>
-                        СЛОГАН / ДИСКРИПТОР <br/>
-                        КОМПАНІЇ
+                <div className={classes.text}>
+                    <div className={classes.label}>
+                        <div className={classes.textWrapper}>
+                            СЛОГАН / ДИСКРИПТОР <br/>
+                            КОМПАНІЇ
+                        </div>
                     </div>
-                </div>
-                <div className={classes.label2}>
-                    <p className={classes.description}>Короткий опис того, які послуги пропонуються і всяке таке подібне.
-                        Короткий опис того, які послуги пропонуються і всяке таке подібне
-                    </p>
+                    <div className={classes.label2}>
+                        <p className={classes.description}>Короткий опис того, які послуги пропонуються і всяке таке подібне.
+                            Короткий опис того, які послуги пропонуються і всяке таке подібне
+                        </p>
+                    </div>
                 </div>
                 <div className={classes.viewMore}>
                     <ViewMoreButton></ViewMoreButton>
