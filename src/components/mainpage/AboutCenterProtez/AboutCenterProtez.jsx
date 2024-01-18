@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './AboutCenterProtez.module.css'
 const AboutCenterProtez = () => {
+
     return (
         <div className={classes}>
             <div className={classes.content}>

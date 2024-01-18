@@ -1,0 +1,14 @@
+.all{
+ margin-left: 5.21%;
+
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    width: 78.54%;
+    font-size: 18px;
+    align-items: center;
+}
+.bigTitle{
+    font-size: 48px;
+}
