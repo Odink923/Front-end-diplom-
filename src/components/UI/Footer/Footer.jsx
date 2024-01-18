@@ -1,6 +1,6 @@
 import React from 'react';
-import classes from './Futter.module.css'
-const Futter = () => {
+import classes from './Footer.module.css'
+const Footer = () => {
     return (
         <div className={classes.futter}>
             <div className={classes.futterContent}>
@@ -43,4 +43,4 @@ const Futter = () => {
     );
 };
 
-export default Futter;
+export default Footer;

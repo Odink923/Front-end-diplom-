@@ -3,12 +3,16 @@ import BionicProtez from "../components/mainpage/BionicProtez/BionicProtez";
 import AboutCenterProtez from "../components/mainpage/AboutCenterProtez/AboutCenterProtez";
 import PartnerSponsors from "../components/mainpage/PartnerSponsors/PartnerSponsors";
 import WriteToUs from "../components/mainpage/WriteToUs/WriteToUs";
-import Futter from "../components/UI/Futter/Futter";
+import Footer from "../components/UI/Footer/Footer";
 
 const MainPage = () => {
     return (
         <div>
-        <Futter></Futter>
+            <AboutCenterProtez></AboutCenterProtez>
+            <BionicProtez></BionicProtez>
+            <PartnerSponsors title="Спонсор" role="спонсор"></PartnerSponsors>
+            <WriteToUs></WriteToUs>
+            <Footer></Footer>
         </div>
     );
 };

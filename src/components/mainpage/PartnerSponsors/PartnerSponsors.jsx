@@ -5,7 +5,7 @@ const PartnerSponsors = ({title, role}) => {
         <div className={classes.all}>
             <div className={classes.conentTitle}>
                 <div className={classes.title}>{title}</div>
-                <div className={classes.reusableItemContent}>Стати {role}
+                <div className={classes.reusableItemContent}>Стати {role}ом
                     <svg width="217" height="25" viewBox="0 0 217 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M-4.82938e-07 12.249L214.5 12.2487M214.5 12.2487L204.75 0.998723M214.5 12.2487L204.75 23.2973" stroke="#2D3361" stroke-width="3"/>
                     </svg>
