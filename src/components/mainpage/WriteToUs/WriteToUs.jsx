@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './WriteToUs.module.css'
+import SendButton from "./UI/SendButton";
 const WriteToUs = () => {
     return (
         <div className={classes.all}>
@@ -11,6 +12,7 @@ const WriteToUs = () => {
                 Напишіть нам:
                 </div>
                 <div>
+                <div>
                     <input placeholder="Ім’я та прізвище*" className={classes.formInput}/>
                 </div>
                 <div>
@@ -19,13 +21,16 @@ const WriteToUs = () => {
                 <div>
                     <input placeholder="Тема звернення*" className={classes.formInput}/>
                 </div>
-                <div >
+
+                <div>
                     <textarea  placeholder="Ваше повідомлення"  className={`${classes.formInput} ${classes.userInput}`}/>
                 </div>
+                <div className={classes.positionSendButton}>
+                <SendButton >Надіслати</SendButton>
+                </div>
+                </div>
             </div>
-            <div className={classes.rightItems}>
 
-            </div>
         </div>
     );
 };

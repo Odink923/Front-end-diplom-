@@ -1,0 +1,71 @@
+.futter{
+    height: 1093px;
+    border-radius: 60px 60px 0 0;
+    background: linear-gradient(255deg, #2D3361 -20.46%, #BAC0DA 158.85%);
+    color: #FFFFFF;
+}
+.futterContent{
+    width: 85.57%;
+    height: 1093px;
+    border-right: 1px solid #8C96C1;
+}
+.titleContent{
+    margin-left: 5.21%;
+    padding-top: 79px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+
+}
+.title{
+    font-size: 64px;
+    width: 46.67%;
+}
+.logo{
+    font-size: 40px;
+}
+.contact{
+    display: flex;
+    height: 510px;
+    border-top: 1px solid #8C96C1;
+    border-bottom: 1px solid #8C96C1;
+}
+.contactContent{
+
+    width: 71.73%;
+    border-right: 1px solid #8C96C1;
+    height: 100%;
+}
+.contactItems{
+    margin-left: 6.10%;
+    font-size: 36px;
+    margin-top: 127px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.socialMedia{
+    font-size: 36px;
+    display: flex;
+    align-items: end;
+    width: 18.46%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 149px;
+    height: 247px;
+    margin-left: 9.69%;
+}
+.navFutter{
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+
+}
+.navFutterContent{
+    width: 58.96%;
+    display: flex;
+    justify-content: space-between;
+}

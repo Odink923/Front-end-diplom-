@@ -1,0 +1,11 @@
+.customButton{
+    width: 36.75%;
+    background: #2D3361;
+    color: #FFFFFF;
+    height: 68px;
+    margin-right: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 65px;
+
+}
