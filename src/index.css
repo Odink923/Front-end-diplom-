@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'Unbounded-Black';
+  src: local('Unbounded-Black'), url('./fonts/Unbounded-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Unbounded-Bold';
+  src: local('Unbounded-Bold'), url('./fonts/Unbounded-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Unbounded-ExtraBold';
+  src: local('Unbounded-ExtraBold'), url('./fonts/Unbounded-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Unbounded-ExtraLight';
+  src: local('Unbounded-ExtraLight'), url('./fonts/Unbounded-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Unbounded-Light';
+  src: local('Unbounded-Light'), url('./fonts/Unbounded-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Unbounded-Medium';
+  src: local('Unbounded-Medium'), url('./fonts/Unbounded-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Unbounded-Regular';
+  src: local('Unbounded-Regular'), url('./fonts/Unbounded-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Unbounded-SemiBold';
+  src: local('Unbounded-SemiBold'), url('./fonts/Unbounded-SemiBold.ttf') format('truetype');
+}
+

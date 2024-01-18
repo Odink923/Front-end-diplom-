@@ -1,0 +1,50 @@
+.box {
+    height: 971px;
+    width: 1723px;
+}
+.rectangle{
+    border-radius: 60px;
+    background: linear-gradient(106deg, #2D3361 -32.68%, #BAC0DA 147.97%);
+    height: 971px;
+    width: 1723px;
+    position: absolute;
+    display: flex;
+}
+.text{
+    top: 81px;
+    left: 3.88%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 27.22%;
+}
+.header{
+    width: fit-content;
+}
+.textWrapperBig{
+    color: #F2F5FF;
+    font-family: Unbounded-Regular, serif;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 150%;
+    position: relative;
+}
+.paragraf{
+    width: 100%;
+}
+.textWrapper{
+    color: #F2F5FF;
+    font-family: Unbounded-Light, serif;
+    font-size: 18px;
+    letter-spacing: -0.198px;
+    line-height: 150%;
+    position: relative;
+}
+
+.viewMore{
+    top: 691px;
+    left: 95.76%;
+    position: absolute;
+    display: flex;
+}

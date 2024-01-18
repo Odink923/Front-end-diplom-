@@ -1,0 +1,42 @@
+
+
+.frame {
+    display: flex;
+    height: 68px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 65px;
+    background:  #2D3361;
+    box-sizing: border-box;
+    transition: background-color 0.4s ease;
+}
+.frame:hover{
+    background: #F2F5FF;
+}
+.frame:hover .text {
+    color: #2D3361;
+}
+
+.frame .text {
+    color: #ffffff;
+    font-family: Unbounded-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    line-height:  27px;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+
+
+.frame.default {
+    display: inline-flex;
+}
+
+.frame.variant-2 {
+    display: flex;
+    width: 244px;
+}
