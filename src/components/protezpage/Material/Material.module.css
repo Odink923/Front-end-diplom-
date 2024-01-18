@@ -1,0 +1,31 @@
+.title{
+    padding-top: 164px;
+    display: flex;
+
+    width: 78.54%;
+    flex-direction: column;
+    margin-left: 5.21%;
+}
+.titleContent{
+    display: flex;
+    font-size: 48px;
+    font-weight: 400;
+    justify-content: space-between;
+    font-style: normal;
+}
+.titleText{
+    display: flex;
+    font-size: 16px;
+    color: #9FA7C7;
+    align-items: end;
+    width: 47.76%;
+    margin-left: 24px;
+    justify-content: space-between;
+}
+.model{
+
+    height: 789px;
+    border-radius: 60px;
+    background: #979AB3;
+    margin-top: 24px;
+}

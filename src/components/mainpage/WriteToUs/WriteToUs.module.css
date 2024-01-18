@@ -1,0 +1,67 @@
+.all{
+    display: flex;
+    margin-left: 5.21%;
+    height: 629px;
+    padding-top: 385px;
+    padding-bottom: 385px;
+}
+.title{
+    font-size: 48px;
+    width: 30.68%;
+    margin-right: 15.16%;
+}
+.leftTitle{
+    font-size: 48px;
+
+}
+.formInput{
+    background: linear-gradient(to bottom right, #D3D9F8, #DCE1FC);
+    border-radius: 49px;
+    width: 98%;
+    border: none;
+    outline: none;
+    height: 68px;
+    margin-top: 22px;
+    padding-left: 49px;
+    color: #8C96C1;
+    padding-right: 49px;
+    font-size: 20px;
+    box-sizing: border-box;
+
+}
+.formInput::placeholder {
+    color: #8C96C1;
+}
+.userInput{
+    height: 162px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    resize: none;
+
+}
+.positionSendButton{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+
+
+
+}
+.rightTitle{
+    font-size: 48px;
+
+}
+
+.formContent{
+    display: flex;
+    flex-direction: column;
+    width: 34.58%;
+
+}
+
+.rightItems{
+
+}
+
+
+

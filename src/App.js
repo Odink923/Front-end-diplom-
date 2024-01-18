@@ -1,8 +1,5 @@
 import './App.css';
-import {Button} from "antd";
 import MainPage from "./pages/MainPage";
-
-
 function App() {
 
   return (
