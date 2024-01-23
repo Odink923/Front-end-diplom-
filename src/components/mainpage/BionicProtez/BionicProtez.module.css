@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 .gradient {
     background: linear-gradient(to bottom right, #BAC0DA, #2D3361);
-    height: 1268px;
+    height: 100%;
     border-radius: 60px;
 }
 
@@ -19,15 +19,7 @@
 }
 
 
-.items{
-    border-top: 2px solid #8C96C1;
-    border-right: 2px solid #8C96C1;
-    height: 214px;
-    display: flex;
-    align-items: center;
 
-
-}
 .itemContent{
     margin-left: 5.2083%;
     display: flex;
@@ -39,17 +31,34 @@
     border-right: 2px solid #8C96C1;
     height: 214px;
     display: flex;
-
+    overflow: hidden;
     align-items: center;
+    cursor: pointer;
+    border-top-left-radius: 60px;
 }
 .item2{
     border-top: 2px solid #8C96C1;
     border-right: 2px solid #8C96C1;
-    background: #5D638C;
-    height: 612px;
+    cursor: pointer;
     display: flex;
     align-items: center;
+    overflow: hidden;
+
+
 }
+.downItem{
+    border-right: 2px solid #8C96C1;
+    height: 214px;
+    display: flex;
+    border-top: 2px solid #8C96C1;
+    overflow: hidden;
+    align-items: center;
+    cursor: pointer;
+    border-bottom-left-radius: 60px;
+
+
+}
+
 .item2Content{
     display:flex;
     justify-content:space-between;
@@ -70,7 +79,12 @@
     background: #D4D8FF;
     border-radius: 60px;
 
+
 }
+
 .rightItems{
 
+}
+.iconMarg{
+        margin-right: 5.26%;
 }
