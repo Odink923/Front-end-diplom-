@@ -3,7 +3,7 @@ import classes from './MainPage.module.css'
 import Logo from "../components/mainpage/Logo/Logo";
 import SpecificProtez from "../components/mainpage/SpecificProtez/SpecificProtez";
 import ViewMoreButton from "../components/UI/ViewMoreButton/ViewMoreButton";
-import BionicHandle from "../components/page2/BionicHandle/BionicHandle";
+import BionicHandle from "../components/protezpage/BionicHandle/BionicHandle";
 
 const MainPage = () => {
     return (
