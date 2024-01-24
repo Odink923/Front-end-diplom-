@@ -5,6 +5,7 @@
     border-radius: 60px;
 }
 
+
 .content{
     display: flex;
 
@@ -33,7 +34,6 @@
     display: flex;
     overflow: hidden;
     align-items: center;
-    cursor: pointer;
     border-top-left-radius: 60px;
 }
 .item2{
@@ -45,6 +45,7 @@
     overflow: hidden;
 
 
+
 }
 .downItem{
     border-right: 2px solid #8C96C1;
@@ -53,11 +54,9 @@
     border-top: 2px solid #8C96C1;
     overflow: hidden;
     align-items: center;
-    cursor: pointer;
     border-bottom-left-radius: 60px;
-
-
 }
+
 
 .item2Content{
     display:flex;
