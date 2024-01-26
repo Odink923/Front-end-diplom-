@@ -25,22 +25,29 @@
     width: 100%;
     align-items: flex-start;
     position: static;
+    flex-direction: column;
     display: flex;
+}
+.row{
+    position: relative;
+    flex-direction: row;
+    display: flex;
+
 }
 
 .text {
-    top: 142px;
+    top: 52px;
     left: 5.21%;
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
-    gap: 26px;
 }
 
 .label {
     height: fit-content;
     display: flex;
     width: fit-content;
+
 }
 
 .textWrapper {
@@ -53,6 +60,7 @@
     text-transform: uppercase;
     font-style: normal;
     white-space: nowrap;
+    margin-bottom: 26px;
 }
 @media (max-width: 768px) {
     .textWrapper {
@@ -72,7 +80,7 @@
 }
 
 .description{
-    color: #F2F5FF;
+    color: #2D3361;
     font-family: Unbounded-Light, serif;
     font-size: 24px;
     letter-spacing: -0.264px;
@@ -83,17 +91,16 @@
 
 
 .viewMore {
-    top: 755px;
-    left: 5.21%;
+    top: 217px;
     width: auto;
-    position: absolute;
+    position: relative;
 }
 
 
 .frameGif {
-    position: absolute;
-    top: 605px;
-    left: 50.93%;
+    position: relative;
+    top: 283px;
+    margin-left: 494px;
 
 }
 .gif {
@@ -105,4 +112,5 @@
     line-height: 150%;
     letter-spacing: -0.704px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
