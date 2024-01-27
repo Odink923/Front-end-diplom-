@@ -5,6 +5,7 @@ import AnimatedItem from "./UI/AnimatedItem";
 
 const BionicProtez = () => {
 
+
     return (
         <div className={classes.gradient}>
             <div className={classes.content}>

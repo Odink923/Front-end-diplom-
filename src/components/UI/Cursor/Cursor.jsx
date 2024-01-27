@@ -42,8 +42,8 @@ const Cursor = () => {
 
 
     return (
-        <animated.div className={classes.attachment}  style={{left: position.x, top: position.y,  transform: springProps.scale.interpolate((s) => `scale(${s})`) }}>
-            <div className="cursor__ball cursor__ball--big ">
+        <animated.div className={classes.attachment}  style={{left: position.x, top: position.y,pointerEvents: 'none',  transform: springProps.scale.interpolate((s) => `scale(${s})`) }}>
+            <div  className="cursor__ball cursor__ball--big ">
                 <svg height="30" width="30">
                     <circle cx="15" cy="15" r="12" ></circle>
                 </svg>

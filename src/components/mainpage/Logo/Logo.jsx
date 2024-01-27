@@ -23,7 +23,7 @@ const Logo = () => {
                     </div>
                 </div>
                 <div className={classes.viewMore}>
-                    <ViewMoreButton></ViewMoreButton>
+                    <ViewMoreButton ></ViewMoreButton>
                 </div>
                 <div className={classes.frameGif}>
                     <div className={classes.gif}>фото/гіфка протеза</div>
