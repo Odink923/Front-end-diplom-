@@ -27,8 +27,10 @@ const MainPage = () => {
                     <AboutUs></AboutUs>
                 </section>
                 <section>
+                    <div className="partnerSponsors">
                     <PartnerSponsors title="Партнер" role="партнер"></PartnerSponsors>
                     <PartnerSponsors title="Спонсор" role="спонсор"></PartnerSponsors>
+                    </div>
                 </section>
                 <section>
                     <WriteToUs></WriteToUs>
