@@ -10,7 +10,7 @@ import {useEffect, useState} from "react";
 const MainPage = () => {
 
 
-
+//please dont delete)
     return (
         <div >
             <div className="container">

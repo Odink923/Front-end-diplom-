@@ -1,6 +1,6 @@
 import './App.css';
-import MainPage from "./pages/MainPage";
 import Cursor from "./components/UI/Cursor/Cursor";
+import ProtezPage from "./pages/ProtezPage";
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
         <Cursor></Cursor>
-        <MainPage></MainPage>
+        <ProtezPage></ProtezPage>
     </div>
   );
 }
