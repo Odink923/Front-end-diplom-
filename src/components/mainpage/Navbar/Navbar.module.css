@@ -5,22 +5,28 @@
     width: 89.73%;
     left: 5.21%;
     top: 14px;
+    z-index: 10;
 }
 
-.component .overlapGroup {
-    -webkit-backdrop-filter: blur(40px) brightness(100%);
-    backdrop-filter: blur(40px) brightness(100%);
+.overlapGroup {
     background: linear-gradient(93deg, rgba(243, 243, 253, 0.40) -12.78%, rgba(243, 243, 253, 0.08) 120.45%);
     border-radius: 50px;
     box-shadow: 0 6px 13px -1px rgba(173, 183, 198, 0.30);
-    height: 75px;
+    height: auto;
     left: 0;
-    position: absolute;
+    position: relative;
     top: 1px;
     width:69.53%;
+    display: flex;
+    flex-direction: column;
 }
-
-.component .div {
+.overlapGroupFrame{
+    height: 75px;
+    position: relative;
+    width:100%;
+    display: flex;
+}
+.div {
     align-items: flex-start;
     display: flex;
     gap:48.34%;
@@ -32,14 +38,13 @@
     flex-shrink: 0;
 }
 
-.component .textWrapper2 {
+.textWrapper2 {
     color: #4E516C;
-    font-feature-settings: 'ss12' on;
-    font-family: Unbounded-Regular;
+    font-family: "PP Neue Machina-InktrapUltrabold", serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
-    line-height: 150%; /* 30px */
+    line-height: 150%;
     letter-spacing: -0.22px;
     text-transform: uppercase;
 
@@ -55,6 +60,62 @@
     height: 22px;
     width: 44.12%;
 }
+
+.line{
+    height: 2px;
+    background-color: #B8BFDA;
+}
+.dropdownMenu{
+    height: 410px;
+    display: flex;
+    position: relative;
+    backdrop-filter: blur(20px);
+    opacity: 1;
+    flex-direction: column;
+}
+
+
+.dropdownFrame{
+    top: 78px;
+    left: 104px;
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 68px;
+    position: relative;
+    border-radius: 5px;
+}
+.dropdownMenuBlock{
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+}
+.dropdownMenuImage{
+    background-color: #F2F5FF;
+    border-radius: 40px;
+    height: 184px;
+    position: relative;
+    width: 184px;
+    display: flex;
+    transition: border-radius 0.3s ease;
+}
+.dropdownMenuImage:hover{
+    border-radius: 5px;
+}
+.dropdownMenuText{
+    color: #2D3361;
+    font-family: Unbounded-Regular, serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.22px;
+
+
+}
+
+
+
 
 
 .component .overlap {

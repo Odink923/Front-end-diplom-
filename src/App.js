@@ -1,5 +1,7 @@
 import './App.css';
 import MainPage from "./pages/MainPage";
+import AboutUsPage from "./pages/AboutUsPage";
+import TeamPage from "./pages/TeamPage";
 
 
 function App() {
@@ -8,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-        <MainPage></MainPage>
+        <TeamPage></TeamPage>
     </div>
   );
 }

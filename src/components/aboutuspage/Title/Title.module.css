@@ -32,6 +32,7 @@
     position: relative;
     flex-direction: row;
     display: flex;
+    width: 100%;
 
 }
 
@@ -75,7 +76,7 @@
     }
 }
 .label2 {
-    width: 384px;
+    width: 647px;
 
 }
 
@@ -90,25 +91,35 @@
 }
 
 
-.viewMore {
-    top: 217px;
+.other {
+    top: 335px;
     width: auto;
     position: relative;
 }
 
 
 .frameGif {
-    position: relative;
-    top: 283px;
-    margin-left: 494px;
+    position: absolute;
+    top: 56px;
+    right: 5.21%;
+    width: 51.87%;
+    height: 809px;
+    border-radius: 60px;
+    background-color: #D4D8FF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 
 }
 .gif {
-    color: #E1E4FF;
-    font-family: "PP Neue Machina-InktrapUltrabold", serif;
+    position: relative;
+    right: 47px;
+    bottom: 72px;
+    color: #E7EAFF;
+    font-family: Unbounded-Regular, serif;
     font-size: 64px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 400;
     line-height: 150%;
     letter-spacing: -0.704px;
     text-transform: uppercase;
