@@ -7,11 +7,14 @@ import PartnerSponsors from "../components/mainpage/PartnerSponsors/PartnerSpons
 import WriteToUs from "../components/mainpage/WriteToUs/WriteToUs";
 import Footerr from "../components/UI/Footer/Footerr";
 import {useEffect, useState} from "react";
+
+
 const MainPage = () => {
 
 
 //please dont delete)
     return (
+
         <div >
             <div className="container">
                 <section>
