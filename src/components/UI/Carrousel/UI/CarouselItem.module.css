@@ -1,0 +1,18 @@
+.item{
+    width: 604px;
+    height: 610px;
+    background-color: #D4D8FF;
+    border-radius: 60px;
+}
+.title{
+    font-family: Unbounded-Regular;
+    font-size: 32px;
+    color: #2D3361;
+    margin-top: 22px;
+}
+.description{
+    font-family: Unbounded-Light;
+    font-size: 24px;
+    color: #2D3361;
+    margin-top: 36px;
+}

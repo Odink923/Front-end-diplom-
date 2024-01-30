@@ -1,8 +1,11 @@
-.all{
- margin-left: 5.21%;
-
-}
 .title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+    padding-top: 198px;
+}
+
+.titleContent{
     display: flex;
     justify-content: space-between;
     width: 78.54%;

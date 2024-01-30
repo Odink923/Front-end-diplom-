@@ -1,11 +1,13 @@
 import React from 'react';
-import Material from "../components/protezpage/Material/Material";
-import Carrousel from "../components/protezpage/Carrousel/Carrousel";
+import Carrousel from "../components/UI/Carrousel/Carrousel";
+import CarrouselProtezPage from "../components/page2/CarrouselProtezPage/CarrouselProtezPage";
+
 
 const ProtezPage = () => {
+
     return (
         <div>
-           <Carrousel></Carrousel>
+            <CarrouselProtezPage></CarrouselProtezPage>
         </div>
     );
 };

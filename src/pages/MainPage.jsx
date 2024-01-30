@@ -1,5 +1,3 @@
-import React from 'react';
-import classes from './MainPage.module.css'
 import Logo from "../components/mainpage/Logo/Logo";
 import SpecificProtez from "../components/mainpage/SpecificProtez/SpecificProtez";
 import BionicProtez from "../components/mainpage/BionicProtez/BionicProtez";
@@ -8,18 +6,43 @@ import AboutUs from "../components/mainpage/aboutUs/AboutUs";
 import PartnerSponsors from "../components/mainpage/PartnerSponsors/PartnerSponsors";
 import WriteToUs from "../components/mainpage/WriteToUs/WriteToUs";
 import Footerr from "../components/UI/Footer/Footerr";
+import {useEffect, useState} from "react";
+
 
 const MainPage = () => {
+
+
+//please dont delete)
     return (
-        <div className={classes.page}>
-            <Logo></Logo>
+
+        <div >
+            <div className="container">
+                <section>
             <SpecificProtez></SpecificProtez>
-            <BionicProtez></BionicProtez>
+                </section>
+                <section>
+            <BionicProtez ></BionicProtez>
+                </section>
+                <section >
             <AboutCenterProtez></AboutCenterProtez>
-            <AboutUs></AboutUs>
-            <PartnerSponsors></PartnerSponsors>
-            <WriteToUs></WriteToUs>
-            <Footerr></Footerr>
+                </section>
+                <section>
+                    <AboutUs></AboutUs>
+                </section>
+                <section>
+                    <div className="partnerSponsors">
+                    <PartnerSponsors title="Партнер" role="партнер"></PartnerSponsors>
+                    <PartnerSponsors title="Спонсор" role="спонсор"></PartnerSponsors>
+                    </div>
+                </section>
+                <section>
+                    <WriteToUs></WriteToUs>
+                </section>
+                <section>
+                    <Footerr></Footerr>
+                </section>
+
+            </div>
         </div>
     );
 };

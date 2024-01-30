@@ -1,3 +1,19 @@
 .App {
+    cursor: none;
     background: #F2F5FF;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+
+}
+
+section{
+    overflow: hidden;
+    height: auto;
+    scroll-snap-align: start;
+}
+.partnerSponsors{
+    padding-bottom: 50px;
 }
