@@ -1,0 +1,127 @@
+.box {
+    display: flex;
+    position: static;
+    height: 1078px;
+    width: 100%;
+    max-width: 1920px;
+}
+@media (max-width: 768px) {
+    .box {
+        max-width: 100%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+    .box {
+        max-width: 100%;
+    }
+}
+
+.rectangle {
+    background: linear-gradient(95deg, #A0A9C1 14.72%, #E0E3FF 103.96%);
+    border-radius: 0 0 60px 60px;
+    height: 1078px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: flex-start;
+    position: static;
+    flex-direction: column;
+    display: flex;
+}
+.row{
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+
+}
+
+.text {
+    top: 52px;
+    left: 5.21%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    height: fit-content;
+    display: flex;
+    width: fit-content;
+
+}
+
+.textWrapper {
+    color: #F2F5FF;
+    font-family: Unbounded-Regular, serif;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: -0.71px;
+    line-height: 120%;
+    text-transform: uppercase;
+    font-style: normal;
+    white-space: nowrap;
+    margin-bottom: 26px;
+}
+@media (max-width: 768px) {
+    .textWrapper {
+        white-space: normal;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+    .textWrapper {
+        white-space: normal;
+        margin-bottom: 20px;
+    }
+}
+.label2 {
+    width: 647px;
+
+}
+
+.description{
+    color: #2D3361;
+    font-family: Unbounded-Light, serif;
+    font-size: 24px;
+    letter-spacing: -0.264px;
+    font-style: normal;
+    line-height: 150%;
+    margin: 0;
+}
+
+
+.other {
+    top: 335px;
+    width: auto;
+    position: relative;
+}
+
+
+.frameGif {
+    position: absolute;
+    top: 56px;
+    right: 5.21%;
+    width: 51.87%;
+    height: 809px;
+    border-radius: 60px;
+    background-color: #D4D8FF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.gif {
+    position: relative;
+    right: 47px;
+    bottom: 72px;
+    color: #E7EAFF;
+    font-family: Unbounded-Regular, serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.704px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
