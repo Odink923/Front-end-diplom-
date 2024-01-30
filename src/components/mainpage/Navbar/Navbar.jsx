@@ -3,6 +3,7 @@ import classes from './Navbar.module.css';
 import DarkButton from "../../UI/DarkButton/DarkButton";
 import NavbarButton from "../../UI/NavbarButton/NavbarButton";
 import {animated, useSpring} from '@react-spring/web'
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
 
@@ -26,13 +27,17 @@ const Navbar = () => {
                 <animated.div className={classes.overlapGroup} style={slideAnimationNavbar}>
                     <div className={classes.overlapGroupFrame}>
                         <div className={classes.div}>
+                            <Link to={"/"}>
                             <div className={classes.textWrapper2}>ЛОГОТИП</div>
+                            </Link>
                             <div className={classes.frame2}>
                                 <NavbarButton property1={"Пацієнтам"}/>
+                                    <Link to={"/aboutUsPage"}>
                                     <NavbarButton property1={"Про нас"}
                                                   onHover={() => setIsHovered(true)}
                                                   onMouseLeave={() => setIsHovered(false)}
                                          />
+                                    </Link>
                                 <NavbarButton property1={"Блог"}/>
                                 <NavbarButton property1={"FAQ"}/>
                             </div>
@@ -46,7 +51,9 @@ const Navbar = () => {
                         <div className={classes.dropdownFrame}>
                             <div className={classes.dropdownMenuBlock}>
                                 <div className={classes.dropdownMenuImage}></div>
+                                <Link to={"/protezPage"}>
                                 <div className={classes.dropdownMenuText}>Біонічна рука</div>
+                                </Link>
                             </div>
                             <div className={classes.dropdownMenuBlock}>
                                 <div className={classes.dropdownMenuImage}></div>

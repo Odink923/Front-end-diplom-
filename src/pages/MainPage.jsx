@@ -15,34 +15,18 @@ const MainPage = () => {
 //please dont delete)
     return (
 
-        <div >
-            <div className="container">
-                <section>
+        <div>
+            <Logo></Logo>
             <SpecificProtez></SpecificProtez>
-                </section>
-                <section>
-            <BionicProtez ></BionicProtez>
-                </section>
-                <section >
+            <BionicProtez></BionicProtez>
             <AboutCenterProtez></AboutCenterProtez>
-                </section>
-                <section>
-                    <AboutUs></AboutUs>
-                </section>
-                <section>
-                    <div className="partnerSponsors">
-                    <PartnerSponsors title="Партнер" role="партнер"></PartnerSponsors>
-                    <PartnerSponsors title="Спонсор" role="спонсор"></PartnerSponsors>
-                    </div>
-                </section>
-                <section>
-                    <WriteToUs></WriteToUs>
-                </section>
-                <section>
-                    <Footerr></Footerr>
-                </section>
-
+            <AboutUs></AboutUs>
+            <div className="partnerSponsors">
+                <PartnerSponsors title="Партнер" role="партнер"></PartnerSponsors>
+                <PartnerSponsors title="Спонсор" role="спонсор"></PartnerSponsors>
             </div>
+            <WriteToUs></WriteToUs>
+            <Footerr></Footerr>
         </div>
     );
 };

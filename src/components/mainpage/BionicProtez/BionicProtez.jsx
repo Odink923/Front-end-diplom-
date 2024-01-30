@@ -12,7 +12,7 @@ const BionicProtez = () => {
             <div className={classes.leftItems}>
 
                 <AnimatedItem title="БІОНІЧНІ ПРОТЕЗИ РУК" upItem={true}></AnimatedItem>
-                <AnimatedItem title="КАСТОМНІ ОБОЛОНКИ"></AnimatedItem>
+                <AnimatedItem title="КАСТОМНІ ОБОЛОНКИ" ></AnimatedItem>
                 <AnimatedItem title="НАВЧАННЯ І РЕАБІЛІТАЦІЯ"></AnimatedItem>
                 <AnimatedItem title="ПОДАЛЬШЕ ОБСЛУГОВУВАННЯ ПРОТЕЗІВ" downItem={true}></AnimatedItem>
 
