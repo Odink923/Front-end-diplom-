@@ -32,7 +32,7 @@ const ViewMoreButton = ({color}) => {
             >
                 <animated.path d={svgAnimation.d} />
             </animated.svg>
-            <div className={classes.textWrapper} color={color}>Дізнатися більше</div>
+            <div className={classes.textWrapper} style={{color}}>Дізнатися більше</div>
         </div>
     );
 };
