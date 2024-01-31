@@ -34,7 +34,7 @@ const Logo = () => {
                         </div>
                     </div>
                         <div className={classes.viewMore}>
-                            <ViewMoreButton></ViewMoreButton>
+                            <ViewMoreButton color={"#F2F5FF"}></ViewMoreButton>
                         </div>
 
 
