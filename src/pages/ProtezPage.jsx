@@ -1,11 +1,21 @@
-import React from 'react';
-import Material from "../components/protezpage/Material/Material";
-import Carrousel from "../components/protezpage/Carrousel/Carrousel";
+import React, {Profiler} from 'react';
+import Carrousel from "../components/UI/Carrousel/Carrousel";
+import CarrouselProtezPage from "../components/page2/CarrouselProtezPage/CarrouselProtezPage";
+import BionicHandle from "../components/page2/BionicHandle/BionicHandle";
+import Material from "../components/page2/Material/Material";
+import WriteToUs from "../components/mainpage/WriteToUs/WriteToUs";
+import Footerr from "../components/UI/Footer/Footerr";
+
 
 const ProtezPage = () => {
+
     return (
         <div>
-           <Carrousel></Carrousel>
+            <BionicHandle></BionicHandle>
+            <Material></Material>
+            <CarrouselProtezPage></CarrouselProtezPage>
+            <WriteToUs></WriteToUs>
+            <Footerr></Footerr>
         </div>
     );
 };
