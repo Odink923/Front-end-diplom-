@@ -8,8 +8,10 @@ const ServicesTitle = () => {
         <div className={classes.box}>
             <div className={classes.rectangle}>
 
-                    <Navbar></Navbar>
+                <Navbar></Navbar>
+
                 <div className={classes.path}>
+                    <div className={classes.pathFrame}>
                     {/*Path component*/}
                     <div className={classes.frame}>
                         <div className={classes.textWrapper}>Головна</div>
@@ -29,9 +31,13 @@ const ServicesTitle = () => {
                         <div className={classes.div}>Послуги</div>
                     </div>
                     {/* End component*/}
+                    </div>
                 </div>
-                <div className={classes.teamOrService}>
-                    <TeamOrService text1={"Послуги"}></TeamOrService>
+
+                <div className={classes.container}>
+                    <div className={classes.teamOrService}>
+                        <TeamOrService text1={"Послуги"}></TeamOrService>
+                    </div>
                 </div>
 
             </div>

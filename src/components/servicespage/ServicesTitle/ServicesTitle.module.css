@@ -2,23 +2,16 @@
     display: flex;
     position: static;
     width: 100%;
+    height: 1365px;
     max-width: 1920px;
+    margin: 0 auto;
 }
-@media (max-width: 768px) {
-    .box {
-        max-width: 100%;
-    }
-}
-@media (min-width: 769px) and (max-width: 1200px) {
-    .box {
-        max-width: 100%;
-    }
-}
+
 
 .rectangle {
     background: linear-gradient(95deg, #A0A9C1 14.72%, #E0E3FF 103.96%);
     border-radius: 0 0 60px 60px;
-    height: 1365px;
+    height: 100%;
     left: 0;
     top: 0;
     width: 100%;
@@ -32,8 +25,12 @@
 .path{
     position: relative;
     display: flex;
-    top: 37px;
-    left: 5.21%;
+    margin-top: 37px;
+    width: 100%;
+    height: fit-content;
+}
+.pathFrame{
+    margin-left: 5.21%;
 }
 
 /*////////////Path component//////////*/
@@ -61,7 +58,7 @@
 }
 .div{
     color: #D1D8F4;
-    font-family: Unbounded-Medium, serif;
+    font-family: Unbounded-Bold, serif;
     font-size: 14px;
     line-height: 120%;
     letter-spacing: -0.154px;
@@ -74,8 +71,15 @@
 
 
 
+.container{
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+}
+
 .teamOrService{
     position: relative;
-    left: 5.21%;
-    top: 101px;
+    width: 100%;
+    margin: 47px 5.21% 118px;
 }
