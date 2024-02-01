@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './ServicesTitle.module.css'
-import Navbar from "../../mainpage/Navbar/Navbar";
+import Navbar from "../../UI/Navbar/Navbar";
 import TeamOrService from "../../UI/TeamOrService/TeamOrService";
 
 const ServicesTitle = () => {
@@ -8,7 +8,7 @@ const ServicesTitle = () => {
         <div className={classes.box}>
             <div className={classes.rectangle}>
 
-                <Navbar></Navbar>
+                    <Navbar></Navbar>
                 <div className={classes.path}>
                     {/*Path component*/}
                     <div className={classes.frame}>

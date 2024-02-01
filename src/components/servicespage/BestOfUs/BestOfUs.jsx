@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './BestOfUs.module.css'
-import Navbar from "../../mainpage/Navbar/Navbar";
+import Navbar from "../../UI/Navbar/Navbar";
 import TeamOrService from "../../UI/TeamOrService/TeamOrService";
 
 const BestOfUs = () => {

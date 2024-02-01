@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './TeamTitle.module.css'
-import Navbar from "../../mainpage/Navbar/Navbar";
+import Navbar from "../../UI/Navbar/Navbar";
 import TeamOrService from "../../UI/TeamOrService/TeamOrService";
 
 const TeamTitle = () => {
@@ -8,7 +8,7 @@ const TeamTitle = () => {
         <div className={classes.box}>
             <div className={classes.rectangle}>
 
-                <Navbar></Navbar>
+                    <Navbar></Navbar>
                 <div className={classes.path}>
                     {/*Path component*/}
                     <div className={classes.frame}>
@@ -31,9 +31,10 @@ const TeamTitle = () => {
                     {/* End component*/}
                 </div>
                 <div className={classes.teamOrService}>
-                    <TeamOrService text1={"НАША КОМАНДА"} text2={"ПОЗНАЙОМИМОСЬ?"} discription={"Короткий опис того, які" +
-                        "послуги пропонуються і всяке таке подібне." +
-                        "Короткий опис того, які послуги пропонуються і всяке таке подібне"}></TeamOrService>
+                    <TeamOrService text1={"НАША КОМАНДА"} text2={"ПОЗНАЙОМИМОСЬ?"}
+                                   discription={"Короткий опис того, які" +
+                                       "послуги пропонуються і всяке таке подібне." +
+                                       "Короткий опис того, які послуги пропонуються і всяке таке подібне"}></TeamOrService>
                 </div>
 
             </div>

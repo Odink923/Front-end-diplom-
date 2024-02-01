@@ -1,25 +1,17 @@
 .box {
     display: flex;
     position: static;
-    height: 1078px;
     width: 100%;
+    height: 1078px;
     max-width: 1920px;
+    margin: 0 auto;
 }
-@media (max-width: 768px) {
-    .box {
-        max-width: 100%;
-    }
-}
-@media (min-width: 769px) and (max-width: 1200px) {
-    .box {
-        max-width: 100%;
-    }
-}
+
 
 .rectangle {
     background: linear-gradient(95deg, #A0A9C1 14.72%, #E0E3FF 103.96%);
     border-radius: 0 0 60px 60px;
-    height: 1078px;
+    height: 100%;
     left: 0;
     top: 0;
     width: 100%;
@@ -28,17 +20,26 @@
     flex-direction: column;
     display: flex;
 }
+
+
+
 .row{
     position: relative;
     flex-direction: row;
     display: flex;
     width: 100%;
-
+    flex-grow: 1;
 }
 
 .text {
-    top: 52px;
-    left: 5.21%;
+    position: relative;
+    display: flex;
+    width: 43%;
+}
+.textContent{
+    margin-top: 52px;
+    margin-left: 12.12%;
+    margin-right: 9.32%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -48,36 +49,22 @@
     height: fit-content;
     display: flex;
     width: fit-content;
-
+    margin-bottom: 26px;
 }
 
 .textWrapper {
     color: #F2F5FF;
     font-family: Unbounded-Regular, serif;
-    font-size: 64px;
+    font-size:4em;
     font-weight: 400;
     letter-spacing: -0.71px;
     line-height: 120%;
     text-transform: uppercase;
     font-style: normal;
-    white-space: nowrap;
-    margin-bottom: 26px;
 }
-@media (max-width: 768px) {
-    .textWrapper {
-        white-space: normal;
-        margin-bottom: 20px;
-    }
-}
-@media (min-width: 769px) and (max-width: 1200px) {
-    .textWrapper {
-        white-space: normal;
-        margin-bottom: 20px;
-    }
-}
-.label2 {
-    width: 647px;
 
+.label2 {
+    width: 100%;
 }
 
 .description{
@@ -88,33 +75,43 @@
     font-style: normal;
     line-height: 150%;
     margin: 0;
+
 }
 
 
 .other {
-    top: 335px;
+    margin-top: 335px;
     width: auto;
     position: relative;
+}
+.image{
+    position: relative;
+    flex-grow: 1;
+    height: 100%;
+    max-width: 51.87%;
 }
 
 
 .frameGif {
-    position: absolute;
-    top: 56px;
-    right: 5.21%;
-    width: 51.87%;
-    height: 809px;
+    position: relative;
+    margin-top: 56px;
     border-radius: 60px;
     background-color: #D4D8FF;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-
+    max-width: 996px;
+    max-height: 809px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 }
+
 .gif {
+
     position: relative;
-    right: 47px;
-    bottom: 72px;
+    margin-right: 47px;
+    margin-bottom: 72px;
     color: #E7EAFF;
     font-family: Unbounded-Regular, serif;
     font-size: 64px;

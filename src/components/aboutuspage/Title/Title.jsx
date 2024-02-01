@@ -1,19 +1,19 @@
 import React from 'react';
 import classes from './Title.module.css';
-import Navbar from "../../mainpage/Navbar/Navbar";
+import Navbar from "../../UI/Navbar/Navbar";
 import ViewMoreButton from "../../UI/ViewMoreButton/ViewMoreButton";
 
 const Title = () => {
     return (
         <div className={classes.box}>
             <div className={classes.rectangle}>
-
-                <Navbar></Navbar>
+                    <Navbar></Navbar>
                 <div className={classes.row}>
                     <div className={classes.text}>
+                        <div className={classes.textContent}>
                         <div className={classes.label}>
                             <div className={classes.textWrapper}>
-                                ЗАГОЛОВОК /<br/> ДИСКРИПТОР <br/>
+                                ЗАГОЛОВОК / ДИСКРИПТОР
                                 КОМПАНІЇ
                             </div>
                         </div>
@@ -27,9 +27,12 @@ const Title = () => {
                         <div className={classes.other}>
 
                         </div>
+                        </div>
                     </div>
-                    <div className={classes.frameGif}>
-                        <div className={classes.gif}>фото/відео</div>
+                    <div className={classes.image}>
+                        <div className={classes.frameGif}>
+                            <div className={classes.gif}>фото/відео</div>
+                        </div>
                     </div>
                 </div>
             </div>
