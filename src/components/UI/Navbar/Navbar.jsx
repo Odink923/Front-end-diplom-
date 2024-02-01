@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import classes from './Navbar.module.css';
-import DarkButton from "../../UI/DarkButton/DarkButton";
-import NavbarButton from "../../UI/NavbarButton/NavbarButton";
+import DarkButton from "../DarkButton/DarkButton";
+import NavbarButton from "../NavbarButton/NavbarButton";
 import {animated, useSpring} from '@react-spring/web'
 import {Link} from "react-router-dom";
 
@@ -77,7 +77,7 @@ const Navbar = () => {
                             <span className={classes.textWrapper4}>УКР</span>
                         </p>
                         <div className={classes.textWrapper5}>Увійти</div>
-                        <DarkButton property1={"default"}></DarkButton>
+                        <DarkButton property1="Напишіть нам"></DarkButton>
                     </div>
                 </div>
             </div>

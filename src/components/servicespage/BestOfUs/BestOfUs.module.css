@@ -1,0 +1,110 @@
+.box {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+}
+
+
+.rectangle {
+    background: linear-gradient(34deg, #B2B9D5 30.1%, #EAECFF 115.54%);
+    border-radius:60px;
+    height: 1054px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+}
+
+.title{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 123px;
+}
+.label{
+    display: flex;
+    position: relative;
+    margin-top: 161px;
+    margin-left: 5.21%;
+    margin-right: 5.21%;
+    width: 100%;
+    height: fit-content;
+}
+.textWrapper{
+    color: #2D3361;
+    font-family: Unbounded-Regular, serif;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.528px;
+    text-transform: uppercase;
+    position: relative;
+    width: fit-content;
+}
+
+
+.content{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-bottom: 172px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.image{
+    background: #D4D8FF;
+    border-radius:60px;
+    height: 100%;
+    width: 38.75%;
+    margin-left: 5.21%;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+}
+.text{
+    display: flex;
+    position: relative;
+    margin-left: 42px;
+    flex-direction: column;
+    width: 61.25%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.textContent{
+    display: flex;
+    position: relative;
+    margin-top: 36px;
+}
+.label2{
+    display: flex;
+    position: relative;
+    margin-left: 36px;
+    margin-right: 24.41%;
+    width: fit-content;
+}
+
+.textWrapper2{
+    color: #2D3361;
+    font-family: Unbounded-Light, serif;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.264px;
+    font-style: normal;
+    position: relative;
+    width: fit-content;
+
+}
+.other{
+    display: flex;
+    position: relative;
+    margin-top: 112px;
+    margin-left: 457px;
+    width: 328px;
+    height: 72px;
+    background-color: #2D3361;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './BionicHandle.module.css'
-import Navbar from "../../mainpage/Navbar/Navbar";
+import Navbar from "../../UI/Navbar/Navbar";
 import BigProtezComponent from "../UI(page2)/BigProtezComponent/BigProtezComponent";
 
 const BionicHandle = () => {
@@ -8,7 +8,7 @@ const BionicHandle = () => {
         <div className={classes.box}>
             <div className={classes.rectangle}>
 
-                <Navbar></Navbar>
+                    <Navbar></Navbar>
                 <div className={classes.path}>
                     {/*Path component*/}
                     <div className={classes.frame}>

@@ -20,24 +20,26 @@
     flex-direction: column;
     display: flex;
 }
+
+
 .path{
     position: relative;
     display: flex;
     margin-top: 37px;
     width: 100%;
     height: fit-content;
-
 }
 .pathFrame{
     margin-left: 5.21%;
 }
+
 /*////////////Path component//////////*/
 
 .frame{
-    align-items: center;
-    display: flex;
+    align-items: flex-start;
+    display: inline-flex;
     gap: 6px;
-    position: relative;
+    position: absolute;
 }
 
 .textWrapper{
@@ -68,6 +70,7 @@
 /*////////////////////////*/
 
 
+
 .container{
     position: relative;
     display: flex;
@@ -77,6 +80,6 @@
 
 .teamOrService{
     position: relative;
-    margin: 47px 5.21% 118px;
     width: 100%;
+    margin: 47px 5.21% 118px;
 }

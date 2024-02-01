@@ -32,11 +32,5 @@
 
 
 
-.frame.default {
-    display: inline-flex;
-}
 
-.frame.variant-2 {
-    display: flex;
-    width: 244px;
-}
+

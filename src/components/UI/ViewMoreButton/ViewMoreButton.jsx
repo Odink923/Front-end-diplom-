@@ -3,7 +3,7 @@ import classes from './ViewMoreButton.module.css';
 import {useSpring,animated} from "@react-spring/web";
 
 
-const ViewMoreButton = () => {
+const ViewMoreButton = ({color}) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const svgAnimation = useSpring({
@@ -26,13 +26,13 @@ const ViewMoreButton = () => {
                 viewBox="0 0 25 276"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                stroke="#F2F5FF"
+                stroke={color}
                 strokeWidth="3"
                 style={{...svgAnimation}}
             >
                 <animated.path d={svgAnimation.d} />
             </animated.svg>
-            <div className={classes.textWrapper}>Дізнатися більше</div>
+            <div className={classes.textWrapper} style={{color}}>Дізнатися більше</div>
         </div>
     );
 };

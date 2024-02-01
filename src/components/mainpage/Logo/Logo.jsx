@@ -2,14 +2,14 @@ import React from 'react';
 import classes from './Logo.module.css'
 
 
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../../UI/Navbar/Navbar";
 import ViewMoreButton from "../../UI/ViewMoreButton/ViewMoreButton";
 const Logo = () => {
     return (
         <div className={classes.box}>
             <div className={classes.rectangle}>
 
-                <Navbar></Navbar>
+                    <Navbar></Navbar>
 
                 <div className={classes.text}>
                     <div className={classes.label}>
@@ -33,10 +33,11 @@ const Logo = () => {
                             </div>
                         </div>
                     </div>
+                    <div className={classes.viewMore}>
+                        <ViewMoreButton color={"#F2F5FF"}></ViewMoreButton>
+                    </div>
 
-                </div>
-                <div className={classes.viewMore}>
-                    <ViewMoreButton ></ViewMoreButton>
+
                 </div>
             </div>
         </div>
