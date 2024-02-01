@@ -2,6 +2,7 @@
     align-items: flex-start;
     display: inline-flex;
     position: relative;
+    width: fit-content;
 }
 
 .vector {
