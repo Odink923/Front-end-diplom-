@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+.leaderGeneral{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 78.54%;
+    height: 100%;
+    margin: 46px 0% 0% 5.21%;
+}
+
+.leaderTitle{
+    color: #2D3361;
+    font-feature-settings: 'ss12' on;
+    font-family: Unbounded;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+    letter-spacing: -0.528px;
+    text-transform: uppercase;
+}
+.leaderTitleDesign1{
+    margin: 117px 0px 0px 5.21%;
+}

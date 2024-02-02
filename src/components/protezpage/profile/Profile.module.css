@@ -34,6 +34,9 @@
     display: flex;
     flex-direction: column;
 }
+.profileSubBlockButton{
+    margin: 120px 0px 92px 94px;
+}
 
 
 .spanTitleLayout{
@@ -48,7 +51,7 @@
     text-transform: uppercase;
 }
 .spanTitle1{
-    margin: 138px 0px 0px 100px;
+    margin: 138px 0% 0% 13.7%;
 }
 .spanTitle2{
     text-align: start;
@@ -85,21 +88,21 @@
 }
 
 
-.enumeration1{
+.profileEnumeration1{
     width: 615px;
     height: 376px;
     margin: 53px 0px 0px 75px;
     padding-inline-start: 40px;
 }
-.enumeration2{
+.profileEnumeration2{
     width: 615px;
     height: 152px;
     margin: 44px 0px 0px 55px;
     padding-inline-start: 40px;
 }
-li{
+ul.profileEnumeration1 li, ul.profileEnumeration2 li{
     margin-bottom: 33px;
-    list-style-image: url("../ui/ListBullet.svg");
+    list-style-image: url("../../UI/ListBullets/ListBullet1.svg");
 }
 
 
