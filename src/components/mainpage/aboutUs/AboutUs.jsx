@@ -4,6 +4,7 @@ import { animated, useSpring} from "react-spring";
 import AboutUsSuperSubBlock1 from "./UI/AboutUsSuperSubBlock1";
 import AboutUsMediaRegionSubBlockRight from "./UI/AboutUsMediaRegionSubBlockRight";
 import AboutUsPhotoFrame1 from "./UI/AboutUsPhotoFrame1";
+import ArticleCardsComponent from "./UI/articleCardsComponent";
 
 
 const AboutUs = () => {
@@ -44,12 +45,7 @@ const AboutUs = () => {
 
                     <AboutUsMediaRegionSubBlockRight></AboutUsMediaRegionSubBlockRight>
 
-                    <div className={`${classes.aboutUsSubBlocks} ${classes.aboutUsMediaRegionSubBlockLeft}`}>
-                        <AboutUsSuperSubBlock1></AboutUsSuperSubBlock1>
-                        <AboutUsSuperSubBlock1></AboutUsSuperSubBlock1>
-                        <AboutUsSuperSubBlock1></AboutUsSuperSubBlock1>
-                        <AboutUsSuperSubBlock1></AboutUsSuperSubBlock1>
-                    </div>
+                    <ArticleCardsComponent></ArticleCardsComponent>
 
                 </div>
             </div>

@@ -2,11 +2,12 @@ import React from 'react';
 import {animated, useSpring} from "react-spring";
 import classes from "../AboutUs.module.css";
 
-const AboutUsSuperSubBlock1 = () => {
+const AboutUsSuperSubBlock1 = ( props ) => {
 
     const[blockAnimation, set] = useSpring(() =>({
         from: {
-            background: `linear-gradient(90deg, #d1d8f4 0%, #d1d8f4 0%, transparent 0%, transparent 100%)`
+            background: `linear-gradient(90deg, #d1d8f4 0%, #d1d8f4 0%, transparent 0%, transparent 100%)`,
+            height: props.height
         },
         config:{
             duration: 750

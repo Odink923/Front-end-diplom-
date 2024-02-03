@@ -44,11 +44,10 @@
   width: 100%;
 }
 .aboutUsSuperSubBlocks{
-  width: 817px;
-  height: 382px;
+  width: 100%;
   overflow: hidden;
   flex-shrink: 0;
-  border-bottom: 2px solid #D1D8F4;
+  border-top: 2px solid #D1D8F4;
 }
 .aboutUsSuperSubBlocksExeption1{
   width: 817px;
