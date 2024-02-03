@@ -1,6 +1,6 @@
 import React from 'react';
 import Carrousel from "../../UI/Carrousel/Carrousel";
-import classes from ".//CarrouselProtezPage.module.css"
+import classes from "./CarrouselProtezPage.module.css"
 
 const CarrouselProtezPage = () => {
     const mockedItems = [
