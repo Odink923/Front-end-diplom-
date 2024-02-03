@@ -1,3 +1,5 @@
+import React from 'react';
+import classes from './MainPage.module.css'
 import Logo from "../components/mainpage/Logo/Logo";
 import SpecificProtez from "../components/mainpage/SpecificProtez/SpecificProtez";
 import BionicProtez from "../components/mainpage/BionicProtez/BionicProtez";
@@ -10,9 +12,6 @@ import {useEffect, useState} from "react";
 
 
 const MainPage = () => {
-
-
-//please dont delete)
     return (
 
         <div>

@@ -1,5 +1,12 @@
 import React from 'react';
 import classes from './AboutUs.module.css';
+import { animated, useSpring} from "react-spring";
+import AboutUsSuperSubBlock1 from "./UI/AboutUsSuperSubBlock1";
+import AboutUsMediaRegionSubBlockRight from "./UI/AboutUsMediaRegionSubBlockRight";
+import AboutUsPhotoFrame1 from "./UI/AboutUsPhotoFrame1";
+import ArticleCardsComponent from "./UI/articleCardsComponent";
+
+
 const AboutUs = () => {
     return (
         <div className={classes.aboutUsGeneral}>
@@ -7,7 +14,7 @@ const AboutUs = () => {
                 <div className={`${classes.aboutUsRegion} ${classes.patientsRegion}`}>
                     <div className={classes.aboutUsSubBlocks}>
                         <span className={`${classes.spanTitleLayout} ${classes.spanTitle1}`}>про нас говорять:</span>
-                        <shape className={classes.aboutUsPhotoFrame1}></shape>
+                        <AboutUsPhotoFrame1></AboutUsPhotoFrame1>
                     </div>
 
                     <div className={classes.aboutUsSubBlocks}>
@@ -34,51 +41,11 @@ const AboutUs = () => {
                         </svg>
                     </div>
                 </div>
-                <div className={`${classes.aboutUsRegion} ${classes.mediaRegion}`}>
-                    <div className={classes.aboutUsSubBlocks}>
-                        <span className={`${classes.spanTitleLayout} ${classes.spanTitle3}`}>медіа</span>
-                        <span className={`${classes.spanParagraphTitleLayout} ${classes.spanParagraphTitle1}`}>Заголовок статті про центр протезування</span>
-                        <span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph2}`}>Екскурсії для навчальних закладів,
-                                        можливість відвідати центр. Екскурсії для навчальних закладів,
-                                        можливість відвідати центр і так далі тому подібне.
-                        </span>
-                        <span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph3}`}>Екскурсії для навчальних закладів,
-                                        можливість відвідати центр. Екскурсії для навчальних закладів,
-                                        можливість відвідати центр і так далі тому подібне.
-                        </span>
-                        <shape className={classes.aboutUsPhotoFrame2}></shape>
-                    </div>
+                <div className={`${classes.aboutUsRegion} ${classes.mediaRegion}`} >
 
-                    <div className={`${classes.aboutUsSubBlocks} ${classes.aboutUsMediaRegionSubBlockLeft}`}>
-                        <div className={`${classes.aboutUsSubBlocks} ${classes.aboutUsSuperSubBlocks} ${classes.aboutUsSuperSubBlocksColored1}`}>
-                            <span className={`${classes.spanParagraphTitleLayout} ${classes.spanParagraphTitle2}`}>Заголовок статті про центр протезування</span>
-                            <span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph4}`}>Екскурсії для навчальних закладів,
-                                        можливість відвідати центр. Екскурсії для навчальних закладів,
-                                        можливість відвідати центр і так далі тому подібне.
-                            </span>
-                        </div>
-                        <div className={`${classes.aboutUsSubBlocks} ${classes.aboutUsSuperSubBlocks}`}>
-                            <span className={`${classes.spanParagraphTitleLayout} ${classes.spanParagraphTitle2}`}>Заголовок статті про центр протезування</span>
-                            <span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph4}`}>Екскурсії для навчальних закладів,
-                                        можливість відвідати центр. Екскурсії для навчальних закладів,
-                                        можливість відвідати центр і так далі тому подібне.
-                            </span>
-                        </div>
-                        <div className={`${classes.aboutUsSubBlocks} ${classes.aboutUsSuperSubBlocks}`}>
-                            <span className={`${classes.spanParagraphTitleLayout} ${classes.spanParagraphTitle2}`}>Заголовок статті про центр протезування</span>
-                            <span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph4}`}>Екскурсії для навчальних закладів,
-                                        можливість відвідати центр. Екскурсії для навчальних закладів,
-                                        можливість відвідати центр і так далі тому подібне.
-                            </span>
-                        </div>
-                        <div className={`${classes.aboutUsSubBlocks} ${classes.aboutUsSuperSubBlocksExeption1}`}>
-                            <span className={`${classes.spanParagraphTitleLayout} ${classes.spanParagraphTitle3}`}>Заголовок статті про центр протезування</span>
-                            <span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph4}`}>Екскурсії для навчальних закладів,
-                                        можливість відвідати центр. Екскурсії для навчальних закладів,
-                                        можливість відвідати центр і так далі тому подібне.
-                            </span>
-                        </div>
-                    </div>
+                    <AboutUsMediaRegionSubBlockRight></AboutUsMediaRegionSubBlockRight>
+
+                    <ArticleCardsComponent></ArticleCardsComponent>
 
                 </div>
             </div>
