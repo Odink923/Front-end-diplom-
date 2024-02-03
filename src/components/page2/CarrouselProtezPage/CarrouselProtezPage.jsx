@@ -20,7 +20,9 @@ const CarrouselProtezPage = () => {
                 <div className={classes.bigTitle}>12 СТИСКАНЬ РУКИ</div>
             </div>
             </div>
+            <div className={classes.carousel}>
             <Carrousel mockedItems={mockedItems}></Carrousel>
+            </div>
         </div>
     );
 };
