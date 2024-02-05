@@ -1,8 +1,6 @@
 import React, {Profiler} from 'react';
 import Carrousel from "../components/UI/Carrousel/Carrousel";
 import CarrouselProtezPage from "../components/protezpage/CarrouselProtezPage/CarrouselProtezPage";
-import BionicHandle from "../components/page2/BionicHandle/BionicHandle";
-import Material from "../components/page2/Material/Material";
 import WriteToUs from "../components/mainpage/WriteToUs/WriteToUs";
 import Footerr from "../components/UI/Footer/Footerr";
 
@@ -11,8 +9,8 @@ const ProtezPage = () => {
 
     return (
         <div>
-            <BionicHandle></BionicHandle>
-            <Material></Material>
+            {/*<BionicHandle></BionicHandle>*/}
+            {/*<Material></Material>*/}
             <CarrouselProtezPage></CarrouselProtezPage>
             <WriteToUs></WriteToUs>
             <Footerr></Footerr>

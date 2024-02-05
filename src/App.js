@@ -4,9 +4,10 @@ import ProtezPage from "./pages/ProtezPage";
 import MainPage from "./pages/MainPage";
 import AboutUsPage from "./pages/AboutUsPage";
 import TeamPage from "./pages/TeamPage";
-import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
-import {ParallaxProvider} from "react-scroll-parallax";
+// import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
+// import {ParallaxProvider} from "react-scroll-parallax";
 import ServicesPage from "./pages/ServicesPage";
+import Lifewithprotez from "./components/blogpage/blogstorysuccess/lifewithprotez/lifewithprotez"
 
 
 function App() {
@@ -14,14 +15,15 @@ function App() {
     return (
         <div className="App">
             <Cursor></Cursor>
-            <BrowserRouter>
-                <Routes>
-                    <Route path={"/"} element={<ServicesPage/>}/>
-                    <Route path={"/protezPage"} element={<ProtezPage/>}/>
-                    <Route path={"/teamPage"} element={<TeamPage/>}/>
-                    <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>
-                </Routes>
-            </BrowserRouter>
+            <Lifewithprotez></Lifewithprotez>
+            {/*<BrowserRouter>*/}
+            {/*    <Routes>*/}
+            {/*        <Route path={"/"} element={<ServicesPage/>}/>*/}
+            {/*        <Route path={"/protezPage"} element={<ProtezPage/>}/>*/}
+            {/*        <Route path={"/teamPage"} element={<TeamPage/>}/>*/}
+            {/*        <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>*/}
+            {/*    </Routes>*/}
+            {/*</BrowserRouter>*/}
         </div>
     );
 }
