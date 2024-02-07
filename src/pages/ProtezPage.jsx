@@ -1,10 +1,9 @@
 import React, {Profiler} from 'react';
-import Carrousel from "../components/UI/Carrousel/Carrousel";
 import CarrouselProtezPage from "../components/protezpage/CarrouselProtezPage/CarrouselProtezPage";
-import BionicHandle from "../components/page2/BionicHandle/BionicHandle";
-import Material from "../components/page2/Material/Material";
 import WriteToUs from "../components/mainpage/WriteToUs/WriteToUs";
 import Footerr from "../components/UI/Footer/Footerr";
+import BionicHandle from "../components/protezpage/BionicHandle/BionicHandle";
+import Material from "../components/protezpage/Material/Material";
 
 
 const ProtezPage = () => {

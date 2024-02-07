@@ -1,6 +1,8 @@
 import React from 'react';
 import classes from './WriteToUs.module.css'
-import SendButton from "./UI/SendButton";
+import SendButton from "./UI/SendButton/SendButton";
+import DropList from "./UI/DropList/DropList";
+
 const WriteToUs = () => {
     return (
         <div className={classes.all}>
@@ -19,7 +21,7 @@ const WriteToUs = () => {
                     <input placeholder="Електронна адреса*" className={classes.formInput}/>
                 </div>
                 <div>
-                    <input placeholder="Тема звернення*" className={classes.formInput}/>
+                    <DropList></DropList>
                 </div>
 
                 <div>

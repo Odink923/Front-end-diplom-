@@ -8,7 +8,7 @@ const ArticleCardsComponent = () => {
             <AboutUsSuperSubBlock1 height={382}/>
             <AboutUsSuperSubBlock1 height={382}/>
             <AboutUsSuperSubBlock1 height={382}/>
-            <AboutUsSuperSubBlock1 height={437}/>
+            <AboutUsSuperSubBlock1 height={382}/>
         </div>
     );
 };

@@ -1,5 +1,4 @@
 import React from 'react';
-import classes from './MainPage.module.css'
 import Logo from "../components/mainpage/Logo/Logo";
 import SpecificProtez from "../components/mainpage/SpecificProtez/SpecificProtez";
 import BionicProtez from "../components/mainpage/BionicProtez/BionicProtez";
@@ -8,7 +7,7 @@ import AboutUs from "../components/mainpage/aboutUs/AboutUs";
 import PartnerSponsors from "../components/mainpage/PartnerSponsors/PartnerSponsors";
 import WriteToUs from "../components/mainpage/WriteToUs/WriteToUs";
 import Footerr from "../components/UI/Footer/Footerr";
-import {useEffect, useState} from "react";
+
 
 
 const MainPage = () => {

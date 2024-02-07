@@ -1,0 +1,29 @@
+.formInput{
+    background: linear-gradient(to bottom right, #D3D9F8, #DCE1FC);
+    border-radius: 49px;
+    width: 98%;
+    border: none;
+    outline: none;
+    height: 68px;
+    margin-top: 22px;
+    padding-left: 49px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Unbounded-Light";
+    flex-direction: column;
+    color: #8C96C1;
+    padding-right: 49px;
+    font-size: 20px;
+    box-sizing: border-box;
+    cursor: none;
+}
+.customButton{
+    color: #8C96C1;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    margin-top: 19px;
+}
