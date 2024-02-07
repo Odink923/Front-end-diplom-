@@ -1,80 +1,116 @@
 .box {
-    display: block;
-    position: relative;
-    height: 1099px;
+    display: flex;
+    position: static;
     width: 100%;
+    height: auto;
     max-width: 1920px;
-
+    align-items: flex-start;
+    flex-direction: column;
 }
-.image {
-    position: absolute;
-    width: 644px;
-    height: 657px;
-    flex-shrink: 0;
+
+
+.row{
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    margin-top: 203px;
+    margin-bottom: 239px;
+}
+
+.image{
+    position: relative;
+    flex-grow: 1;
+    height:auto;
+    max-width: 42.81%;
+    box-sizing: border-box;
+}
+
+
+.frameGif {
+    margin-left: 12.16%;
+    margin-right: 9.49%;
+    position: relative;
     border-radius: 60px;
-    background: url('///images/image2.jpg'), lightgray 50% / cover no-repeat;
-    left: 5.21%;
-    top: 237px;
+    background-color: #D4D8FF;
+    display: flex;
+    max-width: 644px;
+    max-height: 657px;
+    height: 100%;
+    box-sizing: border-box;
 }
 
-
-
+.text {
+    position: relative;
+    display: flex;
+    width: 31%;
+}
+.textContent{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
 .label {
-    top: 237px;
-    left: 42.81%;
-    height: 116px;
-    width: 23.54%;
-    position: absolute;
+    height: fit-content;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 40px;
 }
-.label .textWrapper {
+
+.textWrapper {
     color: #2D3361;
-    font-family: Unbounded-Regular;
-    font-size: 48px;
+    font-family: Unbounded-Regular, serif;
+    font-size:48px;
     font-weight: 400;
-    letter-spacing: -0.53px;
+    letter-spacing: -0.71px;
     line-height: 120%;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.parag{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    margin-bottom: 261px;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
 .label2 {
-    top: 385px;
-    left: 42.81%;
-    width: 30.05%;
-    position: absolute;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    box-sizing: border-box;
+    max-width: 595px;
 }
-.textWrapper2 {
+
+.description{
     color: #2D3361;
-    font-family: Unbounded-Light;
+    font-family: Unbounded-Light, serif;
     font-size: 18px;
-    font-weight: 300;
-    letter-spacing: -0.2px;
-    line-height: 150%;
+    font-style: normal;
+    line-height: 180%;
+    margin: 0;
 }
 
-.label3 {
-    top: 571px;
-    left: 42.81%;
-    width: 30.05%;
-    position: absolute;
-}
-.textWrapper3 {
-    color: #2D3361;
-    font-family: Unbounded-Light;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: -0.2px;
-    line-height: 150%;
-}
-.other {
-    top: 840px;
-    left: 42.81%;
-    width: 320px;
-    position: absolute;
 
+.other{
+    height: 72px;
 }
-.scroll {
-    color: #2D3361;
-    right: 5.20%;
-    width: 320px;
-    position: absolute;
 
+.scroll{
+    position: relative;
+    width: 26.19%;
+    height: auto;
 }
+
+
