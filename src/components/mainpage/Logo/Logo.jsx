@@ -9,36 +9,37 @@ const Logo = () => {
         <div className={classes.box}>
             <div className={classes.rectangle}>
 
-                    <Navbar></Navbar>
+                <Navbar></Navbar>
 
                 <div className={classes.text}>
+
                     <div className={classes.label}>
                         <div className={classes.textWrapper}>
                             СЛОГАН / ДИСКРИПТОР <br/>
                             КОМПАНІЇ
                         </div>
                     </div>
-                    <div className={classes.row}>
-                        <div>
-                            <div className={classes.label2}>
-                                <p className={classes.description}>Короткий опис того, які послуги пропонуються і всяке
-                                    таке подібне.
-                                    Короткий опис того, які послуги пропонуються і всяке таке подібне
-                                </p>
-                            </div>
-                        </div>
-                        <div>
-                            <div className={classes.frameGif}>
-                                <div className={classes.gif}>фото/гіфка протеза</div>
-                            </div>
+
+
+                    <div className={classes.label2}>
+                        <p className={classes.description}>Короткий опис того, які послуги пропонуються і всяке
+                            таке подібне.
+                            Короткий опис того, які послуги пропонуються і всяке таке подібне
+                        </p>
+                    </div>
+
+                    <div className={classes.frame}>
+                        <div className={classes.frameGif}>
+                            <div className={classes.gif}>фото/гіфка протеза</div>
                         </div>
                     </div>
+
                     <div className={classes.viewMore}>
                         <ViewMoreButton color={"#F2F5FF"}></ViewMoreButton>
                     </div>
 
-
                 </div>
+
             </div>
         </div>
     );

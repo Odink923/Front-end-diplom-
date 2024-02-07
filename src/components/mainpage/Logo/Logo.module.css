@@ -28,17 +28,10 @@
     flex-direction: column;
     display: flex;
 }
-
-.row{
-    position: relative;
-    flex-direction: row;
-    display: flex;
-
-}
-
 .text {
+    width: 100%;
     top: 52px;
-    left: 5.21%;
+
     position: relative;
     display: flex;
     flex-direction: column;
@@ -48,7 +41,7 @@
     height: fit-content;
     display: flex;
     width: fit-content;
-
+    margin-left: 5.21%;
 }
 
 .textWrapper {
@@ -75,9 +68,16 @@
         margin-bottom: 20px;
     }
 }
-.label2 {
-    width: 384px;
 
+
+
+.label2 {
+    display: flex;
+    position: relative;
+    width: 20%;
+    margin-bottom: 67px;
+    margin-left: 5.21%;
+    height: auto;
 }
 
 .description{
@@ -91,17 +91,20 @@
 }
 
 
-.viewMore {
-    top: 217px;
-    width: auto;
+
+
+.frame{
+    display: flex;
     position: relative;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 54px;
 }
-
-
 .frameGif {
+    display: flex;
     position: relative;
-    top: 283px;
-    margin-left: 494px;
+    margin-right: 8.38%;
+    box-sizing: border-box;
 
 }
 .gif {
@@ -114,4 +117,10 @@
     letter-spacing: -0.704px;
     text-transform: uppercase;
     white-space: nowrap;
+}
+
+.viewMore {
+    margin-left: 5.21%;
+    width: auto;
+    position: relative;
 }
