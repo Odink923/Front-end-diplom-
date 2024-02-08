@@ -1,0 +1,28 @@
+.group{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.overlapGroup {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.label{
+margin-bottom: 13px;
+}
+.textWrapper {
+    color: #F2F5FF;
+    font-family: Unbounded-Regular, serif;
+    font-size: 20px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: -0.22px;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+.img{
+   position: relative;
+ }
