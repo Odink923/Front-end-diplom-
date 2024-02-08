@@ -1,15 +1,14 @@
-import React, { useState } from 'react';
-import classes from './ViewMoreButton.module.css';
-import {useSpring,animated} from "@react-spring/web";
+import React, {useEffect, useState} from 'react';
+import {animated, useSpring} from "@react-spring/web";
+import classes from "./HorizontalLineButton.module.css";
 
-
-const ViewMoreButton = ({color}) => {
+const HorizontalLineButton = ({children}) => {
+    {/*потрібно вставити стрічку d="" з svg (костиль)*/}
     const [isHovered, setIsHovered] = useState(false);
-
     const svgAnimation = useSpring({
         d: isHovered
-            ? "M14.6458 1L12.0486 274M12.0486 274L23.2986 264.25M12.0486 274L1 264.25"
-            : "M12.0486 0L12.0486 212M12.0486 212L23.2986 202.25M12.0486 212L1 202.25",
+            ? "M-4.82933e-07 12.5475L295 12.5471M295 12.5471L285.25 1.29708M295 12.5471L285.25 23.5957"
+            : `${children}`,
         config: { duration: 300 },
     });
 
@@ -21,20 +20,20 @@ const ViewMoreButton = ({color}) => {
         >
             <animated.svg
                 className={classes.vector}
-                width="25"
-                height="276"
-                viewBox="0 0 25 276"
+                width="297"
+                height="25"
+                viewBox="0 0 297 25"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                stroke={color}
+                stroke="#2D3361"
                 strokeWidth="3"
                 style={{...svgAnimation}}
             >
                 <animated.path d={svgAnimation.d}/>
             </animated.svg>
-            <div className={classes.textWrapper} style={{color}}>Дізнатися більше</div>
+
         </div>
     );
 };
 
-export default ViewMoreButton;
+export default HorizontalLineButton;

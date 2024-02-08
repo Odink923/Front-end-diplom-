@@ -1,17 +1,18 @@
 import React from 'react';
 import classes from './PartnerSponsors.module.css'
+import HorizontalLineButton from "../../UI/HorizontalLineButton/HorizontalLineButton";
 const PartnerSponsors = ({title, role}) => {
     return (
         <div className={classes.all}>
             <div className={classes.conentTitle}>
                 <div className={classes.title}>{title}</div>
-                <div className={classes.reusableItemContent}>Стати {role}ом
-                    <svg width="217" height="25" viewBox="0 0 217 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M-4.82938e-07 12.249L214.5 12.2487M214.5 12.2487L204.75 0.998723M214.5 12.2487L204.75 23.2973" stroke="#2D3361" stroke-width="3"/>
-                    </svg>
-
+                <div className={classes.reusableItemContent}>
+                  <div> Стати {role}ом</div>
+                    <HorizontalLineButton>
+                    {/*потрібно вставити стрічку d="" з svg (костиль)*/}
+                    M-5.8463e-07 14.6252L232 14.6219M232 14.6219L220.219 0.999999M232 14.6219L220.219 28
+                </HorizontalLineButton>
                 </div>
-
             </div>
             <div className={classes.contentIcons}>
                 <div className={classes.icon}></div>
