@@ -1,5 +1,5 @@
 import './App.css';
-import Cursor from "./components/UI/Cursor/Cursor";
+import Cursor from "./components/Design/UI/Cursor/Cursor";
 import ProtezPage from "./pages/ProtezPage";
 import MainPage from "./pages/MainPage";
 import AboutUsPage from "./pages/AboutUsPage";
@@ -7,7 +7,11 @@ import TeamPage from "./pages/TeamPage";
 // import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
 // import {ParallaxProvider} from "react-scroll-parallax";
 import ServicesPage from "./pages/ServicesPage";
-import Lifewithprotez from "./components/blogpage/blogstorysuccess/lifewithprotez/lifewithprotez"
+import Lifewithprotez from "./components/Design/blogpage/blogstorysuccess/lifewithprotez/lifewithprotez";
+import AboutUsMedia from './components/Design/blogpage/blognews/AboutUsMedia/AboutUsMedia';
+import AboutUs from './components/Design/mainpage/aboutUs/AboutUs';
+import Inbox from './components/Admin/inbox/Inbox';
+import LeftMenu from './components/Admin/UI/LeftMenu/LeftMenu'
 
 
 function App() {
@@ -15,7 +19,7 @@ function App() {
     return (
         <div className="App">
             <Cursor></Cursor>
-            <Lifewithprotez></Lifewithprotez>
+            <Inbox></Inbox>
             {/*<BrowserRouter>*/}
             {/*    <Routes>*/}
             {/*        <Route path={"/"} element={<ServicesPage/>}/>*/}
