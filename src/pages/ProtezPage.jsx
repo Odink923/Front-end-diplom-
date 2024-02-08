@@ -1,8 +1,8 @@
 import React, {Profiler} from 'react';
-import Carrousel from "../components/UI/Carrousel/Carrousel";
-import CarrouselProtezPage from "../components/protezpage/CarrouselProtezPage/CarrouselProtezPage";
-import WriteToUs from "../components/mainpage/WriteToUs/WriteToUs";
-import Footerr from "../components/UI/Footer/Footerr";
+import Carrousel from "../components/Design/UI/Carrousel/Carrousel";
+import CarrouselProtezPage from "../components/Design/protezpage/CarrouselProtezPage/CarrouselProtezPage";
+import WriteToUs from "../components/Design/mainpage/WriteToUs/WriteToUs";
+import Footerr from "../components/Design/UI/Footer/Footerr";
 
 
 const ProtezPage = () => {
