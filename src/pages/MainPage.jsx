@@ -1,12 +1,12 @@
 import React from 'react';
-import Logo from "../components/mainpage/Logo/Logo";
-import SpecificProtez from "../components/mainpage/SpecificProtez/SpecificProtez";
-import BionicProtez from "../components/mainpage/BionicProtez/BionicProtez";
-import AboutCenterProtez from "../components/mainpage/AboutCenterProtez/AboutCenterProtez";
-import AboutUs from "../components/mainpage/aboutUs/AboutUs";
-import PartnerSponsors from "../components/mainpage/PartnerSponsors/PartnerSponsors";
-import WriteToUs from "../components/mainpage/WriteToUs/WriteToUs";
-import Footerr from "../components/UI/Footer/Footerr";
+import Logo from "../components/Design/mainpage/Logo/Logo";
+import SpecificProtez from "../components/Design/mainpage/SpecificProtez/SpecificProtez";
+import BionicProtez from "../components/Design/mainpage/BionicProtez/BionicProtez";
+import AboutCenterProtez from "../components/Design/mainpage/AboutCenterProtez/AboutCenterProtez";
+import AboutUs from "../components/Design/mainpage/aboutUs/AboutUs";
+import PartnerSponsors from "../components/Design/mainpage/PartnerSponsors/PartnerSponsors";
+import WriteToUs from "../components/Design/mainpage/WriteToUs/WriteToUs";
+import Footerr from "../components/Design/UI/Footer/Footerr";
 import {useEffect, useState} from "react";
 
 
