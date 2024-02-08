@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from "../UIButton3/UIButton3.module.css";
+import classes from "./UIButton3.module.css";
 
 const UiButton3 = ({ onClick, children }) => {
     return (
