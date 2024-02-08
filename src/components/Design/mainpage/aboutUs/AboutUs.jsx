@@ -17,7 +17,7 @@ const AboutUs = () => {
                         <AboutUsPhotoFrame1></AboutUsPhotoFrame1>
                     </div>
 
-                    <div className={classes.aboutUsSubBlocks}>
+                    <div className={`${classes.aboutUsSubBlocks} ${classes.quotesBlock}`}>
                         <span className={`${classes.spanTitleLayout} ${classes.spanTitle2}`}>наші пацієнти</span>
                         <svg xmlns="http://www.w3.org/2000/svg" className={classes.quoteSvg} width="37" height="32" viewBox="0 0 37 32" fill="none">
                             <path d="M0 2.90909L10.8934 0L18.6878 29.0909L7.79442 32L0 2.90909ZM18.2183 2.90909L29.2056 0L37 29.0909L26.0127 32L18.2183 2.90909Z" fill="#2D3361"/>
@@ -45,7 +45,14 @@ const AboutUs = () => {
 
                     <AboutUsMediaRegionSubBlockRight></AboutUsMediaRegionSubBlockRight>
 
-                    <ArticleCardsComponent></ArticleCardsComponent>
+                    <div className={classes.aboutUsMediaRegionSubBlockRight}>
+                        <AboutUsSuperSubBlock1 height={382}/>
+                        <AboutUsSuperSubBlock1 height={382}/>
+                        <AboutUsSuperSubBlock1 height={382}/>
+                        <AboutUsSuperSubBlock1 height={382}/>
+                    </div>
+
+
 
                 </div>
             </div>
