@@ -1,7 +1,7 @@
 import React from 'react';
-import TeamTitle from "../components/comandpage/TeamTitle/TeamTitle";
-import WriteToUs from "../components/mainpage/WriteToUs/WriteToUs";
-import Footerr from "../components/UI/Footer/Footerr";
+import TeamTitle from "../components/Design/comandpage/TeamTitle/TeamTitle";
+import WriteToUs from "../components/Design/mainpage/WriteToUs/WriteToUs";
+import Footerr from "../components/Design/UI/Footer/Footerr";
 
 const TeamPage = () => {
     return (
