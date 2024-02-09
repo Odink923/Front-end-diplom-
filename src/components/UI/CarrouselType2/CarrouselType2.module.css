@@ -50,6 +50,8 @@
 }
 .notActiveItem{
     color: #D1D8F4;
+    padding-left: 13px;
+    padding-right: 13px;
     font-size: 24px;
     font-family: "Unbounded-Regular";
 }

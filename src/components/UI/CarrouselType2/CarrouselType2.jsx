@@ -10,7 +10,8 @@ const CarrouselType2 = ({mockedItems}) => {
     const {
         carouselFragment,
         slideToPrevItem,
-        slideToNextItem
+        slideToNextItem,
+        slideToItem,
     } = useSpringCarousel({
         itemsPerSlide: 1,
         withLoop: true,
@@ -18,7 +19,7 @@ const CarrouselType2 = ({mockedItems}) => {
         items: mockedItems.map((i) => ({
             id: i.id,
             renderItem: (
-                <CaruselItemType2 title={i.title} description={i.description}>
+                <CaruselItemType2 title={i.title} description={i.description} descriptionSecond={i.descriptionSecond}>
 
                 </CaruselItemType2>
             ),
@@ -37,6 +38,10 @@ const CarrouselType2 = ({mockedItems}) => {
             :
         setPage(page-1)
         slideToPrevItem();
+    }
+    const clickSlide = (i) =>{
+        setPage(i);
+        slideToItem(i-1);
     }
     return (
         <div>
@@ -57,7 +62,7 @@ const CarrouselType2 = ({mockedItems}) => {
                         </CustomButton>
                         {mockedItems.map(i =>
                                 <span key={i.id}
-                                      onClick={() => setPage(i.id)}
+                                      onClick={() => clickSlide(i.id)}
                                       className={page === i.id ? `${classes.activeItem}` : `${classes.notActiveItem}`}>
                                        {page === i.id ? `(${i.id})` : i.id}
                                 </span>
