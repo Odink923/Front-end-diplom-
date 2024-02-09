@@ -1,8 +1,6 @@
 import React from 'react';
-import ToolBar from '../UI/Toolbar/Toolbar';
-import LeftMenu from '../UI/LeftMenu/LeftMenu'
 import classes from './Inbox.module.css';
-import ElementMessage from '../UI/ElementMessage/ElementMessage'
+import ElementMessage from '../UI/Elements/ElementMessage/ElementMessage'
 
 const Inbox = () => {
 
@@ -58,19 +56,12 @@ const Inbox = () => {
     ]
 
     return (
-        <div className={classes.inboxGeneral}>
-            <ToolBar></ToolBar>
-
-            <div className={classes.menuAndViewBlock}>
-                <LeftMenu></LeftMenu>
-
                 <div className={classes.messagesListContainer}>
                     {messages.map((message) => (
                         <ElementMessage name={message.name} theme={message.theme} text={message.text} date={message.date}></ElementMessage>
                         ))}
                 </div>
-            </div>
-        </div>
+
     );
 };
 

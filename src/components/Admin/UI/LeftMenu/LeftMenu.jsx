@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './LeftMenu.module.css';
-import SummaryMenuButtonsType1 from '../SummaryMenuButtonsType1/SummaryMenuButtonsType1';
-import SummaryMenuButtonsType2 from '../SummaryMenuButtonsType2/SummaryMenuButtonsType2';
+import SummaryMenuButtonsType1 from '../Buttons/SummaryMenuButtonsType1/SummaryMenuButtonsType1';
+import SummaryMenuButtonsType2 from '../Buttons/SummaryMenuButtonsType2/SummaryMenuButtonsType2';
 
 const LeftMenu = () => {
     return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import classes from './Searchbar.module.css'
-import IconsManager from '../Icons/IconsManager'
+import IconsManager from '../../Icons/IconsManager'
 
 const Searchbar = () => {
 

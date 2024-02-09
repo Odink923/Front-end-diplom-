@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './SummaryMenuButtonsType1.module.css'
-import IconManager from '../Icons/IconsManager'
+import IconManager from '../../Icons/IconsManager'
 
 const SummaryMenuButtonsType1 = ({children}, {handle}) => {
     return (

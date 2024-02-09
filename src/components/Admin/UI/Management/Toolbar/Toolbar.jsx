@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import { useRef } from 'react';
 import classes from './Toolbar.module.css';
-import SearchBar from '../Searchbar/Searchbar';
-import IconsManager from '../Icons/IconsManager';
-import MessageFilterOptionsPopup from '../MessageFilterOptionsPopup/MessageFilterOptionsPopup';
+import SearchBar from '../../Management/Searchbar/Searchbar';
+import IconsManager from '../../Icons/IconsManager';
+import MessageFilterOptionsPopup from '../../Popups/MessageFilterOptionsPopup/MessageFilterOptionsPopup';
 
 
 const Toolbar = () => {

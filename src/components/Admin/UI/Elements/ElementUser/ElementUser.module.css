@@ -1,0 +1,61 @@
+.general{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 84px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background: #F3F6FF;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.avatarPart{
+    height: 54px;
+    width: 54px;
+    background: #CEDBEA;
+    border-radius: 3px;
+}
+
+.namePart{
+    display: flex;
+    align-items: center;
+    width: 284px;
+    color: #1A1B1D;
+    padding-left: 26px;
+}
+
+.mailPart{
+    display: flex;
+    align-items: center;
+    width: 322px;
+    color: #4F5B66;
+}
+
+.phonePart{
+    display: flex;
+    align-items: center;
+    height: 26px;
+    width: 139px;
+    margin-right: 2.62%;
+    color: #4F5B66;
+}
+
+.addressPart{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 35.9%;
+    color: #4F5B66;
+}
+
+.chatButton{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 4.8%;
+}

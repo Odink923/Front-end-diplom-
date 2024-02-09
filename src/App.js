@@ -10,8 +10,8 @@ import ServicesPage from "./pages/ServicesPage";
 import Lifewithprotez from "./components/Design/blogpage/blogstorysuccess/lifewithprotez/lifewithprotez";
 import AboutUsMedia from './components/Design/blogpage/blognews/AboutUsMedia/AboutUsMedia';
 import AboutUs from './components/Design/mainpage/aboutUs/AboutUs';
-import Inbox from './components/Admin/inbox/Inbox';
-import LeftMenu from './components/Admin/UI/LeftMenu/LeftMenu'
+// import Inbox from './components/Admin/inbox/Inbox';
+import Admin from './components/Admin/Admin'
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
     return (
         <div className="App">
             <Cursor></Cursor>
-            <Inbox></Inbox>
+            <Admin></Admin>
             {/*<BrowserRouter>*/}
             {/*    <Routes>*/}
             {/*        <Route path={"/"} element={<ServicesPage/>}/>*/}
