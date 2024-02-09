@@ -1,6 +1,7 @@
 .App {
     cursor: none;
     background: #F2F5FF;
+
 }
 .container{
     scroll-snap-type: y mandatory;

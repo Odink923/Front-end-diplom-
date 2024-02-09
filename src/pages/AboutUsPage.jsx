@@ -9,8 +9,6 @@ const AboutUsPage = () => {
         <div>
             <Title></Title>
             <CarrouselProtezPage></CarrouselProtezPage>
-            <WriteToUs></WriteToUs>
-            <Footerr></Footerr>
         </div>
     );
 };

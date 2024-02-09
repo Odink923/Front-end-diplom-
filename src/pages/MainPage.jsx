@@ -23,8 +23,7 @@ const MainPage = () => {
                 <PartnerSponsors title="Партнер" role="партнер"></PartnerSponsors>
                 <PartnerSponsors title="Спонсор" role="спонсор"></PartnerSponsors>
             </div>
-            <WriteToUs></WriteToUs>
-            <Footerr></Footerr>
+
         </div>
     );
 };

@@ -13,8 +13,6 @@ const ProtezPage = () => {
             <BionicHandle></BionicHandle>
             <Material></Material>
             <CarrouselProtezPage></CarrouselProtezPage>
-            <WriteToUs></WriteToUs>
-            <Footerr></Footerr>
         </div>
     );
 };

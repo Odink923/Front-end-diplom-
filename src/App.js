@@ -8,6 +8,9 @@ import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
 import {ParallaxProvider} from "react-scroll-parallax";
 import ServicesPage from "./pages/ServicesPage";
 import BlogPage from "./pages/BlogPage";
+import WriteToUs from "./components/mainpage/WriteToUs/WriteToUs";
+import Footerr from "./components/UI/Footer/Footerr";
+import React from "react";
 
 
 function App() {
@@ -17,13 +20,15 @@ function App() {
             <Cursor></Cursor>
             <BrowserRouter>
                 <Routes>
-                    <Route path={"/"} element={<BlogPage/>}/>
+                    <Route path={"/"} element={<MainPage/>}/>
                     <Route path={"/protezPage"} element={<ProtezPage/>}/>
                     <Route path={"/teamPage"} element={<TeamPage/>}/>
                     <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>
                     <Route path={"/servicesPage"} element={<ServicesPage/>} />
                 </Routes>
             </BrowserRouter>
+            <WriteToUs></WriteToUs>
+            <Footerr></Footerr>
         </div>
     );
 }

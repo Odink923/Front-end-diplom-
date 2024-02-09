@@ -7,8 +7,6 @@ const TeamPage = () => {
     return (
         <div>
             <TeamTitle></TeamTitle>
-            <WriteToUs></WriteToUs>
-            <Footerr></Footerr>
         </div>
     );
 };

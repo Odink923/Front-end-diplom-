@@ -1,0 +1,13 @@
+.title{
+    font-family: "Unbounded-Regular";
+    font-size: 48px;
+    color: #2D3361;
+}
+.description{
+    font-family: "Unbounded-Light";
+    font-size: 18px;
+    margin-top: 40px;
+}
+.secondDescription{
+    margin-top: 20px;
+}

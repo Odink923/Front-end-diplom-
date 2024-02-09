@@ -1,0 +1,55 @@
+.carosel{
+    overflow: hidden;
+    width: 595px;
+    position: relative;
+    height: 342px;
+
+}
+.image {
+
+    width: 644px;
+    height: 657px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: url('///images/image2.jpg'), lightgray 50% / cover no-repeat;
+    left: 5.21%;
+    top: 237px;
+
+}
+.label {
+    top: 237px;
+    left: 42.81%;
+    height: 116px;
+    width: 23.54%;
+    position: absolute;
+}
+.label .textWrapper {
+    color: #2D3361;
+    font-family: Unbounded-Regular;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -0.53px;
+    line-height: 120%;
+}
+.contertCarousel{
+    display:flex;
+    margin-left: 4.0625%;
+    flex-direction:column;
+    position:relative;
+    justify-content: space-between;
+}
+.container{
+    display:flex;
+    margin-top:203px;
+    margin-left:5.2083%;
+}
+.activeItem{
+    color: #2D3361;
+    font-size: 48px;
+    font-family: "Unbounded-Regular";
+}
+.notActiveItem{
+    color: #D1D8F4;
+    font-size: 24px;
+    font-family: "Unbounded-Regular";
+}
