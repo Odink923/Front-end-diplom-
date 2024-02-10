@@ -1,0 +1,23 @@
+.rectangle {
+    background: linear-gradient(95deg, #A0A9C1 14.72%, #E0E3FF 103.96%);
+    border-radius: 0 0 60px 60px;
+    height: 1078px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: flex-start;
+    position: static;
+    flex-direction: column;
+    display: flex;
+}
+.icon{
+    width: 664px;
+    height: 657px;
+    background-color: #D4D8FF;
+    border-radius: 60px;
+}
+.container{
+    margin-left: 5.20833333333%;
+    margin-top: 111px;
+    display: flex;
+}

@@ -1,0 +1,7 @@
+.containerCarrousel{
+    display:flex;
+    overflow:hidden;
+    flex-direction:column;
+    width:780px;
+    margin-left: 78px;
+}
