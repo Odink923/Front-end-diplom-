@@ -7,6 +7,7 @@ const ServicesPage = () => {
         <div>
             <ServicesTitle></ServicesTitle>
             <BestOfUs></BestOfUs>
+
         </div>
     );
 };

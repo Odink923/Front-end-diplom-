@@ -55,12 +55,13 @@
 .rightTitle{
     font-size: 48px;
 
+
 }
 
 .formContent{
     display: flex;
     flex-direction: column;
-    width: 34.58%;
+    width: 38.58%;
 
 }
 

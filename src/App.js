@@ -11,6 +11,7 @@ import BlogPage from "./pages/BlogPage";
 import WriteToUs from "./components/mainpage/WriteToUs/WriteToUs";
 import Footerr from "./components/UI/Footer/Footerr";
 import React from "react";
+import BlogPageNews from "./pages/BlogPageNews";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
             <Cursor></Cursor>
             <BrowserRouter>
                 <Routes>
-                    <Route path={"/"} element={<MainPage/>}/>
+                    <Route path={"/"} element={<BlogPageNews/>}/>
                     <Route path={"/protezPage"} element={<ProtezPage/>}/>
                     <Route path={"/teamPage"} element={<TeamPage/>}/>
                     <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>

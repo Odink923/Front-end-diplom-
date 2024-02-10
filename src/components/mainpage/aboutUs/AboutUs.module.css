@@ -83,7 +83,7 @@
 }
 .spanTitle2{
   margin: 82px 0px 0px 204px;
-  text-align: end;
+
 }
 .spanTitle3{
   margin: 64px 0px 0px 100px;
@@ -171,4 +171,12 @@
 
 .cardsBarSvg{
   margin: 184px 0px 0px 532px
+}
+
+
+
+
+.flexing{
+  display:flex;
+  flex-direction:column;
 }

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {useSpringCarousel} from "react-spring-carousel";
-import CaruselItemType2 from "./UI/CaruselItemType2";
+import CaruselItemType2 from "./UI/CaruselItemType2/CaruselItemType2";
 import classes from "./CarrouselType2.module.css"
 import CustomButton from "../Button/CustomButton";
 import SliderButtons from "./UI/SliderButtons/SliderButtons";

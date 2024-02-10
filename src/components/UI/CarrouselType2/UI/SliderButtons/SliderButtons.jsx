@@ -33,7 +33,7 @@ const SliderButtons = ({slideToNextItem,slideToPrevItem,slideToItem,mockedItems}
                 </svg>
             </CustomButton>
             {mockedItems.map(i =>
-                <span key={i.id}
+                <span  key={i.id}
                       onClick={() => clickSlide(i.id)}
                       className={page === i.id ? `${classes.activeItem}` : `${classes.notActiveItem}`}>
                                        {page === i.id ? `(${i.id})` : i.id}
