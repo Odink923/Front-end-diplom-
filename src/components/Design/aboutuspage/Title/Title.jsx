@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Title.module.css';
 import Navbar from "../../UI/Navbar/Navbar";
-import ViewMoreButton from "../../UI/ViewMoreButton/ViewMoreButton";
+import ViewMoreButton from "../../UI/Buttons/ViewMoreButton/ViewMoreButton";
 
 const Title = () => {
     return (

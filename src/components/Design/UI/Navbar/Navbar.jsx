@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import classes from './Navbar.module.css';
-import DarkButton from "../DarkButton/DarkButton";
-import NavbarButton from "../NavbarButton/NavbarButton";
+import DarkButton from "../Buttons/DarkButton/DarkButton";
+import NavbarButton from "../Buttons/NavbarButton/NavbarButton";
 import {animated, useSpring} from '@react-spring/web'
 import {Link} from "react-router-dom";
 

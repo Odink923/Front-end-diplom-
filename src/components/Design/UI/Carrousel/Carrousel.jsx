@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Carrousel.module.css'
 import { useSpringCarousel } from 'react-spring-carousel'
 import CarouselItem from "./UI/CarouselItem";
-import CustomButton from "../Button/CustomButton";
+import CustomButton from "../Buttons/CustomButton/CustomButton";
 const Carrousel = ({mockedItems}) => {
     const {
         carouselFragment,

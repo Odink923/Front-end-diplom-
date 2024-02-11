@@ -11,7 +11,8 @@ import Lifewithprotez from "./components/Design/blogpage/blogstorysuccess/lifewi
 import AboutUsMedia from './components/Design/blogpage/blognews/AboutUsMedia/AboutUsMedia';
 import AboutUs from './components/Design/mainpage/aboutUs/AboutUs';
 // import Inbox from './components/Admin/inbox/Inbox';
-import Admin from './components/Admin/Admin'
+import Admin from './components/Admin/Admin';
+import CustomButton from '../src/components/Design/UI/Buttons/CustomButton/CustomButton'
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     return (
         <div className="App">
             <Cursor></Cursor>
-            <Admin></Admin>
+            <CustomButton>kjsfsjfhsjf</CustomButton>
             {/*<BrowserRouter>*/}
             {/*    <Routes>*/}
             {/*        <Route path={"/"} element={<ServicesPage/>}/>*/}
