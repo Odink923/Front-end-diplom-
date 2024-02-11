@@ -13,6 +13,7 @@ import AboutUs from './components/Design/mainpage/aboutUs/AboutUs';
 // import Inbox from './components/Admin/inbox/Inbox';
 import Admin from './components/Admin/Admin';
 import CustomButton from '../src/components/Design/UI/Buttons/CustomButton/CustomButton'
+import TeamOrService from "./components/Design/UI/Management/TeamOrService/TeamOrService";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
     return (
         <div className="App">
             <Cursor></Cursor>
-            <CustomButton>kjsfsjfhsjf</CustomButton>
+            <TeamOrService></TeamOrService>
             {/*<BrowserRouter>*/}
             {/*    <Routes>*/}
             {/*        <Route path={"/"} element={<ServicesPage/>}/>*/}

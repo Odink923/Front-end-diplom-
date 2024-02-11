@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './TeamTitle.module.css'
-import Navbar from "../../UI/Navbar/Navbar";
-import TeamOrService from "../../UI/TeamOrService/TeamOrService";
+import Navbar from "../../UI/Management/Navbar/Navbar";
+import TeamOrService from "../../UI/Management/TeamOrService/TeamOrService";
 
 const TeamTitle = () => {
     return (

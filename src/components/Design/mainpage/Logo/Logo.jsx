@@ -2,8 +2,8 @@ import React from 'react';
 import classes from './Logo.module.css'
 
 
-import Navbar from "../../UI/Navbar/Navbar";
-import ViewMoreButton from "../../UI/ViewMoreButton/ViewMoreButton";
+import Navbar from "../../UI/Management/Navbar/Navbar";
+import ViewMoreButton from "../../UI/Buttons/ViewMoreButton/ViewMoreButton";
 const Logo = () => {
     return (
         <div className={classes.box}>

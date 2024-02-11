@@ -2,7 +2,7 @@ import React, {Profiler} from 'react';
 import Carrousel from "../components/Design/UI/Carrousel/Carrousel";
 import CarrouselProtezPage from "../components/Design/protezpage/CarrouselProtezPage/CarrouselProtezPage";
 import WriteToUs from "../components/Design/mainpage/WriteToUs/WriteToUs";
-import Footerr from "../components/Design/UI/Footer/Footerr";
+import Footerr from "../components/Design/UI/Management/Footer/Footerr";
 
 
 const ProtezPage = () => {

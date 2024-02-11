@@ -6,7 +6,7 @@ import AboutCenterProtez from "../components/Design/mainpage/AboutCenterProtez/A
 import AboutUs from "../components/Design/mainpage/aboutUs/AboutUs";
 import PartnerSponsors from "../components/Design/mainpage/PartnerSponsors/PartnerSponsors";
 import WriteToUs from "../components/Design/mainpage/WriteToUs/WriteToUs";
-import Footerr from "../components/Design/UI/Footer/Footerr";
+import Footerr from "../components/Design/UI/Management/Footer/Footerr";
 import {useEffect, useState} from "react";
 
 

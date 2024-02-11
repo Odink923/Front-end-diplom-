@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './TeamOrService.module.css'
-import ViewMoreButton from "../Buttons/ViewMoreButton/ViewMoreButton";
+import ViewMoreButton from "../../Buttons/ViewMoreButton/ViewMoreButton";
 
 const TeamOrService = ({text1, text2, discription}) => {
     return (
