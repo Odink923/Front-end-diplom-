@@ -10,7 +10,7 @@ import ServicesPage from "./pages/ServicesPage";
 import Lifewithprotez from "./components/Design/blogpage/blogstorysuccess/lifewithprotez/lifewithprotez";
 import AboutUsMedia from './components/Design/blogpage/blognews/AboutUsMedia/AboutUsMedia';
 import AboutUs from './components/Design/mainpage/aboutUs/AboutUs';
-// import Inbox from './components/Admin/inbox/Inbox';
+// import InboxMessagesList from './components/Admin/inbox/InboxMessagesList';
 import Admin from './components/Admin/Admin';
 import CustomButton from '../src/components/Design/UI/Buttons/CustomButton/CustomButton'
 import TeamOrService from "./components/Design/UI/Management/TeamOrService/TeamOrService";
@@ -21,7 +21,7 @@ function App() {
     return (
         <div className="App">
             <Cursor></Cursor>
-            <TeamOrService></TeamOrService>
+            <Admin></Admin>
             {/*<BrowserRouter>*/}
             {/*    <Routes>*/}
             {/*        <Route path={"/"} element={<ServicesPage/>}/>*/}

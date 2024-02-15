@@ -1,8 +1,8 @@
 import React from 'react';
-import classes from './Inbox.module.css';
-import ElementMessage from '../UI/Elements/ElementMessage/ElementMessage'
+import classes from './InboxMessagesList.module.css';
+import ElementMessage from '../../../UI/Elements/ElementMessage/ElementMessage'
 
-const Inbox = () => {
+const InboxMessagesList = () => {
 
     const messages = [
         {
@@ -65,4 +65,4 @@ const Inbox = () => {
     );
 };
 
-export default Inbox;
+export default InboxMessagesList;

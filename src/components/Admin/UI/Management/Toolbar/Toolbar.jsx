@@ -33,11 +33,11 @@ const Toolbar = () => {
                     <IconsManager iconId="6"/>
                     <IconsManager iconId="7"/>
                     <IconsManager iconId="8"/>
+                    <IconsManager iconId="9"/>
                 </div>
 
             </div>
 
-            <div><IconsManager iconId="9"/></div>
 
         </div>
     );

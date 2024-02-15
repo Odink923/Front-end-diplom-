@@ -1,7 +1,7 @@
 .popupContainer{
     display: flex;
     position: absolute;
-    left: 815px;
+    left: 750px;
     top: 75px;
     flex-direction: column;
     width: 150px;
