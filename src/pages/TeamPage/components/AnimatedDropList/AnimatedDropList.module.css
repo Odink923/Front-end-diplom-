@@ -1,0 +1,4 @@
+.gradient {
+    background: linear-gradient(to bottom right, #BAC0DA, #2D3361);
+    border-radius: 60px;
+}

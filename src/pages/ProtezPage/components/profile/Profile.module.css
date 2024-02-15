@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+.profileGeneral{
+    display: flex;
+    width: 100%;
+    height: 1758px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: linear-gradient(34deg, #B2B9D5 30.1%, #EAECFF 115.54%);
+}
+.profileSubGeneral{
+    display: flex;
+    flex-direction: column;
+    width: 81.67%;
+    border-right: 2px solid #D1D8F4;
+}
+
+
+.profileRegion{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.profilePersonalOfficeRegion{
+    border-bottom: 2px solid #D1D8F4;
+}
+.profileCustomSkinRegion{
+
+}
+
+
+.profileSubBlocks{
+    display: flex;
+    flex-direction: column;
+}
+.profileSubBlockButton{
+    margin: 120px 0px 92px 94px;
+}
+
+
+.spanTitleLayout{
+    color: #2D3361;
+    font-feature-settings: 'ss12' on;
+    font-family: Unbounded;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+    letter-spacing: -0.528px;
+    text-transform: uppercase;
+}
+.spanTitle1{
+    margin: 138px 0% 0% 13.7%;
+}
+.spanTitle2{
+    text-align: start;
+    margin: 120px 0px 0px 80px;
+}
+
+
+.spanParagraphLayout{
+    color: #2D3361;
+    font-feature-settings: 'ss12' on;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px */
+    letter-spacing: -0.198px;
+}
+.spanParagraph1{
+    margin: 14px 0px 0px 100px;
+}
+.spanParagraph2{
+    margin: 44px 0px 0px 80px;
+}
+.spanAltParagraphLayout{
+    color: #2D3361;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+.spanAltParagraph1{
+    margin: 205px 0px 0px 85px;
+}
+
+
+.profileEnumeration1{
+    width: 615px;
+    height: 376px;
+    margin: 53px 0px 0px 75px;
+    padding-inline-start: 40px;
+}
+.profileEnumeration2{
+    width: 615px;
+    height: 152px;
+    margin: 44px 0px 0px 55px;
+    padding-inline-start: 40px;
+}
+ul.profileEnumeration1 li, ul.profileEnumeration2 li{
+    margin-bottom: 33px;
+    list-style-image: url("../../../../components/ListBullets/ListBullet1.svg");
+}
+
+
+.profilePhotoFrame1{
+    width: 706px;
+    height: 743px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #D4D8FF;
+    margin: 138px 38px 0px 76px;
+}
+.profilePhotoFrame2{
+    width: 644px;
+    height: 501px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #D4D8FF;
+    margin: 120px 0px 0px 100px
+}
