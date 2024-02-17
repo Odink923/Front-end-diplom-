@@ -12,6 +12,7 @@ import WriteToUs from "./pages/MainPage/components/WriteToUs/WriteToUs";
 import Footerr from "./components/Footer/Footerr";
 import React from "react";
 import DoctorRehabilitation from "./pages/TeamPage/components/DoctorRehabilitation/DoctorRehabilitation";
+import PartnersPage from "./pages/PartnersPage/PartnersPage";
 
 
 
@@ -22,7 +23,7 @@ function App() {
             <Cursor></Cursor>
             <BrowserRouter>
                 <Routes>
-                    <Route path={"/"} element={<DoctorRehabilitation/>}/>
+                    <Route path={"/"} element={<PartnersPage/>}/>
                     <Route path={"/protezPage"} element={<ProtezPage/>}/>
                     <Route path={"/teamPage"} element={<TeamPage/>}/>
                     <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>
