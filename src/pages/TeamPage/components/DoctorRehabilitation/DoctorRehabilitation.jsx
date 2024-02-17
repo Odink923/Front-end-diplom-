@@ -6,7 +6,9 @@ const DoctorRehabilitation = () => {
     return (
         <div>
             <DropDownList>
-                <DropDownItem title="КАСТОМНІ ОБОЛОНКИ" upItem={true}></DropDownItem>
+                <DropDownItem title="ЛІКАР-РЕАБІЛІТОЛОГ" upItem={true}></DropDownItem>
+                <DropDownItem title="ЛІКАР-РЕАБІЛІТОЛОГ"></DropDownItem>
+                <DropDownItem title="ЛІКАР-РЕАБІЛІТОЛОГ" downItem={true}></DropDownItem>
             </DropDownList>
         </div>
     );

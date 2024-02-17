@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './WriteToUs.module.css'
 import SendButton from "./UI/SendButton/SendButton";
 import DropList from "./UI/DropList/DropList";
+import UiButton2 from "../../../../components/UIButton2/UIButton2";
 
 const WriteToUs = () => {
     return (
@@ -28,7 +29,7 @@ const WriteToUs = () => {
                     <textarea  placeholder="Ваше повідомлення"  className={`${classes.formInput} ${classes.userInput}`}/>
                 </div>
                 <div className={classes.positionSendButton}>
-                <SendButton >Надіслати</SendButton>
+                <UiButton2 >Надіслати</UiButton2>
                 </div>
                 </div>
             </div>

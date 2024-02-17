@@ -7,7 +7,7 @@ const HorizontalLineButton = ({children}) => {
     const [divWidth, setDivWidth] = useState(0);
     const [isHovered, setIsHovered] = useState(false);
     const svgAnimation = useSpring({
-        transform: `scale(${isHovered ? divWidth / 235 : 1}, 1)`
+        transform: `scale(${isHovered ? divWidth/235 : 294/294}, 1)`
     });
     useEffect(() => {
         if (divRef.current) {

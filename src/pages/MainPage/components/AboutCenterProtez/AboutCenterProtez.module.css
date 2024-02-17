@@ -66,5 +66,5 @@
 .reusableItem{
     margin-top: 79px;
     font-size: 20px;
-
+    display: flex;
 }

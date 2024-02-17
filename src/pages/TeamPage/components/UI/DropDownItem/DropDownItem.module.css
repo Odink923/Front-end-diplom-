@@ -16,6 +16,7 @@
     border-right: 2px solid #8C96C1;
     cursor: pointer;
     display: flex;
+
     align-items: center;
     overflow: hidden;
 }
@@ -35,7 +36,9 @@
     display:flex;
     justify-content:space-between;
     flex-direction:column;
-    text-align:left;
+
+
+
 }
 .titleText{
     margin-top: 48px;
@@ -60,9 +63,20 @@
     margin-top: 20px;
 }
 
-.rightItems{
+
+
+.buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 31px;
+    align-items: center;
+    width: 1500px;
 
 }
-.iconMarg{
-    margin-right: 5.26%;
+.buttonItem{
+    font-size: 20px;
+    display: flex;
+    color: #B8BFDA;
+    flex-direction: column;
+    margin-right: 26.5px;
 }
