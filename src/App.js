@@ -11,8 +11,7 @@ import BlogPage from "./pages/BlogPage/BlogPage";
 import WriteToUs from "./pages/MainPage/components/WriteToUs/WriteToUs";
 import Footerr from "./components/Footer/Footerr";
 import React from "react";
-import BlogPageNews from "./pages/BlogPageNews/BlogPageNews";
-import AnimatedDropList from "./pages/TeamPage/components/AnimatedDropList/AnimatedDropList";
+
 
 
 function App() {

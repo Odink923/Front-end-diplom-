@@ -7,10 +7,9 @@ const PartnerSponsors = ({title, role}) => {
             <div className={classes.conentTitle}>
                 <div className={classes.title}>{title}</div>
                 <div className={classes.reusableItemContent}>
-                  <div> Стати {role}ом</div>
+
                     <HorizontalLineButton>
-                    {/*потрібно вставити стрічку d="" з svg (костиль)*/}
-                    M-5.8463e-07 14.6252L232 14.6219M232 14.6219L220.219 0.999999M232 14.6219L220.219 28
+                        Стати {role}ом
                 </HorizontalLineButton>
                 </div>
             </div>

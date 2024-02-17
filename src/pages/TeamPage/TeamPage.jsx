@@ -1,14 +1,13 @@
 import React from 'react';
 import TeamTitle from "./components/TeamTitle/TeamTitle";
-import WriteToUs from "../MainPage/components/WriteToUs/WriteToUs";
-import Footerr from "../../components/Footer/Footerr";
-import AnimatedDropList from "./components/AnimatedDropList/AnimatedDropList";
+import DoctorRehabilitation from "./components/DoctorRehabilitation/DoctorRehabilitation";
+
 
 const TeamPage = () => {
     return (
         <div>
             <TeamTitle></TeamTitle>
-            <AnimatedDropList></AnimatedDropList>
+            <DoctorRehabilitation></DoctorRehabilitation>
         </div>
     );
 };

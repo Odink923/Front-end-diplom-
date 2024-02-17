@@ -1,0 +1,14 @@
+.gradient {
+    background: linear-gradient(to bottom right, #BAC0DA, #2D3361);
+    border-radius: 60px;
+}
+.content{
+    display: flex;
+
+}
+.leftItems{
+    width: 85.52%;
+    font-size: 48px;
+    color: #F2F5FF;
+    font-family: 'Unbounded', sans-serif;
+}

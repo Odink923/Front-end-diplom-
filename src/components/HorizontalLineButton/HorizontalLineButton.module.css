@@ -1,12 +1,11 @@
-.frame {
-    align-items: flex-start;
-    display: inline-flex;
-    position: relative;
-    width: fit-content;
-}
 
+.title{
+
+}
 .vector {
     margin-bottom: -1.99px;
     margin-left: -0.99px;
     position: relative;
 }
+
+
