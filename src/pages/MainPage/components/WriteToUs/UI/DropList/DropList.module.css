@@ -6,13 +6,11 @@
     outline: none;
     height: 68px;
     margin-top: 22px;
-    padding-left: 49px;
     display: flex;
     justify-content: space-between;
     font-family: "Unbounded-Light";
     flex-direction: column;
     color: #8C96C1;
-    padding-right: 49px;
     font-size: 20px;
     box-sizing: border-box;
     cursor: none;
@@ -26,4 +24,7 @@
 }
 .title{
     margin-top: 19px;
+    padding-left: 40px;
+    padding-right: 35px;
 }
+

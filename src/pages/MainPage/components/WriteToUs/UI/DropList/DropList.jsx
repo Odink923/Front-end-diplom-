@@ -4,15 +4,18 @@ import {useSpring, animated} from "react-spring";
 import DropItem from "../DropItem/DropItem";
 const DropList = () => {
     const [isOpen, setIsOpen] = useState(false);
-
+    const [selectedItem, setSelectedItem] = useState("Тема звернення*");
     const dropdownAnimation = useSpring({
-        height: isOpen ? '288px' : '68px',
+        height: isOpen ? '260px' : '68px',
         config: { duration: 200 },
         overflow: 'hidden',
 
     });
 
-
+    const handleItemClick = (itemText) => {
+        setSelectedItem(itemText);
+        setIsOpen(false);
+    };
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
     };
@@ -22,7 +25,7 @@ const DropList = () => {
         <animated.div style={dropdownAnimation} className={classes.formInput}>
             <span className={classes.customButton}   onClick={toggleDropdown}>
                 <div className={classes.title}>
-                Тема звернення*
+                {selectedItem}
                 </div>
                 <div className={classes.title}>
                     {isOpen ?
@@ -38,11 +41,11 @@ const DropList = () => {
             </span>
             {isOpen && (
                 <div >
-                    <DropItem>Item 1</DropItem>
-                    <DropItem>Item 2</DropItem>
-                    <DropItem>Item 3</DropItem>
-                    <DropItem>Item 3</DropItem>
-                    <DropItem>Item 3</DropItem>
+                    <DropItem onClick={()=>handleItemClick("Хочу отримувати новини на пошту")}>Хочу отримувати новини на електронну пошту</DropItem>
+                    <DropItem onClick={()=>handleItemClick("Хочу стати спонсором")}>Хочу стати спонсором</DropItem>
+                    <DropItem onClick={()=>handleItemClick("Хочу стати партнером")}>Хочу стати партнером</DropItem>
+                    <DropItem onClick={()=>handleItemClick("Хочу дізнатися про актуальні вакансії ")}>Хочу дізнатися про актуальні вакансії  </DropItem>
+                    <DropItem onClick={()=>handleItemClick("Інше")}>Інше</DropItem>
                 </div>
 
             )}

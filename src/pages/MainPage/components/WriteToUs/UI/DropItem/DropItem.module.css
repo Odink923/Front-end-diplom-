@@ -1,7 +1,9 @@
 .container{
     height: 44px;
-    background-color: #D1D8F4;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
 }
 .container:hover{
-    background-color: #d5d1f4;
+    background-color: #D1D8F4;
 }

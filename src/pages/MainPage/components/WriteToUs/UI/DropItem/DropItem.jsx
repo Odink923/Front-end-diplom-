@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './DropItem.module.css'
-const DropItem = ({children}) => {
+const DropItem = ({children, onClick}) => {
     return (
-        <div className={classes.container}>
+        <span onClick={onClick} className={classes.container}>
             {children}
-        </div>
+        </span>
     );
 };
 

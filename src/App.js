@@ -14,6 +14,7 @@ import React from "react";
 import DoctorRehabilitation from "./pages/TeamPage/components/DoctorRehabilitation/DoctorRehabilitation";
 import PartnersPage from "./pages/PartnersPage/PartnersPage";
 import Faq from "./pages/Faq/Faq";
+import BlogPageNews from "./pages/BlogPageNews/BlogPageNews";
 
 
 
@@ -24,7 +25,7 @@ function App() {
             <Cursor></Cursor>
             <BrowserRouter>
                 <Routes>
-                    <Route path={"/"} element={<Faq/>}/>
+                    <Route path={"/"} element={<BlogPageNews/>}/>
                     <Route path={"/protezPage"} element={<ProtezPage/>}/>
                     <Route path={"/teamPage"} element={<TeamPage/>}/>
                     <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>
