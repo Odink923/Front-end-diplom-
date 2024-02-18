@@ -27,13 +27,13 @@ const MainPage = () => {
                     <Logo></Logo>
 
                 </ParallaxLayer>
-                <ParallaxLayer style={{ marginTop:"-100px"}} offset={1} factor={10} speed={0.3}>
+                <ParallaxLayer style={{ marginTop:"-100px"}} offset={1} factor={10} speed={0}>
                     {/* Content for BionicProtez */}
 
                     <SpecificProtez />
                 </ParallaxLayer>
 
-                <ParallaxLayer offset={1.9}   speed={1}>
+                <ParallaxLayer offset={1.9}   speed={1.5}>
                     {/* Content for SpecificProtez */}
                     <BionicProtez />
                 </ParallaxLayer>
