@@ -1,0 +1,15 @@
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+
+}
+
+.section{
+    overflow: hidden;
+    height: auto;
+    scroll-snap-align: start;
+}
+.par{
+    overflow-x: hidden;
+}
