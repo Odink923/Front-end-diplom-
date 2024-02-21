@@ -6,13 +6,13 @@
     flex-wrap: wrap;
     width: 78.54%;
     height: 100%;
-    margin: 46px 0% 0% 5.21%;
+    margin: 46px 0 0 5.21%;
 }
 
 .leaderTitle{
     color: #2D3361;
     font-feature-settings: 'ss12' on;
-    font-family: Unbounded;
+    font-family: Unbounded, serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
@@ -21,5 +21,5 @@
     text-transform: uppercase;
 }
 .leaderTitleDesign1{
-    margin: 117px 0px 0px 5.21%;
+    margin: 117px 0 0 5.21%;
 }

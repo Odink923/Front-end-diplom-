@@ -15,7 +15,7 @@
     justify-content: space-between;
     width: 71.04%;
     height: fit-content;
-    margin: 177px 0px 0px 6.83%;
+    margin: 177px 0 0 6.83%;
 }
 
 .statsPhotoBlock{
@@ -40,7 +40,7 @@
 .statsSpanTitle{
     color: #2D3361;
     font-feature-settings: 'ss12' on;
-    font-family: Unbounded;
+    font-family: Unbounded, serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 400;
@@ -51,7 +51,7 @@
 .statsSpanParagraph{
     color: #2D3361;
     font-feature-settings: 'ss12' on;
-    font-family: Unbounded;
+    font-family: Unbounded, serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;

@@ -26,7 +26,7 @@
 .uiButton3SpanText{
     color: #FFF;
     font-feature-settings: 'ss12' on;
-    font-family: Unbounded;
+    font-family: Unbounded, serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
