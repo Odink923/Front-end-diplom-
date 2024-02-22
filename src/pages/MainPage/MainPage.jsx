@@ -21,7 +21,7 @@ const MainPage = () => {
         parallaxRef.current.scrollTo(pageNumber);
     };
     return (
-        <Parallax ref={parallaxRef} style={{background: "#F2F5FF"}} pages={4}>
+        <Parallax ref={parallaxRef} style={{background: "#F2F5FF"}} pages={6}>
             <ParallaxLayer offset={0} speed={0.3}>
                 <Logo/>
             </ParallaxLayer>
@@ -30,13 +30,20 @@ const MainPage = () => {
                     <SpecificProtez></SpecificProtez>
                 </CustomWaypoint>
             </ParallaxLayer>
-            <ParallaxLayer offset={2.3}>
+            <ParallaxLayer offset={2}>
                 <CustomWaypoint>
                 <AboutCenterProtez ></AboutCenterProtez>
                 </CustomWaypoint>
             </ParallaxLayer>
             <ParallaxLayer offset={1.9} speed={1.5} factor={1}>
                 <BionicProtez/>
+            </ParallaxLayer>
+            <ParallaxLayer offset={2.9}  speed={1.3} >
+                <AboutUs></AboutUs>
+            </ParallaxLayer>
+            <ParallaxLayer offset={4}>
+            <WriteToUs></WriteToUs>
+            <Footerr></Footerr>
             </ParallaxLayer>
 
         </Parallax>

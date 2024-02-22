@@ -16,8 +16,8 @@ const CarrouselType3 = ({mockedItems}) => {
         itemsPerSlide: 1,
         withLoop: true,
 
-        items: mockedItems.map((i,index) => ({
-            id: index,
+        items: mockedItems.map((i) => ({
+            id: i.id,
             renderItem: (
                 <CarrouselItemType3  description={i.description} >
                 </CarrouselItemType3>

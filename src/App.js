@@ -32,8 +32,7 @@ function App() {
                     <Route path={"/servicesPage"} element={<ServicesPage/>} />
                 </Routes>
             </BrowserRouter>
-            {/*<WriteToUs></WriteToUs>*/}
-            {/*<Footerr></Footerr>*/}
+
         </div>
     );
 }
