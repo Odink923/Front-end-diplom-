@@ -5,16 +5,8 @@ import MainPage from "./pages/MainPage/MainPage";
 import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
 import TeamPage from "./pages/TeamPage/TeamPage";
 import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
-import {ParallaxProvider} from "react-scroll-parallax";
 import ServicesPage from "./pages/ServicesPage/ServicesPage";
-import BlogPage from "./pages/BlogPage/BlogPage";
-import WriteToUs from "./pages/MainPage/components/WriteToUs/WriteToUs";
-import Footerr from "./components/Footer/Footerr";
 import React from "react";
-import DoctorRehabilitation from "./pages/TeamPage/components/DoctorRehabilitation/DoctorRehabilitation";
-import PartnersPage from "./pages/PartnersPage/PartnersPage";
-import Faq from "./pages/Faq/Faq";
-import BlogPageNews from "./pages/BlogPageNews/BlogPageNews";
 
 
 
