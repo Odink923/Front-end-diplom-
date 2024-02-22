@@ -4,9 +4,16 @@ import CaruselItemType2 from "./UI/CaruselItemType2/CaruselItemType2";
 import classes from "./CarrouselType2.module.css"
 import CustomButton from "../Button/CustomButton";
 import SliderButtons from "./UI/SliderButtons/SliderButtons";
+import {useSpring, animated} from "react-spring";
 
 
-const CarrouselType2 = ({mockedItems}) => {
+const CarrouselType2 = ({mockedItems,inView}) => {
+    const showLeftOpacity = useSpring({
+        opacity: inView ? 1 : 0,
+
+        transform: inView ? 'translateY(0)' : 'translateX(-100px)',
+        config: { duration: 500 },
+    });
 
     const {
         carouselFragment,
@@ -20,7 +27,7 @@ const CarrouselType2 = ({mockedItems}) => {
         items: mockedItems.map((i) => ({
             id: i.id,
             renderItem: (
-                <CaruselItemType2 title={i.title} description={i.description} descriptionSecond={i.descriptionSecond}>
+                <CaruselItemType2 inView={inView} title={i.title} description={i.description} descriptionSecond={i.descriptionSecond}>
                 </CaruselItemType2>
             ),
         })),
@@ -28,7 +35,7 @@ const CarrouselType2 = ({mockedItems}) => {
     return (
         <div>
             <div className={classes.container}>
-                <div className={classes.image}></div>
+                <animated.div style={showLeftOpacity}  className={classes.image}></animated.div>
                 <div className={classes.contertCarousel}>
                     <div className={classes.carosel}>
                         {carouselFragment}

@@ -2,6 +2,7 @@
     cursor: none; /*cursor: (img) передати любий курсор транзішн можна юзати тут*/
     background: #F2F5FF;
     transition: all 0.5s ease-in-out;
+    scroll-behavior: smooth;
 
 }
 .container{

@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import classes from './SpecificProtez.module.css';
 import CarrouselType2 from "../../../../components/CarrouselType2/CarrouselType2";
+import {Waypoint} from "react-waypoint";
+import {useSpring} from "react-spring";
 
-const SpecificProtez = () => {
+const SpecificProtez = ({inView}) => {
 
     const mockedItems = [
         { id: 1, title: "3Д ДРУК",
@@ -32,16 +34,19 @@ const SpecificProtez = () => {
                 " конструкції протеза поєднують в собі міцність та легкість, що сприяє комфортності використання."
         },
     ];
+
+
     return (
         <div className={classes.box}>
 
-            <CarrouselType2 mockedItems={mockedItems}></CarrouselType2>
+            <CarrouselType2 inView={inView}  mockedItems={mockedItems}></CarrouselType2>
             <div className={classes.other}>
 
             </div>
             <div className={classes.scroll}>
 
             </div>
+
         </div>
     );
 };
