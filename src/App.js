@@ -11,7 +11,7 @@ import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
 // import WriteToUs from "./pages/MainPage/components/WriteToUs/WriteToUs";
 // import Footerr from "./components/Footer/Footerr";
 import React from "react";
-// import BlogArticlePage from "./pages/BlogArticlePage/BlogArticlePage"
+ import BlogArticlesPage from "./pages/BlogArticlesPage/BlogArticlesPage"
 
 
 
@@ -22,7 +22,7 @@ function App() {
             <Cursor></Cursor>
             <BrowserRouter>
                 <Routes>
-                    <Route path={"/"} element={<MainPage/>}/>
+                    <Route path={"/"} element={<BlogArticlesPage/>}/>
                     <Route path={"/protezPage"} element={<ProtezPage/>}/>
                     <Route path={"/teamPage"} element={<TeamPage/>}/>
                     <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>
