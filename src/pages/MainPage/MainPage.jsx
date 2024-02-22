@@ -15,42 +15,30 @@ import {useSpring,animated} from "react-spring";
 import {Waypoint} from "react-waypoint";
 import CustomWaypoint from "../../components/CustomWaypoint/CustomWaypoint";
 
-
-
-
 const MainPage = () => {
     const parallaxRef = useRef();
-
     const scrollToPage = (pageNumber) => {
         parallaxRef.current.scrollTo(pageNumber);
     };
-
-
     return (
-        <Parallax ref={parallaxRef} style={{background:"#F2F5FF"}}  pages={3}>
+        <Parallax ref={parallaxRef} style={{background: "#F2F5FF"}} pages={4}>
             <ParallaxLayer offset={0} speed={0.3}>
-                {/* Content for BionicProtez */}
-                <Logo />
+                <Logo/>
             </ParallaxLayer>
-            <ParallaxLayer style={{marginTop:"-100px"}} offset={1} factor={10} speed={0}>
-                {/* Content for BionicProtez */}
-
-                        <CustomWaypoint >
-                            <SpecificProtez></SpecificProtez>
-                        </CustomWaypoint>
-
-
-
+            <ParallaxLayer style={{marginTop: "-100px"}} offset={1} factor={10} speed={0}>
+                <CustomWaypoint>
+                    <SpecificProtez></SpecificProtez>
+                </CustomWaypoint>
             </ParallaxLayer>
-            <ParallaxLayer  offset={1.9} speed={1.5}>
-                {/* Content for SpecificProtez */}
-
-                    <BionicProtez />
-
-
-
-
+            <ParallaxLayer offset={2.3}>
+                <CustomWaypoint>
+                <AboutCenterProtez ></AboutCenterProtez>
+                </CustomWaypoint>
             </ParallaxLayer>
+            <ParallaxLayer offset={1.9} speed={1.5} factor={1}>
+                <BionicProtez/>
+            </ParallaxLayer>
+
         </Parallax>
     );
 };
