@@ -1,11 +1,11 @@
 import './App.css';
 import Cursor from "./components/Cursor/Cursor";
-import ProtezPage from "./pages/ProtezPage/ProtezPage";
-import MainPage from "./pages/MainPage/MainPage";
-import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
-import TeamPage from "./pages/TeamPage/TeamPage";
+import ProtezPage from "./pages/Design/ProtezPage/ProtezPage";
+import MainPage from "./pages/Design/MainPage/MainPage";
+import AboutUsPage from "./pages/Design/AboutUsPage/AboutUsPage";
+import TeamPage from "./pages/Design/TeamPage/TeamPage";
 import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
-import ServicesPage from "./pages/ServicesPage/ServicesPage";
+import ServicesPage from "./pages/Design/ServicesPage/ServicesPage";
 import React from "react";
 
 

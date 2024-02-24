@@ -1,0 +1,107 @@
+.replyContainer{
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.userContainer{
+    background: #F3F6FF;
+}
+.adminContainer{
+    background: #E9EEFF;
+}
+
+.replyContent{
+    display: flex;
+    flex-direction: column;
+    padding: 21px 3.15% 32px 1.8%;
+}
+
+.headerAndDateBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    margin-bottom: 25px;
+}
+.specializationBlock{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 31px;
+    margin-bottom: 21px;
+}
+.buttonsContainer{
+    display: flex;
+}
+.buttonUserContainer{
+    margin-top: 49px;
+}
+.buttonsAdminContainer{
+    margin-top: 31px;
+}
+.forwardButtonBlock{
+    margin-left: 15px;
+}
+
+
+.userReplyContainer h2{
+    color: #343D46;
+    font-family: Roboto;
+    line-height: 26px;
+}
+.header1{
+    font-size: 22px;
+    font-weight: 500;
+}
+.header2{
+    font-size: 16px;
+    height: 26px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.replyContainer p{
+    line-height: 26px;
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+}
+.paragraph1{
+    font-size: 16px;
+    font-weight: 500;
+}
+.paragraph2{
+    /*font-family: Roboto;*/
+    font-size: 14px;
+    margin-right: 7px;
+    color: #485865;
+}
+.paragraph3{
+    /*font-family: Roboto;*/
+    font-size: 14px;
+    color: #343D46;
+    font-weight: 500;
+}
+
+
+.filesList{
+    margin-top: 43px;
+}
+
+.replyFromToSignContainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 54px;
+}
+.replyFromToSign{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10.95%;
+}
+.replyToBlock{
+    display: flex;
+    flex-direction: row;
+}
+
+.replyTextContainer{
+    width: 73.24%;
+}

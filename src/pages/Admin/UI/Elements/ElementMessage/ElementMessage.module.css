@@ -1,0 +1,82 @@
+.general{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    border-radius: 8px;
+    padding-inline-start: 26px;
+    padding-inline-end: 15px;
+    margin-bottom: 4px;
+}
+
+
+.senderNamePart{
+    display: flex;
+    align-items: center;
+    width: 8.83%;
+    height: 36px;
+    color: #9AAFC4;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.messageThemePart{
+    display: flex;
+    align-items: center;
+    width: 8.7%;
+    height: 36px;
+    white-space: nowrap;
+    font-size: 14px;
+    margin-left: 18px;
+    color: #1A1B1D;
+    font-family: Roboto;
+}
+
+.messageTextPart{
+    display: flex;
+    align-items: center;
+    width: 71.5%;
+    height: 21px;
+    color: #4F5B66;
+    font-size: 14px;
+    font-family: Roboto;
+    margin-left: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.messageDatePart{
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    color: #9AAFC4;
+    height: 26px;
+    margin-left: 2.71%;
+    font-size: 12px;
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid green;
+    background: transparent;
+    height: 19px;
+    width: 19px;
+    border-radius: 3px;
+    border: 1px solid #CDDCED;
+}
+
+input[type="checkbox"]:checked{
+    border: none;
+    background: #546EF8;
+}
+
+

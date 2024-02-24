@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from "../../pages/MainPage/components/aboutUs/AboutUs.module.css";
+import classes from "../../pages/Design/MainPage/components/aboutUs/AboutUs.module.css";
 import classes1 from "./CarrouselType3.module.css";
 import SliderButtons from "../CarrouselType2/UI/SliderButtons/SliderButtons";
 import {useSpringCarousel} from "react-spring-carousel";

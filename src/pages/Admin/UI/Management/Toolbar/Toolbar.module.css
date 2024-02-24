@@ -1,0 +1,42 @@
+
+
+.general{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 97px;
+    background: #E8EDFC;
+    padding-left: 1.82%;
+    padding-right: 1.82%;
+}
+
+.tools{
+    width: 85.05%;
+}
+
+.toolsDesign{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchTools{
+    width: 513px;
+}
+.otherTools{
+    width: 309px;
+}
+
+
+.filterPopupButton{
+    padding-inline: 0;
+    padding-block: 0;
+    height: 29px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.filterPopupButton:focus{
+
+}

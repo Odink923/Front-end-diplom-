@@ -1,0 +1,15 @@
+
+.forwardButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 119px;
+    background: transparent;
+    color: #546EF8;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #546EF8;
+    font-size: 16px;
+    font-family: Roboto;
+}

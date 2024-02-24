@@ -1,0 +1,29 @@
+.popupContainer{
+    display: flex;
+    position: absolute;
+    left: 750px;
+    top: 75px;
+    flex-direction: column;
+    width: 150px;
+    height: 96px;
+    font-family: Inter;
+}
+
+.popupButton{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-inline-start: 13px;
+    background: #FFF;
+    height: 32px;
+    width: 100%;
+    border: none;
+    color: #343D46;
+    font-size: 14px;
+
+}
+
+.popupButton:hover{
+    background: #546EF8;
+    color: #FFF;
+}
