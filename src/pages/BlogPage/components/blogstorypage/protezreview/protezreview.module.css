@@ -47,7 +47,7 @@
     color: #2D3361;
     height: 58px;
     font-feature-settings: 'ss12' on;
-    font-family: Unbounded;
+    font-family: Unbounded, serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
@@ -60,7 +60,7 @@
 .spanParagraphLayout1{
     color: #2D3361;
     font-feature-settings: 'ss12' on;
-    font-family: Unbounded;
+    font-family: Unbounded, serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;

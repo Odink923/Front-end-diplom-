@@ -85,12 +85,13 @@
     border-radius: 5px;
 }
 .dropdownMenuBlock{
-    align-items: flex-end;
+    align-items: center;
     display: inline-flex;
     flex: 0 0 auto;
     flex-direction: column;
     gap: 4px;
     position: relative;
+
 }
 .dropdownMenuImage{
     background-color: #F2F5FF;
@@ -110,7 +111,6 @@
     font-size: 20px;
     line-height: 150%;
     letter-spacing: -0.22px;
-
 
 }
 

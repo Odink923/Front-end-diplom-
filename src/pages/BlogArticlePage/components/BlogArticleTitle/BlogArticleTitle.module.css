@@ -1,0 +1,232 @@
+.box {
+    display: flex;
+    position: static;
+    width: 100%;
+    height: 1365px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+.rectangle {
+    background: linear-gradient(95deg, #A0A9C1 14.72%, #E0E3FF 103.96%);
+    border-radius: 0 0 60px 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: flex-start;
+    position: static;
+    flex-direction: column;
+    display: flex;
+}
+
+
+.path{
+    position: relative;
+    display: flex;
+    margin-top: 37px;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 57px;
+    box-sizing: border-box;
+
+}
+.pathFrame{
+    margin-left: 5.21%;
+    height: fit-content;
+}
+
+/*////////////Path component//////////*/
+
+.frame{
+    align-items: center;
+    display: inline-flex;
+    gap: 6px;
+    position: relative;
+    height: fit-content;
+}
+
+.textWrapper{
+    color: #D1D8F4;
+    font-family: Unbounded-Regular, serif;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: -0.154px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+.vector {
+    position: relative;
+
+}
+.div{
+    color: #D1D8F4;
+    font-family: Unbounded-Bold, serif;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: -0.154px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+/*////////////////////////*/
+
+
+
+.container{
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    height: fit-content;
+}
+
+.contentBlock{
+    position: relative;
+    width: 100%;
+    margin: 0 5.21% 75px;
+
+}
+
+
+.frame2{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+}
+.row{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    gap: 5.21%;
+    margin-bottom: 23px;
+}
+.title{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+.label {
+    height: fit-content;
+    display: flex;
+}
+
+.textWrapper2 {
+    color: #2D3361;
+    font-family: Unbounded-Regular, serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -0.52px;
+    line-height: 120%;
+    text-transform: uppercase;
+    font-style: normal;
+    white-space: nowrap;
+}
+@media (max-width: 1670px) {
+    .textWrapper2{
+        white-space: normal;
+    }
+}
+
+.label2 {
+    height: fit-content;
+    display: flex;
+    width: fit-content;
+
+}
+
+.textWrapper3 {
+    color: #8C96C1;
+    font-family: Unbounded-Regular, serif;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: -0.71px;
+    line-height: 120%;
+    text-transform: uppercase;
+    font-style: normal;
+}
+.box2 {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #D4D8FF;
+    border-radius:60px;
+    left: 0;
+    align-items: flex-start;
+    flex-grow: 1;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+
+.viewMore{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.textFooter{
+    margin-left: -9px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-right: 42px;
+     width: fit-content;
+    box-sizing: border-box;
+    gap: 38px;
+}
+
+.textWrapper4{
+    color: #5D638C;
+    font-family: Unbounded-Regular, serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: -0.18px;
+    margin: 0;
+}
+
+
+.date{
+    display: flex;
+    position: relative;
+    height: fit-content;
+    align-items: flex-end;
+}
+.dateText{
+    color: #D1D8F4;
+    font-family: Unbounded-Regular, serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: -0.18px;
+    margin: 0;
+    text-align: right;
+}

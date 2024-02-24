@@ -42,7 +42,7 @@
 .spanTitleLayout{
     color: #2D3361;
     font-feature-settings: 'ss12' on;
-    font-family: Unbounded;
+    font-family: Unbounded, serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
@@ -51,18 +51,18 @@
     text-transform: uppercase;
 }
 .spanTitle1{
-    margin: 138px 0% 0% 13.7%;
+    margin: 138px 0 0 13.7%;
 }
 .spanTitle2{
     text-align: start;
-    margin: 120px 0px 0px 80px;
+    margin: 120px 0 0 80px;
 }
 
 
 .spanParagraphLayout{
     color: #2D3361;
     font-feature-settings: 'ss12' on;
-    font-family: Unbounded;
+    font-family: Unbounded, serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
@@ -70,34 +70,34 @@
     letter-spacing: -0.198px;
 }
 .spanParagraph1{
-    margin: 14px 0px 0px 100px;
+    margin: 14px 0 0 100px;
 }
 .spanParagraph2{
-    margin: 44px 0px 0px 80px;
+    margin: 44px 0 0 80px;
 }
 .spanAltParagraphLayout{
     color: #2D3361;
-    font-family: Unbounded;
+    font-family: Unbounded, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 30px */
 }
 .spanAltParagraph1{
-    margin: 205px 0px 0px 85px;
+    margin: 205px 0 0 85px;
 }
 
 
 .profileEnumeration1{
     width: 615px;
     height: 376px;
-    margin: 53px 0px 0px 75px;
+    margin: 53px 0 0 75px;
     padding-inline-start: 40px;
 }
 .profileEnumeration2{
     width: 615px;
     height: 152px;
-    margin: 44px 0px 0px 55px;
+    margin: 44px 0 0 55px;
     padding-inline-start: 40px;
 }
 ul.profileEnumeration1 li, ul.profileEnumeration2 li{

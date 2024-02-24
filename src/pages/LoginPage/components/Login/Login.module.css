@@ -1,0 +1,109 @@
+.box {
+    display: flex;
+    position: static;
+    height: 1078px;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.rectangle {
+    background: linear-gradient(95deg, #A0A9C1 14.72%, #E0E3FF 103.96%);
+    border-radius: 0 0 60px 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: flex-start;
+    position: static;
+    flex-direction: column;
+    display: flex;
+}
+.login{
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    margin-top: 300px;
+}
+.frameScreen {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    width: 33.54%;
+}
+
+.div {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 18px;
+    position: relative;
+}
+
+.divWrapper {
+    align-items: center;
+    background: linear-gradient(180deg, rgba(211.22, 217.06, 247.76, 0.8) 0%, rgba(219.88, 225.02, 252.01, 0.7) 100%);
+    border-radius: 49px;
+    display: flex;
+    overflow: hidden;
+    padding: 19px 40px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.textWrapper2 {
+    color: #8C96C1;
+    font-family: Unbounded-Light, serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.22px;
+    line-height: 150%;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.frame2 {
+    align-items: center;
+    background: linear-gradient(180deg, rgba(211.22, 217.06, 247.76, 0.8) 0%, rgba(219.88, 225.02, 252.01, 0.7) 100%);
+    border-radius: 49px;
+    display: flex;
+    gap: 454px;
+    overflow: hidden;
+    padding: 19px 40px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.frame3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 261px;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.textWrapper3 {
+    color: #5D638C;
+    font-family: Unbounded-Regular, serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    line-height: 150%;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+

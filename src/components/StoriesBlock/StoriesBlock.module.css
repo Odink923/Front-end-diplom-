@@ -1,0 +1,58 @@
+.block{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 161px;
+    margin-left: 5.21%;
+    width: 78.18%;
+    flex-grow: 1;
+    margin-bottom: 178px;
+}
+.content{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 122px;
+    margin-bottom: 79px;
+}
+.nextFrame{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+.more{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: fit-content;
+}
+.textWrapper3 {
+    color: #2D3361;
+    font-family: Unbounded-Regular, serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-top: -1px;
+    margin-bottom: -10px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.scroll{
+    position: relative;
+    width: 16.61%;
+    height: auto;
+}

@@ -15,12 +15,12 @@
     flex-direction: column;
 }
 .subBlockDesign1{
-    margin: 82px 0px 0px 5.21%;
+    margin: 82px 0 0 5.21%;
     width: 697px;
     height: auto;
 }
 .subBlockDesign2{
-    margin: 82px 0% 0% 1.41%;
+    margin: 82px 0 0 1.41%;
     width: 784px;
     height: 723px;
     flex-shrink: 0;
@@ -34,21 +34,20 @@
 .invitationTitle{
     color: #F2F5FF;
     font-feature-settings: 'ss12' on;
-    font-family: Unbounded;
+    font-family: Unbounded, serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: 120%; /* 57.6px */
     letter-spacing: -0.528px;
     text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 31px;
+    margin: 0 0 31px 0;
 }
 
 .invitationParagraph{
     color: #F2F5FF;
     font-feature-settings: 'ss12' on;
-    font-family: Unbounded;
+    font-family: Unbounded, serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
@@ -68,7 +67,7 @@
 
 .invitationEnumeration{
     width: 640px;
-    margin: 0px 0px 11px 0px;
+    margin: 0 0 11px 0;
     padding-inline-start: 12px;
 }
 ul.invitationEnumeration li{

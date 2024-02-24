@@ -39,7 +39,7 @@
     align-items: flex-start;
     display: inline-flex;
     gap: 6px;
-    position: absolute;
+    position: relative;
 }
 
 .textWrapper{

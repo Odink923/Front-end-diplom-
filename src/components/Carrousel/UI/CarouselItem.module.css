@@ -5,13 +5,13 @@
     border-radius: 60px;
 }
 .title{
-    font-family: Unbounded-Regular;
+    font-family: Unbounded-Regular, serif;
     font-size: 32px;
     color: #2D3361;
     margin-top: 22px;
 }
 .description{
-    font-family: Unbounded-Light;
+    font-family: Unbounded-Light, serif;
     font-size: 24px;
     color: #2D3361;
     margin-top: 36px;

@@ -9,7 +9,7 @@ const Logo = () => {
         <div className={classes.box}>
             <div className={classes.rectangle}>
 
-                    <Navbar></Navbar>
+                <Navbar></Navbar>
 
                 <div className={classes.text}>
                     <div className={classes.label}>
