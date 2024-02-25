@@ -41,7 +41,8 @@ const AboutCenterProtez = ({inView}) => {
                             можливість відвідати центр і так далі тому подібне. </animated.div>
                         <animated.div style={showDownOpacity} className={classes.reusableItem}>
                             {/*if bug use display flex*/}
-                           <HorizontalLineButton>Відвідати центр</HorizontalLineButton>
+                           <HorizontalLineButton>
+                               Відвідати центр</HorizontalLineButton>
 
                         </animated.div>
                     </div>

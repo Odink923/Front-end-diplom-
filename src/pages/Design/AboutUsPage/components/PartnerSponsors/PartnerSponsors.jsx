@@ -1,18 +1,23 @@
 import React from 'react';
-import classes from './PartnerSponsors.module.css'
+import classes from "./PartnerSponsors.module.css";
 import HorizontalLineButton from "../../../../../components/HorizontalLineButton/HorizontalLineButton";
-const PartnerSponsors = ({title, role}) => {
+
+const PartnerSponsors = ({title, role,description}) => {
     return (
         <div className={classes.all}>
             <div className={classes.conentTitle}>
-                <div className={classes.title}>{title}</div>
+                <div className={classes.title}><div>{title}</div>
+                    <div className={classes.titleDescription}>{description}</div>
+
+                    </div>
+
                 <div className={classes.reusableItemContent}>
 
                     <HorizontalLineButton>
                         <div>
-                        Стати {role}ом
+                            Стати {role}
                         </div>
-                </HorizontalLineButton>
+                    </HorizontalLineButton>
                 </div>
             </div>
             <div className={classes.contentIcons}>

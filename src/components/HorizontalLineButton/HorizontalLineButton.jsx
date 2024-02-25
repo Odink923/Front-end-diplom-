@@ -3,6 +3,7 @@ import {animated, useSpring} from "@react-spring/web";
 import classes from "./HorizontalLineButton.module.css";
 
 const HorizontalLineButton = ({children}) => {
+    {/*If bug use display flex*/}
     const divRef = useRef(null);
     const [divWidth, setDivWidth] = useState(0);
     const [isHovered, setIsHovered] = useState(false);

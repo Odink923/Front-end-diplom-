@@ -84,6 +84,7 @@
     line-height: 150%; /* 30px */
 }
 .spanAltParagraph1{
+    display: flex;
     margin: 205px 0 0 85px;
 }
 
@@ -121,4 +122,11 @@ ul.profileEnumeration1 li, ul.profileEnumeration2 li{
     border-radius: 60px;
     background: #D4D8FF;
     margin: 120px 0px 0px 100px
+}
+
+
+.reusableItemContent{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
 }

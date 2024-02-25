@@ -11,6 +11,7 @@ import CustomWaypoint from "../../../components/CustomWaypoint/CustomWaypoint";
 import {useSpring, animated} from "react-spring";
 import PartnerSponsors from "./components/PartnerSponsors/PartnerSponsors";
 import classes from "./MainPage.module.css"
+import NavMenu from "../../../components/NavMenu/NavMenu";
 const MainPage = () => {
     const parallaxRef = useRef();
     const scrollToPage = (pageNumber) => {
@@ -58,20 +59,15 @@ const MainPage = () => {
             </ParallaxLayer>
 
             <ParallaxLayer sticky={{start:1, end:6}}  style={{ width:"20%", height:"20%",   top:"252px"}} >
-                <div style={{display:"flex",marginLeft:"1700px", }}>
-                    <div style={{display:"flex",fontFamily:"Unbounded-Light", fontSize:"14px", flexDirection:"column",color:"#8C96C1", justifyContent:"space-between",marginRight:"19px",alignItems:"end"}}>
-                        <span onClick={()=>scrollToPage(0)}>Інтро</span>
-                        <span onClick={()=>scrollToPage(0.9)}>Про⠀протез</span>
-                        <span onClick={()=>scrollToPage(1.35)}>Послуги</span>
-                        <span onClick={()=>scrollToPage(1.9)} >Наш⠀центр</span>
-                        <span onClick={()=>scrollToPage(2.4)}>Відгуки</span>
-                        <span onClick={()=>scrollToPage(3.7)}>Партнери</span>
-                        <span onClick={()=>scrollToPage(4.8)}>Контакти</span>
-                    </div>
-                    <div >
-                        <div className={classes.gradient}></div>
-                    </div>
-                </div>
+               <NavMenu>
+                   <span onClick={()=>scrollToPage(0)}>Інтро</span>
+                   <span onClick={()=>scrollToPage(0.9)}>Про⠀протез</span>
+                   <span onClick={()=>scrollToPage(1.35)}>Послуги</span>
+                   <span onClick={()=>scrollToPage(1.9)} >Наш⠀центр</span>
+                   <span onClick={()=>scrollToPage(2.4)}>Відгуки</span>
+                   <span onClick={()=>scrollToPage(3.7)}>Партнери</span>
+                   <span onClick={()=>scrollToPage(4.8)}>Контакти</span>
+               </NavMenu>
             </ParallaxLayer>
 
         </Parallax>

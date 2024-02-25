@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Profile.module.css";
 import UIButton3 from "../../../../../components/UIButton3/UIButton3";
+import HorizontalLineButton from "../../../../../components/HorizontalLineButton/HorizontalLineButton";
 
 const Profile = () => {
 
@@ -35,10 +36,12 @@ const Profile = () => {
                             <li><span className={`${classes.spanParagraphLayout}`}>спосіб самовираження;</span></li>
                             <li><span className={`${classes.spanParagraphLayout}`}>можливість проявити свою креативність.</span></li>
                         </ul>
-                        <span className={`${classes.spanAltParagraphLayout} ${classes.spanAltParagraph1}`}>Дізнатися більше</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="237" height="25" style={{margin: "-10px 0px 0px 85"}} viewBox="0 0 237 25" fill="none">
-                            <path d="M-4.82991e-07 12.249L234.5 12.25M234.5 12.25L224.75 0.999967M234.5 12.25L224.75 23.2986" stroke="#2D3361" stroke-width="3"/>
-                        </svg>
+
+                        <div className={`${classes.spanAltParagraphLayout} ${classes.spanAltParagraph1}`}>
+                            {/*If bug use display flex*/}
+                            <HorizontalLineButton><div >Дізнатися більше</div></HorizontalLineButton>
+                        </div>
+
                     </div>
                 </div>
             </div>

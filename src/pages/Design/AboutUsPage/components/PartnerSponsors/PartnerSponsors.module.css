@@ -1,14 +1,25 @@
 
 .all{
     margin-left: 5.21%;
-    padding-top: 187px;
+    padding-top: 100px;
     font-family: "Unbounded-Regular";
+    padding-bottom: 100px;
 
 }
 
 .title{
     font-size: 48px;
     margin-right: 22px;
+    display: flex;
+    width: 70%;
+    color: #2D3361;
+    flex-direction: column;
+}
+.titleDescription{
+    font-size: 18px;
+    font-family: "Unbounded-Light";
+
+
 }
 .conentTitle{
     display: flex;

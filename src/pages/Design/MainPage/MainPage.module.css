@@ -14,11 +14,3 @@
     overflow-x: hidden;
 }
 
-.gradient {
-    border-radius: 20px;
-    width: 6px;
-    height: 423px;
-
-    background: linear-gradient(to bottom, #909AC1, #D1D8F4);
-    /* Інші стилі, які вам потрібні */
-}
