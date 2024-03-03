@@ -1,0 +1,11 @@
+.inputDate{
+    width: 354px;
+    height: 48px;
+    background: #E9EEFF;
+    color: #343D46;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-size: 16px;
+    border-color: transparent;
+    padding-inline-start: 10px;
+}

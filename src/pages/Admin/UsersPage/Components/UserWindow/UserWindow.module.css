@@ -1,0 +1,57 @@
+.userWindowContainer{
+    width: 81.4%;
+    height: 896px;
+    padding: 22px 1.77% 0px 24px;
+    background: #FFF;
+}
+
+.userMetaContainer{
+    display: flex;
+    margin-bottom: 23px;
+}
+.userMeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30.66%;
+}
+.userMeta h2{
+    font-family: Roboto;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 19px;
+    color: #343D46;
+
+}
+.userAvatar{
+    height: 108px;
+    width: 108px;
+    background: #CDDCED;
+    border-radius: 3px;
+    border: none;
+}
+
+.paragraphStyle1 {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #485865;
+    margin: 0;
+}
+.paragraphStyle1Design1{
+    padding-left: 19px;
+}
+
+.privateInfoContainer{
+    display: flex;
+    width: 50.54%;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    height: 189px;
+}
+
+.privateInfoBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 79px;
+}

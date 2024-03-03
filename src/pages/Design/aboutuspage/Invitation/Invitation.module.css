@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+.invitationGeneral{
+    display: flex;
+    border-radius: 60px;
+    /*flex-wrap: wrap;*/
+    background: linear-gradient(326deg, #2D3361 -12.27%, #BAC0DA 116.08%);
+    width: 100%;
+    min-height: 949px;
+    flex-shrink: 0;
+}
+
+.invitationSubBlock{
+    display: flex;
+    flex-direction: column;
+}
+.subBlockDesign1{
+    margin: 82px 0px 0px 5.21%;
+    width: 697px;
+    height: auto;
+}
+.subBlockDesign2{
+    margin: 82px 0% 0% 1.41%;
+    width: 784px;
+    height: 723px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #D4D8FF;
+}
+.subBlockDesign3{
+    max-width: 50%;
+}
+
+.invitationTitle{
+    color: #F2F5FF;
+    font-feature-settings: 'ss12' on;
+    font-family: Unbounded;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+    letter-spacing: -0.528px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 31px;
+}
+
+.invitationParagraph{
+    color: #F2F5FF;
+    font-feature-settings: 'ss12' on;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 180%; /* 32.4px */
+    letter-spacing: -0.198px;
+    margin: 0;
+}
+.paragraphDesign1{
+    margin-bottom: 11px;
+}
+.paragraphDesign2{
+    margin-bottom: 1px;
+}
+.paragraphDesign3{
+    margin-bottom: 62px;
+}
+
+.invitationEnumeration{
+    width: 640px;
+    margin: 0px 0px 11px 0px;
+    padding-inline-start: 12px;
+}
+ul.invitationEnumeration li{
+    margin-bottom: 33px;
+    list-style-image: url("../../UI/TextDecorations/ListBullets/ListBullet2.svg");
+}
+
+@media only screen and (max-width: 1586px) {
+    .subBlockDesign2{
+        width: 588px;
+        height: 542px;
+    }
+}
+@media only screen and (max-width: 1393px) {
+    .subBlockDesign2{
+        width: 392px;
+        height: 362px;
+    }
+}
+@media only screen and (max-width: 1183px) {
+    .invitationGeneral{
+        flex-wrap: wrap;
+    }
+}
