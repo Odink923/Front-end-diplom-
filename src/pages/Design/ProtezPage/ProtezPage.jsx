@@ -19,15 +19,15 @@ const ProtezPage = () => {
     return (
         <Parallax ref={parallaxRef} style={{background: "#F2F5FF"}} pages={5.5}>
 
-            <ParallaxLayer offset={0.5}>
+            <ParallaxLayer offset={0.7}>
             <Material></Material>
             </ParallaxLayer>
 
-            <ParallaxLayer offset={0} speed={4}>
+            <ParallaxLayer offset={0} factor={40} speed={4}>
                 <BionicHandle></BionicHandle>
             </ParallaxLayer>
 
-            <ParallaxLayer offset={1.5}>
+            <ParallaxLayer offset={1.7}>
             <CarrouselProtezPage></CarrouselProtezPage>
             </ParallaxLayer>
 
@@ -41,7 +41,7 @@ const ProtezPage = () => {
             <ParallaxLayer  speed={1.3} offset={2.8}>
                 <Profile></Profile>
             </ParallaxLayer>
-            <ParallaxLayer sticky={{start:0.8, end:5.5}}  style={{ width:"20%", height:"20%", right:"0px",  top:"252px"}} >
+            <ParallaxLayer sticky={{start:0.9, end:5.5}}  style={{ width:"20%", height:"20%", right:"0px",  top:"252px"}} >
                 <NavMenu >
                     <span onClick={()=>scrollToPage(0)}>Інтро</span>
                     <span onClick={()=>scrollToPage(0.6)}>Переваги</span>

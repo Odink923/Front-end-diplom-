@@ -19,8 +19,6 @@ const MainPage = () => {
     };
 
 
-
-
     return (
         <Parallax ref={parallaxRef} style={{background: "#F2F5FF"}} pages={7}>
 
@@ -36,7 +34,7 @@ const MainPage = () => {
 
             <ParallaxLayer offset={2}>
                 <CustomWaypoint>
-                <AboutCenterProtez ></AboutCenterProtez>
+                <AboutCenterProtez></AboutCenterProtez>
                 </CustomWaypoint>
             </ParallaxLayer>
 

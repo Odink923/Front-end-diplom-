@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './BlogArticleTitle.module.css'
-import Navbar from "../../../../components /Navbar/Navbar";
+import Navbar from "../../../../../components/Navbar/Navbar";
+
 
 const BlogArticleTitle = () => {
     return (
