@@ -1,4 +1,6 @@
 import './App.css';
+import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
+import {ParallaxProvider} from "react-scroll-parallax";
 import Cursor from "./pages/Design/UI/Cursor/Cursor";
 import ProtezPage from "./pages/Design/protezpage/ProtezPage";
 import MainPage from "./pages/Design/mainpage/MainPage";
@@ -22,14 +24,14 @@ function App() {
         <div className="App">
             <Cursor></Cursor>
 
-            {/*<BrowserRouter>*/}
-            {/*    <Routes>*/}
-            {/*        <Route path={"/"} element={<ServicesPage/>}/>*/}
-            {/*        <Route path={"/protezPage"} element={<ProtezPage/>}/>*/}
-            {/*        <Route path={"/teamPage"} element={<TeamPage/>}/>*/}
-            {/*        <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>*/}
-            {/*    </Routes>*/}
-            {/*</BrowserRouter>*/}
+            <BrowserRouter>
+                <Routes>
+                    <Route path={"/"} element={<ServicesPage/>}/>
+                    <Route path={"/protezPage"} element={<ProtezPage/>}/>
+                    <Route path={"/teamPage"} element={<TeamPage/>}/>
+                    <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>
+                </Routes>
+            </BrowserRouter>
         </div>
     );
 }
