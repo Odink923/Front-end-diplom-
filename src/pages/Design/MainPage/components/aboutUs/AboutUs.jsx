@@ -5,7 +5,7 @@ import AboutUsSuperSubBlock1 from "./UI/AboutUsSuperSubBlock1";
 import AboutUsMediaRegionSubBlockRight from "./UI/AboutUsMediaRegionSubBlockRight";
 import AboutUsPhotoFrame1 from "./UI/AboutUsPhotoFrame1";
 import ArticleCardsComponent from "./UI/articleCardsComponent";
-import CarrouselType3 from "../../../../../components/CarrouselType3/CarrouselType3";
+import CarrouselType3 from "../../../UI/Carrousel/CarrouselType3/CarrouselType3";
 
 
 const AboutUs = () => {

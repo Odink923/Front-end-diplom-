@@ -1,5 +1,5 @@
 import React from 'react';
-import StoriesBlock from "../../../components/StoriesBlock/StoriesBlock";
+import StoriesBlock from "../UI/components/StoriesBlock/StoriesBlock";
 
 const BlogArticlesPage = () => {
     return (

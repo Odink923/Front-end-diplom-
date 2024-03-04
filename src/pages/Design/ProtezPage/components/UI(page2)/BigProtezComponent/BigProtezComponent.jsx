@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './BigProtezComponent.module.css'
-import ViewMoreButton from "../../../../../../components/ViewMoreButton/ViewMoreButton";
+import ViewMoreButton from "../../../../UI/Buttons/ViewMoreButton/ViewMoreButton";
 
 
 

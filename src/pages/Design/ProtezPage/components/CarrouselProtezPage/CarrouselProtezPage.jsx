@@ -1,5 +1,5 @@
 import React from 'react';
-import Carrousel from "../../../../../components/Carrousel/Carrousel";
+import Carrousel from "../../../UI/Carrousel/Carrousel/Carrousel";
 import classes from "./CarrouselProtezPage.module.css"
 
 const CarrouselProtezPage = () => {

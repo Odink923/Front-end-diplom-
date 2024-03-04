@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Invitation.module.css";
-import DarkButton from "../../../../../components/DarkButton/DarkButton";
-import UIButton2 from "../../../../../components/UIButton2/UIButton2";
+import DarkButton from "../../../UI/Buttons/DarkButton/DarkButton";
+import UIButton2 from "../../../UI/Buttons/UIButton2/UIButton2";
 
 const Invitation = () => {
     return(

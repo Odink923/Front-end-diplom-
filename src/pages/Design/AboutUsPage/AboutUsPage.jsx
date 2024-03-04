@@ -2,13 +2,13 @@ import React, {useRef} from 'react';
 import Title from "./components/Title/Title";
 import CarrouselProtezPage from "../ProtezPage/components/CarrouselProtezPage/CarrouselProtezPage";
 import WriteToUs from "../MainPage/components/WriteToUs/WriteToUs";
-import Footerr from "../../../components/Footer/Footerr";
+import Footerr from "../UI/Managament/Footer/Footerr";
 import Stats from "./components/Stats/Stats";
 import Invitation from "./components/Invitation/Invitation";
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
 import PartnerSponsors from "./components/PartnerSponsors/PartnerSponsors";
 import classes from "./AboutUsPage.module.css"
-import NavMenu from "../../../components/NavMenu/NavMenu";
+import NavMenu from "../UI/Managament/NavMenu/NavMenu";
 
 const AboutUsPage = () => {
     const parallaxRef = useRef();

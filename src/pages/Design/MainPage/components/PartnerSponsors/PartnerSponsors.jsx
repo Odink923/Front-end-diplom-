@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './PartnerSponsors.module.css'
-import HorizontalLineButton from "../../../../../components/HorizontalLineButton/HorizontalLineButton";
+import HorizontalLineButton from "../../../UI/components/HorizontalLineButton/HorizontalLineButton";
 const PartnerSponsors = ({title, role}) => {
     return (
         <div className={classes.all}>

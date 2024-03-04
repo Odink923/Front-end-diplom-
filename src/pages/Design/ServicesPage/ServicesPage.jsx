@@ -3,9 +3,9 @@ import ServicesTitle from "./components/ServicesTitle/ServicesTitle";
 import BestOfUs from "./components/BestOfUs/BestOfUs";
 import Material from "../ProtezPage/components/Material/Material";
 import WriteToUs from "../MainPage/components/WriteToUs/WriteToUs";
-import Footerr from "../../../components/Footer/Footerr";
+import Footerr from "../UI/Managament/Footer/Footerr";
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
-import NavMenu from "../../../components/NavMenu/NavMenu";
+import NavMenu from "../UI/Managament/NavMenu/NavMenu";
 
 const ServicesPage = () => {
     const parallaxRef = useRef();

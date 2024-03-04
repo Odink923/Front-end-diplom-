@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './AboutCenterProtez.module.css'
-import HorizontalLineButton from "../../../../../components/HorizontalLineButton/HorizontalLineButton";
+import HorizontalLineButton from "../../../UI/components/HorizontalLineButton/HorizontalLineButton";
 import {useSpring,animated} from "react-spring";
 const AboutCenterProtez = ({inView}) => {
     const showLeftOpacity = useSpring({

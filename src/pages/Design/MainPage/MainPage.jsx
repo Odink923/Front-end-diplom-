@@ -5,13 +5,13 @@ import BionicProtez from "./components/BionicProtez/BionicProtez";
 import AboutCenterProtez from "./components/AboutCenterProtez/AboutCenterProtez";
 import AboutUs from "./components/aboutUs/AboutUs";
 import WriteToUs from "./components/WriteToUs/WriteToUs";
-import Footerr from "../../../components/Footer/Footerr";
+import Footerr from "../UI/Managament/Footer/Footerr";
 import {Parallax, ParallaxLayer } from "@react-spring/parallax";
-import CustomWaypoint from "../../../components/CustomWaypoint/CustomWaypoint";
+import CustomWaypoint from "../UI/components/CustomWaypoint/CustomWaypoint";
 import {useSpring, animated} from "react-spring";
 import PartnerSponsors from "./components/PartnerSponsors/PartnerSponsors";
 import classes from "./MainPage.module.css"
-import NavMenu from "../../../components/NavMenu/NavMenu";
+import NavMenu from "../UI/Managament/NavMenu/NavMenu";
 const MainPage = () => {
     const parallaxRef = useRef();
     const scrollToPage = (pageNumber) => {

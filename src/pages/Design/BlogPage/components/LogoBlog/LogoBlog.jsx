@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './LogoBlog.module.css'
-import Navbar from "../../../../../components/Navbar/Navbar";
-import ReadAll from "../../../../../components/ReadAll/ReadAll";
+import Navbar from "../../../UI/Managament/Navbar/Navbar";
+import ReadAll from "../../../UI/components/ReadAll/ReadAll";
 
 const LogoBlog = () => {
     return (

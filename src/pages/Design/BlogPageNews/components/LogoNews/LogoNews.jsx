@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "../../../../../components/Navbar/Navbar";
+import Navbar from "../../../UI/Managament/Navbar/Navbar";
 import classes from "./LogoNews.module.css"
 import CarrouselNews from "./UI/CarrouselNews/CarrouselNews";
 const LogoNews = () => {

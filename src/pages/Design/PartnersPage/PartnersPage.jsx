@@ -1,5 +1,5 @@
 import React from 'react';
-import DropDownList from "../../../components/DropDownList/DropDownList";
+import DropDownList from "../UI/components/DropDownList/DropDownList";
 import DropDownItem from "./components/DropDownItem/DropDownItem";
 
 const PartnersPage = () => {

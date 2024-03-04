@@ -1,12 +1,12 @@
 import React, {Profiler, useRef} from 'react';
 import CarrouselProtezPage from "./components/CarrouselProtezPage/CarrouselProtezPage";
 import WriteToUs from "../MainPage/components/WriteToUs/WriteToUs";
-import Footerr from "../../../components/Footer/Footerr";
+import Footerr from "../UI/Managament/Footer/Footerr";
 import BionicHandle from "./components/BionicHandle/BionicHandle";
 import Material from "./components/Material/Material";
 import Profile from "./components/profile/Profile";
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
-import NavMenu from "../../../components/NavMenu/NavMenu";
+import NavMenu from "../UI/Managament/NavMenu/NavMenu";
 
 
 const ProtezPage = () => {

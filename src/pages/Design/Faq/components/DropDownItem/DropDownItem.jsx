@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {animated, useSpring} from "react-spring";
 import classes from "./DropDownItem.module.css";
-import UiButton2 from "../../../../../components/UIButton2/UIButton2";
+import UiButton2 from "../../../UI/Buttons/UIButton2/UIButton2";
 
 const DropDownItem = ({title,upItem,downItem}) => {
     const [item,setItem] = useState(false);

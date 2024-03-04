@@ -2,7 +2,7 @@ import React from 'react';
 import {useSpringCarousel} from "react-spring-carousel";
 import classes from "./CarrouselNews.module.css"
 import CarrouselItemNews from "../CarrouselItemNews/CarrouselItemNews";
-import SliderButtons from "../../../../../../../components/CarrouselType2/UI/SliderButtons/SliderButtons";
+import SliderButtons from "../../../../../UI/Carrousel/CarrouselType2/UI/SliderButtons/SliderButtons";
 
 const CarrouselNews = ({mockedItems}) => {
     const {

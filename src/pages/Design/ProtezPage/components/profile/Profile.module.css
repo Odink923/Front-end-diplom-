@@ -103,7 +103,7 @@
 }
 ul.profileEnumeration1 li, ul.profileEnumeration2 li{
     margin-bottom: 33px;
-    list-style-image: url("../../../../../components/ListBullets/ListBullet1.svg");
+    list-style-image: url("../../../UI/TextDecorations/ListBullets/ListBullet1.svg");
 }
 
 

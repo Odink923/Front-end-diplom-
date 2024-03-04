@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Profile.module.css";
-import UIButton3 from "../../../../../components/UIButton3/UIButton3";
-import HorizontalLineButton from "../../../../../components/HorizontalLineButton/HorizontalLineButton";
+import UIButton3 from "../../../UI/Buttons/UIButton3/UIButton3";
+import HorizontalLineButton from "../../../UI/components/HorizontalLineButton/HorizontalLineButton";
 
 const Profile = () => {
 

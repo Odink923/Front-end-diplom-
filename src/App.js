@@ -1,5 +1,5 @@
 import './App.css';
-import Cursor from "./components/Cursor/Cursor";
+import Cursor from "./pages/Design/UI/Cursor/Cursor";
 import ProtezPage from "./pages/Design/ProtezPage/ProtezPage";
 import MainPage from "./pages/Design/MainPage/MainPage";
 import AboutUsPage from "./pages/Design/AboutUsPage/AboutUsPage";
@@ -20,7 +20,7 @@ function App() {
             <Cursor></Cursor>
             <BrowserRouter>
                 <Routes>
-                    <Route path={"/"} element={<BlogArticlesPage/>}/>
+                    <Route path={"/"} element={<MainPage/>}/>
                     <Route path={"/protezPage"} element={<ProtezPage/>}/>
                     <Route path={"/teamPage"} element={<TeamPage/>}/>
                     <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>

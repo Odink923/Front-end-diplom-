@@ -3,7 +3,7 @@ import classes from './BigProtezComponent.module.css'
 
 import ViewMoreButton from "../../../../../components/ViewMoreButton/ViewMoreButton";
 
-import ViewMoreButton from "../ViewMoreButton/ViewMoreButton";
+import ViewMoreButton from "../../Buttons/ViewMoreButton/ViewMoreButton";
 
 
 const BigProtezComponent = ({header, text}) => {

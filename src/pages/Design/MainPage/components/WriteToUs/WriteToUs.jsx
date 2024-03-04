@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './WriteToUs.module.css'
 import SendButton from "./UI/SendButton/SendButton";
 import DropList from "./UI/DropList/DropList";
-import UiButton2 from "../../../../../components/UIButton2/UIButton2";
+import UiButton2 from "../../../UI/Buttons/UIButton2/UIButton2";
 
 const WriteToUs = () => {
     return (

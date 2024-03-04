@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './BionicHandle.module.css'
-import Navbar from "../../../../../components/Navbar/Navbar";
+import Navbar from "../../../UI/Managament/Navbar/Navbar";
 import BigProtezComponent from "../UI(page2)/BigProtezComponent/BigProtezComponent";
 
 const BionicHandle = () => {

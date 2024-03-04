@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import CustomButton from "../../../Button/CustomButton";
+import CustomButton from "../../../../Buttons/CustomButton/CustomButton";
 import classes from "../../CarrouselType2.module.css";
 
 const SliderButtons = ({slideToNextItem,slideToPrevItem,slideToItem,mockedItems}) => {

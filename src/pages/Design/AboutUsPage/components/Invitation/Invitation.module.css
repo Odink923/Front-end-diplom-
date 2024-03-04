@@ -72,7 +72,7 @@
 }
 ul.invitationEnumeration li{
     margin-bottom: 33px;
-    list-style-image: url("../../../../../components/ListBullets/ListBullet2.svg");
+    list-style-image: url("../../../UI/TextDecorations/ListBullets/ListBullet2.svg");
 }
 
 @media only screen and (max-width: 1586px) {

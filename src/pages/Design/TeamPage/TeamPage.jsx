@@ -4,9 +4,9 @@ import DoctorRehabilitation from "./components/DoctorRehabilitation/DoctorRehabi
 import Leader from "./components/Leader/Leader";
 import EmployeeCardComponent from "./components/UI/EmployeeCardComponent/EmployeeCardComponent";
 import WriteToUs from "../MainPage/components/WriteToUs/WriteToUs";
-import Footerr from "../../../components/Footer/Footerr";
+import Footerr from "../UI/Managament/Footer/Footerr";
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
-import NavMenu from "../../../components/NavMenu/NavMenu";
+import NavMenu from "../UI/Managament/NavMenu/NavMenu";
 
 
 const TeamPage = () => {

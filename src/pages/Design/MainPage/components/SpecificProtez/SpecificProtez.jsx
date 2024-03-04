@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import classes from './SpecificProtez.module.css';
-import CarrouselType2 from "../../../../../components/CarrouselType2/CarrouselType2";
+import CarrouselType2 from "../../../UI/Carrousel/CarrouselType2/CarrouselType2";
 import {Waypoint} from "react-waypoint";
 import {useSpring} from "react-spring";
 

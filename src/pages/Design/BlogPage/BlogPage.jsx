@@ -7,8 +7,8 @@ import EmployeeCardComponent from "../TeamPage/components/UI/EmployeeCardCompone
 import classes from "./BlogPage.module.css"
 import AboutUs from "../MainPage/components/aboutUs/AboutUs";
 import WriteToUs from "../MainPage/components/WriteToUs/WriteToUs";
-import Footerr from "../../../components/Footer/Footerr";
-import NavMenu from "../../../components/NavMenu/NavMenu";
+import Footerr from "../UI/Managament/Footer/Footerr";
+import NavMenu from "../UI/Managament/NavMenu/NavMenu";
 const BlogPage = () => {
     const parallaxRef = useRef();
     const scrollToPage = (pageNumber) => {
