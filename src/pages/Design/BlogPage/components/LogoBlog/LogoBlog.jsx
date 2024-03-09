@@ -3,7 +3,7 @@ import classes from './LogoBlog.module.css'
 import Navbar from "../../../UI/Managament/Navbar/Navbar";
 import ReadAll from "../../../UI/components/ReadAll/ReadAll";
 
-const LogoBlog = () => {
+const LogoBlog = ({title}) => {
     return (
         <div className={classes.box}>
             <div className={classes.rectangle}>
@@ -13,7 +13,7 @@ const LogoBlog = () => {
                         <div className={classes.textContent}>
                             <div className={classes.label}>
                                 <div className={classes.textWrapper}>
-                                    БЛОГ
+                                    {title}
                                 </div>
                             </div>
                             <div className={classes.label3}>

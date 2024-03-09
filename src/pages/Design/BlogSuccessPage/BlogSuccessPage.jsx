@@ -1,19 +1,18 @@
 import React from 'react';
-import LogoNews from "./components/LogoNews/LogoNews";
+import LogoBlog from "../BlogPage/components/LogoBlog/LogoBlog";
 import StoriesBlock from "../BlogArticlePage/components/StoriesBlock/StoriesBlock";
-import AboutUs from "../MainPage/components/aboutUs/AboutUs";
-import AboutUsMedia from "./components/AboutUsMedia/AboutUsMedia";
+import Lifewithprotez from "./components/lifewithprotez/lifewithprotez";
 import classes from "../BlogPage/BlogPage.module.css";
 import EmployeeCardComponent from "../TeamPage/components/UI/EmployeeCardComponent/EmployeeCardComponent";
 import WriteToUs from "../MainPage/components/WriteToUs/WriteToUs";
 import Footerr from "../UI/Managament/Footer/Footerr";
 
-const BlogPageNews = () => {
+const BlogSuccessPage = () => {
     return (
         <div>
-            <LogoNews></LogoNews>
+            <LogoBlog></LogoBlog>
             <StoriesBlock></StoriesBlock>
-            <AboutUsMedia></AboutUsMedia>
+            <Lifewithprotez title="життя з протезом"></Lifewithprotez>
             <div style={{marginTop:"150px"}} className={classes.containerForCards}>
                 <EmployeeCardComponent src={"#"} fullName={"Історії успіху"}
                                        description={"Короткий опис того за що відповідає Короткий опис того за що відповідає "}/>
@@ -30,4 +29,4 @@ const BlogPageNews = () => {
     );
 };
 
-export default BlogPageNews;
+export default BlogSuccessPage;

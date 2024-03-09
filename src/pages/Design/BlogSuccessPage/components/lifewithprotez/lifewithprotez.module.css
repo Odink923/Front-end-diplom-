@@ -1,0 +1,40 @@
+
+
+.blogStorySuccessGeneral{
+    display: flex;
+    width: 100%;
+    height: 1024px;
+    border-radius: 60px;
+    background: linear-gradient(34deg, #B2B9D5 30.1%, #EAECFF 115.54%);
+
+}
+.blogStorySuccessSubGeneral{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.21%;
+    justify-content: center;
+
+}
+
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 78.5%;
+    justify-content: space-between;
+    margin-top: 91px;
+}
+
+.spanTitleLayout{
+    color: #2D3361;
+    width: 100%;
+    height: 58px;
+    font-feature-settings: 'ss12' on;
+    font-family: "Unbounded-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+
+
+    text-transform: uppercase;
+    margin: 0;
+}

@@ -27,7 +27,7 @@ const BlogPage = () => {
                 </div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} factor={40} speed={4}>
-                <LogoBlog></LogoBlog>
+                <LogoBlog title="Блог"></LogoBlog>
             </ParallaxLayer>
 
             <ParallaxLayer offset={1.5}>

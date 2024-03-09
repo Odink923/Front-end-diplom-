@@ -4,7 +4,7 @@ import CarrouselType2 from "../../../UI/Carrousel/CarrouselType2/CarrouselType2"
 import {Waypoint} from "react-waypoint";
 import {useSpring} from "react-spring";
 
-const SpecificProtez = ({inView}) => {
+const SpecificProtez = ({inView,title}) => {
 
     const mockedItems = [
         { id: 1, title: "3Д ДРУК",
@@ -38,7 +38,7 @@ const SpecificProtez = ({inView}) => {
 
     return (
         <div className={classes.box}>
-
+            <div className={classes.title}>{title}</div>
             <CarrouselType2 inView={inView}  mockedItems={mockedItems}></CarrouselType2>
             <div className={classes.other}>
 

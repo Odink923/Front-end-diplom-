@@ -1,17 +1,14 @@
 import './App.css';
 import Cursor from "./pages/Design/UI/Cursor/Cursor";
 import ProtezPage from "./pages/Design/ProtezPage/ProtezPage";
-import MainPage from "./pages/Design/MainPage/MainPage";
 import AboutUsPage from "./pages/Design/AboutUsPage/AboutUsPage";
 import TeamPage from "./pages/Design/TeamPage/TeamPage";
 import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
 import ServicesPage from "./pages/Design/ServicesPage/ServicesPage";
 import React from "react";
-import BlogPage from "./pages/Design/BlogPage/BlogPage";
-import BlogArticlePage from "./pages/Design/BlogArticlePage/BlogArticlePage";
-import BlogArticlesPage from "./pages/Design/BlogArticlesPage/BlogArticlesPage";
-
-
+import BlogPageNews from "./pages/Design/BlogPageNews/BlogPageNews";
+import BlogHistoryPage from "./pages/Design/BlogHistoryPage/BlogHistoryPage";
+import Faq from "./pages/Design/Faq/Faq";
 
 function App() {
 
@@ -20,7 +17,7 @@ function App() {
             <Cursor></Cursor>
             <BrowserRouter>
                 <Routes>
-                    <Route path={"/"} element={<MainPage/>}/>
+                    <Route path={"/"} element={<Faq/>}/>
                     <Route path={"/protezPage"} element={<ProtezPage/>}/>
                     <Route path={"/teamPage"} element={<TeamPage/>}/>
                     <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>

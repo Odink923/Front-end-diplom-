@@ -1,10 +1,18 @@
 import React from 'react';
 import DropDownList from "../UI/components/DropDownList/DropDownList";
 import DropDownItem from "./components/DropDownItem/DropDownItem";
+import WriteToUs from "../MainPage/components/WriteToUs/WriteToUs";
+import Footerr from "../UI/Managament/Footer/Footerr";
+import SpecificProtez from "../MainPage/components/SpecificProtez/SpecificProtez";
+import Navbar from "../UI/Managament/Navbar/Navbar";
 
 const Faq = () => {
     return (
         <div>
+            <Navbar></Navbar>
+            <div >
+            <SpecificProtez title="FAQ" inView={true}></SpecificProtez>
+            </div>
             <DropDownList>
                 <DropDownItem title={`Як довго зазвичай триває процес виготовлення протезу?`} upItem={true}></DropDownItem>
                 <DropDownItem title={`Які гарантії та сервісні послуги ви надаєте разом з протезами?`}></DropDownItem>
@@ -16,6 +24,8 @@ const Faq = () => {
                 <DropDownItem title={`Чи можливе індивідуалізоване налаштування біонічних протезів для  потреб користувача?`}></DropDownItem>
                 <DropDownItem title={`Які функції біонічних протезів можна програмувати та налаштовувати?`} downItem={true}></DropDownItem>
             </DropDownList>
+            <WriteToUs></WriteToUs>
+            <Footerr></Footerr>
         </div>
     );
 };

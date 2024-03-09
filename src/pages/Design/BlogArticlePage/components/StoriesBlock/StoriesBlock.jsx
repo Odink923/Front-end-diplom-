@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './StoriesBlock.module.css';
-import ContentBlock from '../ContentBlock/ContentBlock';
+import ContentBlock from '../../../UI/components/ContentBlock/ContentBlock';
 
 const StoriesBlock = () => {
     return (

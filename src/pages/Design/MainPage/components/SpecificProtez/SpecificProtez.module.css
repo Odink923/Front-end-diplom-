@@ -6,6 +6,12 @@
     max-width: 1920px;
 
 }
+.title{
+    margin-left: 5.2%;
+    font-size: 48px;
+    font-family: Unbounded-Regular;
+    margin-top: 41px;
+}
 .image {
     position: absolute;
     width: 644px;
