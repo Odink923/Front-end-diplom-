@@ -1,13 +1,13 @@
 import React from 'react';
 import classes from "./DarkButton.module.css";
 import PropTypes from "prop-types";
-const DarkButton = ({ property1 }) => {
+const DarkButton = ({ property1, onClick }) => {
     return (
-        <div className={classes.frame} >
+        <button onClick={onClick} className={classes.frame} >
             <div className={classes.text}>
                 {property1}
             </div>
-        </div>
+        </button>
 
     );
 };

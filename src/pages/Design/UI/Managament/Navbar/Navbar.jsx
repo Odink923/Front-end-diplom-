@@ -76,7 +76,9 @@ const Navbar = () => {
                             <span className={classes.span}>ENG/</span>
                             <span className={classes.textWrapper4}>УКР</span>
                         </p>
+                        <Link to={"/login"}>
                         <div className={classes.textWrapper5}>Увійти</div>
+                        </Link>
                         <DarkButton property1="Напишіть нам"></DarkButton>
                     </div>
                 </div>

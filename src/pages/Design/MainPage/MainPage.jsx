@@ -22,14 +22,16 @@ const MainPage = () => {
     return (
         <Parallax ref={parallaxRef} style={{background: "#F2F5FF"}} pages={7}>
 
-            <ParallaxLayer offset={0} speed={0.3}>
-                <Logo/>
-            </ParallaxLayer>
+
 
             <ParallaxLayer style={{marginTop: "-100px"}} offset={1} factor={10} speed={0}>
                 <CustomWaypoint>
                     <SpecificProtez></SpecificProtez>
                 </CustomWaypoint>
+            </ParallaxLayer>
+
+            <ParallaxLayer offset={0} speed={0.3}>
+                <Logo/>
             </ParallaxLayer>
 
             <ParallaxLayer offset={2}>

@@ -5,6 +5,7 @@ import classes from './Admin.module.css';
 import InboxMessagesList from './InboxPage/Components/InboxMessagesList/InboxMessagesList';
 import Users from '../Admin/Users/Users';
 import InboxMessageWindow from "./InboxPage/Components/InboxMessageWindow/InboxMessageWindow";
+import AdminReply from "./InboxPage/Components/InboxMessageWindow/AdminReply/AdminReply";
 
 const Admin = () => {
 
@@ -17,7 +18,7 @@ const Admin = () => {
 
                 {/* тут головні вікна, мб чілдреном */}
 
-                <InboxMessageWindow></InboxMessageWindow>
+                <InboxMessagesList></InboxMessagesList>
             </div>
         </div>
     );

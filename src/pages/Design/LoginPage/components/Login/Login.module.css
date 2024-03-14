@@ -27,7 +27,7 @@
     margin-top: 300px;
 }
 .frameScreen {
-    align-items: flex-end;
+
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -58,6 +58,7 @@
 
 .textWrapper2 {
     color: #8C96C1;
+    background-color: #8C96C1;
     font-family: Unbounded-Light, serif;
     font-size: 20px;
     font-weight: 300;
@@ -67,6 +68,7 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+
 }
 
 .frame2 {
@@ -85,11 +87,11 @@
 
 
 .frame3 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
+
+    display: flex;
+
     gap: 261px;
-    justify-content: flex-end;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -107,3 +109,20 @@
 }
 
 
+.formInput{
+    background: linear-gradient(to bottom right, #D3D9F8, #DCE1FC);
+    border-radius: 49px;
+    width: 172%;
+    border: none;
+    outline: none;
+    height: 68px;
+    margin-top: 22px;
+    padding-left: 49px;
+    color: #8C96C1;
+    padding-right: 49px;
+    cursor: none;
+    font-family: "Unbounded-Light";
+    font-size: 20px;
+    box-sizing: border-box;
+
+}
