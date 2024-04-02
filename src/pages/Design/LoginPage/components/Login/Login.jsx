@@ -2,13 +2,13 @@ import React, {useState} from 'react';
 import classes from './Login.module.css'
 import Navbar from "../../../UI/Managament/Navbar/Navbar";
 import DarkButton from "../../../UI/Buttons/DarkButton/DarkButton";
-import axios from "axios";
+ import axios from "axios";
 import {useNavigate} from 'react-router-dom';
 
 
 const Login = () => {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
+     const [username, setUsername] = useState('');
+     const [password, setPassword] = useState('');
     const navigate = useNavigate ();
 
     const handleUsernameChange = (e) => {
@@ -44,7 +44,7 @@ const Login = () => {
                     <div  className={classes.frameScreen}>
                         <div className={classes.div}>
                             <div>
-                                <input placeholder="Логін*" className={classes.formInput} value={username} onChange={handleUsernameChange}/>
+                                <input placeholder="Логін*" className={classes.formInput} value={username}  onChange={handleUsernameChange}/>
                             </div>
                             <div>
                                 <input placeholder="Пароль*" className={classes.formInput} type="password" value={password} onChange={handlePasswordChange}/>
