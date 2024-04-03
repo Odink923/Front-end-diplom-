@@ -89,8 +89,6 @@
 .frame3 {
 
     display: flex;
-
-    gap: 261px;
     justify-content: space-between;
     position: relative;
 }

@@ -1,40 +1,32 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import classes from './Login.module.css'
 import Navbar from "../../../UI/Managament/Navbar/Navbar";
 import DarkButton from "../../../UI/Buttons/DarkButton/DarkButton";
 import axios from "axios";
-import {useNavigate} from 'react-router-dom';
+import {Context} from "../../../../../index";
+import {useNavigate} from "react-router-dom";
+import {observer} from "mobx-react-lite";
 
 
 const Login = () => {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
-    const navigate = useNavigate ();
-
-    const handleUsernameChange = (e) => {
-        setUsername(e.target.value);
-    };
-
-    const handlePasswordChange = (e) => {
-        setPassword(e.target.value);
-    };
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-            const response = await axios.post('https://localhost:7038/api/user/Login', { "Name":`${username}`, "Password":`${password}` });
-            console.log('Response from server:', response.data);
-            // Обробляйте отриману відповідь від сервера тут
-            navigate('/');
-        } catch (error) {
-            console.error('Error:', error);
-            // Обробляйте помилки тут
-            setUsername(''); // присвоїти порожній рядок
-            setPassword('');
-        }
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('')
+    const {user} = useContext(Context);
+    const navigate =useNavigate();
+    const [hadler,setHandler] = useState(false);
 
 
-    };
+    const checkLogin=()=>{
+     user.login(email,password)
+
+    }
+    const registration = ()=>{
+        user.registration(email,password)
+    }
+    const changeHandler=()=>{
+        setHandler(true)
+    }
+
 
     return (
         <div className={classes.box}>
@@ -44,16 +36,24 @@ const Login = () => {
                     <div  className={classes.frameScreen}>
                         <div className={classes.div}>
                             <div>
-                                <input placeholder="Логін*" className={classes.formInput} value={username} onChange={handleUsernameChange}/>
+                                <input placeholder="Логін*" className={classes.formInput} onChange={e => setEmail(e.target.value)}
+                                       value={email}
+                                       type="text"/>
                             </div>
                             <div>
-                                <input placeholder="Пароль*" className={classes.formInput} type="password" value={password} onChange={handlePasswordChange}/>
+                                <input placeholder="Пароль*" className={classes.formInput} type="password"
+                                       onChange={e => setPassword(e.target.value)}
+                                       value={password}/>
                             </div>
                         </div>
                         <div className={classes.frame3}>
                             <div className={classes.textWrapper3}>Забули пароль?</div>
 
-                            <DarkButton  onClick={handleSubmit} property1="Увійти"/>
+                            { user.isAuth ?
+                                        navigate('/') :
+                                            <DarkButton onClick={checkLogin} property1="Увійти"/>
+
+                            }
                         </div>
                     </div>
                 </div>
@@ -62,4 +62,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default observer(Login);

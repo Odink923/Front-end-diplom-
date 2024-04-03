@@ -5,15 +5,22 @@ import AboutUsPage from "./pages/Design/AboutUsPage/AboutUsPage";
 import TeamPage from "./pages/Design/TeamPage/TeamPage";
 import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
 import ServicesPage from "./pages/Design/ServicesPage/ServicesPage";
-import React from "react";
-import BlogPageNews from "./pages/Design/BlogPageNews/BlogPageNews";
-import BlogHistoryPage from "./pages/Design/BlogHistoryPage/BlogHistoryPage";
-import Faq from "./pages/Design/Faq/Faq";
-import MainPage from "./pages/Design/MainPage/MainPage";
-import Admin from "./pages/Admin/Admin";
+import React, {useContext, useEffect} from "react";
 import Login from "./pages/Design/LoginPage/components/Login/Login";
+import {Context} from "./index";
+import {observer} from "mobx-react-lite";
+import MainPage from "./pages/Design/MainPage/MainPage";
 
 function App() {
+
+    const {user} = useContext(Context);
+    useEffect(() => {
+        if(localStorage.getItem('token')){
+            user.checkAuth();
+
+        }
+    }, []);
+
 
     return (
         <div className="App">
@@ -33,4 +40,4 @@ function App() {
     );
 }
 
-export default App;
+export default observer(App);

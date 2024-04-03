@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from "./DarkButton.module.css";
 import PropTypes from "prop-types";
+import {observer} from "mobx-react-lite";
 const DarkButton = ({ property1, onClick }) => {
     return (
         <button onClick={onClick} className={classes.frame} >
@@ -14,4 +15,4 @@ const DarkButton = ({ property1, onClick }) => {
 
 
 
-export default DarkButton;
+export default observer(DarkButton);
