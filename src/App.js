@@ -1,39 +1,29 @@
 import './App.css';
 import Cursor from "./pages/Design/UI/Cursor/Cursor";
-import ProtezPage from "./pages/Design/ProtezPage/ProtezPage";
-import AboutUsPage from "./pages/Design/AboutUsPage/AboutUsPage";
-import TeamPage from "./pages/Design/TeamPage/TeamPage";
 import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
-import ServicesPage from "./pages/Design/ServicesPage/ServicesPage";
-import React, {useContext, useEffect} from "react";
-import Login from "./pages/Design/LoginPage/components/Login/Login";
-import {Context} from "./index";
 import {observer} from "mobx-react-lite";
-import MainPage from "./pages/Design/MainPage/MainPage";
+import AppRouter from "./router/AppRouter";
+import {useContext, useEffect, useState} from "react";
+import {Context} from "./index";
+import {check} from "./http/userAPI";
 
 function App() {
 
-    const {user} = useContext(Context);
+    const {user} = useContext(Context)
+    const [loading, setLoading] = useState(true)
+
     useEffect(() => {
-        if(localStorage.getItem('token')){
-            user.checkAuth();
-
-        }
-    }, []);
-
+        check().then(data => {
+            user.setUser(true)
+            user.setIsAuth(true)
+        }).finally(() => setLoading(false))
+    }, [])
 
     return (
         <div className="App">
             <Cursor></Cursor>
             <BrowserRouter>
-                <Routes>
-                    <Route path={"/"} element={<MainPage/>}/>
-                    <Route path={"/protezPage"} element={<ProtezPage/>}/>
-                    <Route path={"/teamPage"} element={<TeamPage/>}/>
-                    <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>
-                    <Route path={"/servicesPage"} element={<ServicesPage/>} />
-                    <Route path={"/login"} element={<Login/>} />
-                </Routes>
+                <AppRouter></AppRouter>
             </BrowserRouter>
 
         </div>

@@ -24,6 +24,10 @@ const Navbar = () => {
         width: isHovered ? '100%' : '0%',
         config: { duration: 1000 },
     });
+    const logOut = () => {
+        user.setUser({})
+        user.setIsAuth(false)
+    }
 
     return (
             <div className={classes.component}>
@@ -81,7 +85,7 @@ const Navbar = () => {
                         </p>
 
                         {user.isAuth?
-                        <span onClick={()=> user.logout()} className={classes.textWrapper5}>{`Вихід`}</span>:
+                        <span onClick={()=> logOut()} className={classes.textWrapper5}>{`Вихід`}</span>:
                         <span onClick={()=>navigate('/login')} className={classes.textWrapper5}>{`Увійти`}</span>
                         }
                         <DarkButton property1="Напишіть нам"></DarkButton>

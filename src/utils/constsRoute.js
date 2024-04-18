@@ -4,3 +4,9 @@ export const ABOUTUS_ROUTE = '/aboutUsPage'
 export const MAIN_ROUTE = '/'
 export const SERVICES_ROUTE = '/servicesPage'
 export const LOGIN_ROUTE = '/login'
+export const FAQ_ROUTE = '/faq'
+export const PARTNER_ROUTE = '/partber'
+export const ADMIN_ROUTE = '/admin'
+
+
+

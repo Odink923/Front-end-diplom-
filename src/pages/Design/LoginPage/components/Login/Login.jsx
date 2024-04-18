@@ -2,31 +2,31 @@ import React, {useContext, useState} from 'react';
 import classes from './Login.module.css'
 import Navbar from "../../../UI/Managament/Navbar/Navbar";
 import DarkButton from "../../../UI/Buttons/DarkButton/DarkButton";
-import axios from "axios";
 import {Context} from "../../../../../index";
-import {useNavigate} from "react-router-dom";
+import {useLocation, useNavigate} from "react-router-dom";
 import {observer} from "mobx-react-lite";
-
+import {login} from "../../../../../http/userAPI";
 
 const Login = () => {
-    const [email, setEmail] = useState('');
+    const {user} = useContext(Context)
+    const navigate = useNavigate()
+    const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
-    const {user} = useContext(Context);
-    const navigate =useNavigate();
-    const [hadler,setHandler] = useState(false);
 
-
-    const checkLogin=()=>{
-     user.login(email,password)
-
+    const click = async () => {
+        try {
+            let data;
+            data = await login(email, password);
+            user.setUser(user)
+            user.setIsAuth(true)
+        } catch (e) {
+            alert(e.response.data.message)
+        }
     }
-    const registration = ()=>{
-        user.registration(email,password)
-    }
-    const changeHandler=()=>{
-        setHandler(true)
-    }
-
+    // const checkLogin=()=>{
+    //     user.login(email,password)
+    //
+    // }
 
     return (
         <div className={classes.box}>
@@ -51,7 +51,7 @@ const Login = () => {
 
                             { user.isAuth ?
                                         navigate('/') :
-                                            <DarkButton onClick={checkLogin} property1="Увійти"/>
+                                            <DarkButton onClick={click} property1="Увійти"/>
 
                             }
                         </div>
