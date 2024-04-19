@@ -28,10 +28,24 @@
 
 }
 
-.contentIcons{
-    display: flex;
+.carousellContainer{
     margin-top: 22px;
+    padding-right: 10%;
+    white-space: nowrap;
 }
+.carousellTrack{
+    display: inline-block;
+    animation: slide 10s infinite linear;
+}
+@keyframes slide {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-45%);
+    }
+}
+
 .icon{
     width: 272px;
     height: 272px;

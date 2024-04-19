@@ -15,12 +15,26 @@ const PartnerSponsors = ({title, role}) => {
                 </HorizontalLineButton>
                 </div>
             </div>
-            <div className={classes.contentIcons}>
-                <div className={classes.icon}></div>
-                <div className={classes.icon}></div>
-                <div className={classes.icon}></div>
-                <div className={classes.icon}></div>
-                <div className={classes.icon}></div>
+            <div className={classes.carousellContainer}>
+                <div className={classes.carousellTrack}>
+                    <img className={classes.icon} src={"C:/Users/malya/OneDrive/Images/Memes/2.jpg"}/>
+                    <img className={classes.icon}/>
+                    <img className={classes.icon}/>
+                    <img className={classes.icon}/>
+                    <img className={classes.icon}/>
+
+                    <img className={classes.icon} src={"C:/Users/malya/OneDrive/Images/Memes/2.jpg"}/>
+                    <img className={classes.icon}/>
+                    <img className={classes.icon}/>
+                    <img className={classes.icon}/>
+                    <img className={classes.icon}/>
+
+                    <img className={classes.icon} src={"C:/Users/malya/OneDrive/Images/Memes/2.jpg"}/>
+                    <img className={classes.icon}/>
+                    <img className={classes.icon}/>
+                    <img className={classes.icon}/>
+                    <img className={classes.icon}/>
+                </div>
             </div>
         </div>
     );

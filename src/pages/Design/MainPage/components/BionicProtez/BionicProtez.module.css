@@ -10,13 +10,13 @@
     display: flex;
     overflow: hidden;
     align-items: center;
-    cursor: pointer;
+    /*cursor: pointer;*/
     border-top-left-radius: 60px;
 }
 .item2{
     border-top: 2px solid #8C96C1;
     border-right: 2px solid #8C96C1;
-    cursor: pointer;
+    /*cursor: pointer;*/
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -27,7 +27,7 @@
     display: flex;
     border-top: 2px solid #8C96C1;
     overflow: hidden;
-    cursor: pointer;
+    /*cursor: pointer;*/
     align-items: center;
     border-bottom-left-radius: 60px;
 }

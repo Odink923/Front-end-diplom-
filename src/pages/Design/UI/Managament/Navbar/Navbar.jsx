@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState, useRef} from 'react';
 import classes from './Navbar.module.css';
 import DarkButton from "../../Buttons/DarkButton/DarkButton";
 import NavbarButton from "../../Buttons/NavbarButton/NavbarButton";
@@ -6,6 +6,11 @@ import {animated, useSpring} from '@react-spring/web'
 import {Link} from "react-router-dom";
 
 const Navbar = () => {
+
+    const parallaxRef = useRef();
+    const scrollToPage = (pageNumber) => {
+        parallaxRef.current.scrollTo(pageNumber);
+    };
 
     const [isHovered, setIsHovered] = useState(false);
     const slideAnimation = useSpring({
@@ -77,7 +82,7 @@ const Navbar = () => {
                             <span className={classes.textWrapper4}>УКР</span>
                         </p>
                         <div className={classes.textWrapper5}>Увійти</div>
-                        <DarkButton property1="Напишіть нам"></DarkButton>
+                        <DarkButton onClick={()=>scrollToPage(4.8)} property1="Напишіть нам"></DarkButton>
                     </div>
                 </div>
             </div>
