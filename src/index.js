@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import UserStore from "./store/UserStore";
+import AppointmentStore from "./store/AppointmentStore";
 
 
 
@@ -16,6 +17,7 @@ root.render(
 
     <Context.Provider value={{
         user: new UserStore(),
+        appointment: new AppointmentStore(),
     }}>
         <App />
     </Context.Provider>

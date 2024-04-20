@@ -6,6 +6,7 @@ import {animated, useSpring} from '@react-spring/web'
 import {Link, useNavigate} from "react-router-dom";
 import {Context} from "../../../../../index";
 import {observer} from "mobx-react-lite";
+import {login, logout} from "../../../../../http/userAPI";
 
 const Navbar = () => {
     const {user} = useContext(Context);
@@ -26,6 +27,7 @@ const Navbar = () => {
     });
     const logOut = () => {
         user.setUser({})
+        logout();
         user.setIsAuth(false)
     }
 

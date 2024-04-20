@@ -2,6 +2,8 @@ import React from 'react';
 import classes from './LeftMenu.module.css';
 import SummaryMenuButtonsType1 from '../Buttons/SummaryMenuButtonsType1/SummaryMenuButtonsType1';
 import SummaryMenuButtonsType2 from '../Buttons/SummaryMenuButtonsType2/SummaryMenuButtonsType2';
+import TypeBar from "../TypeBar/TypeBar";
+import ActivityBar from "../ActivityBar/ActivityBar";
 
 const LeftMenu = () => {
     return (
@@ -17,21 +19,12 @@ const LeftMenu = () => {
 
                 <details className={`${classes.leftMenuDetails}`}>
                     <summary>Повідомлення за темою</summary>
-                    <SummaryMenuButtonsType2>Усі повідомлення</SummaryMenuButtonsType2>
-                    <SummaryMenuButtonsType2>Потенційні пацієнти</SummaryMenuButtonsType2>
-                    <SummaryMenuButtonsType2>Рекрутинг</SummaryMenuButtonsType2>
-                    <SummaryMenuButtonsType2>Партнерство</SummaryMenuButtonsType2>
-                    <SummaryMenuButtonsType2>Спонсорство</SummaryMenuButtonsType2>
-                    <SummaryMenuButtonsType2>Інше</SummaryMenuButtonsType2>
-                    <SummaryMenuButtonsType2>Актуальні вакансії</SummaryMenuButtonsType2>
-                    <SummaryMenuButtonsType2>Розсилка</SummaryMenuButtonsType2>
+                    <TypeBar></TypeBar>
                 </details>
 
                 <details className={`${classes.leftMenuDetails}`}>
                     <summary>Додатково</summary>
-                    <SummaryMenuButtonsType2>Важливі</SummaryMenuButtonsType2>
-                    <SummaryMenuButtonsType2>Надіслані</SummaryMenuButtonsType2>
-                    <SummaryMenuButtonsType2>Заблоковані</SummaryMenuButtonsType2>
+                    <ActivityBar></ActivityBar>
                 </details>
             </div>
         </div>
