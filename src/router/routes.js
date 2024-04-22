@@ -5,7 +5,7 @@ import {
     MAIN_ROUTE, PARTNER_ROUTE,
     PROTEZ_ROUTE,
     SERVICES_ROUTE,
-    TEAM_ROUTE,
+    TEAM_ROUTE, VISIT_ROUTE,
 } from "../utils/constsRoute";
 
 import ProtezPage from "../pages/Design/ProtezPage/ProtezPage";
@@ -17,15 +17,12 @@ import Login from "../pages/Design/LoginPage/components/Login/Login";
 import Faq from "../pages/Design/Faq/Faq";
 import PartnersPage from "../pages/Design/PartnersPage/PartnersPage";
 import Admin from "../pages/Admin/Admin";
-import ElementVisit from "../pages/Admin/UI/Elements/ElementVisit/ElementVisit";
 
 export const authRoutes =[
     {
         path: ADMIN_ROUTE,
         Component:Admin
-
     },
-
 ]
 export const publicRoutes =[
     {

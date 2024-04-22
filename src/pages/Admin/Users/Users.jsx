@@ -7,7 +7,7 @@ import {NavLink} from "react-router-dom";
 
 
 
-const Users = ({visit}) => {
+const Users = ({visit, children}) => {
     const {appointment} = useContext(Context);
     const users = [
         {avatar: "#", name: "Andrea Garsia", mail: "popapisyachleeen@gmail.com", phone: "+380 50 709 72 76", address: "22869 youkalemene, halupasheta 18A" },
@@ -36,7 +36,9 @@ const Users = ({visit}) => {
                         </clipPath>
                         </defs>
                     </svg>
+                    <NavLink to={"/admin/addVisit"}>
                     Запланувати візит
+                        </NavLink>
                    </span>
                     </div>: ""
             }

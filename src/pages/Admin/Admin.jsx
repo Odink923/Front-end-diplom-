@@ -5,7 +5,7 @@ import classes from './Admin.module.css';
 import Users from '../Admin/Users/Users';
 import InboxMessagesList from "./InboxPage/Components/InboxMessagesList/InboxMessagesList";
 import AddVisit from "./Calendar/AddVisit";
-import {Route, Routes} from "react-router-dom";
+import {Outlet, Route, Routes} from "react-router-dom";
 
 const Admin = () => {
 
@@ -19,7 +19,7 @@ const Admin = () => {
             <div className={classes.menuAndViewBlock}>
                 <LeftMenu></LeftMenu>
 
-           <Users visit={true}/>
+           <Outlet/>
 
             </div>
         </div>
