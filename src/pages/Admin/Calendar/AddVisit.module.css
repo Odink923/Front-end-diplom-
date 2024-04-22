@@ -1,0 +1,33 @@
+.container{
+    padding-top: 39px;
+    padding-left: 33px;
+    padding-right: 105px;
+    display: flex;
+    justify-content: space-between;
+    width: 81.35%;
+
+}
+.leftContent{
+    display: flex;
+    flex-direction: column;
+}
+.rightContent{
+
+}
+.addVisit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #546EF8;
+
+}
+.dropDownText{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #343D46;
+}

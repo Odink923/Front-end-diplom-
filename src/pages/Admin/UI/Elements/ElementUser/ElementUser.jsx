@@ -1,7 +1,8 @@
 import React from 'react';
 import classes from './ElementUser.module.css';
 import IconsManager from '../../Icons/IconsManager';
-const ElementUser = (user) => {
+import UserVisitButton from "./UserVisitButton/UserVisitButton";
+const ElementUser = ({...user}) => {
     return (
         <div className={classes.general}>
             <img className={classes.avatarPart} src={user.avatar}/>

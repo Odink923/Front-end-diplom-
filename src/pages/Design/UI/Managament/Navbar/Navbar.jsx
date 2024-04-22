@@ -1,12 +1,16 @@
-import React, { useState} from 'react';
+import React, {useContext, useState} from 'react';
 import classes from './Navbar.module.css';
 import DarkButton from "../../Buttons/DarkButton/DarkButton";
 import NavbarButton from "../../Buttons/NavbarButton/NavbarButton";
 import {animated, useSpring} from '@react-spring/web'
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
+import {Context} from "../../../../../index";
+import {observer} from "mobx-react-lite";
+import {login, logout} from "../../../../../http/userAPI";
 
 const Navbar = () => {
-
+    const {user} = useContext(Context);
+    const navigate = useNavigate();
     const [isHovered, setIsHovered] = useState(false);
     const slideAnimation = useSpring({
         height: isHovered ? '410' : '0px',
@@ -21,6 +25,11 @@ const Navbar = () => {
         width: isHovered ? '100%' : '0%',
         config: { duration: 1000 },
     });
+    const logOut = () => {
+        user.setUser({})
+        logout();
+        user.setIsAuth(false)
+    }
 
     return (
             <div className={classes.component}>
@@ -76,9 +85,11 @@ const Navbar = () => {
                             <span className={classes.span}>ENG/</span>
                             <span className={classes.textWrapper4}>УКР</span>
                         </p>
-                        <Link to={"/login"}>
-                        <div className={classes.textWrapper5}>Увійти</div>
-                        </Link>
+
+                        {user.isAuth?
+                        <span onClick={()=> logOut()} className={classes.textWrapper5}>{`Вихід`}</span>:
+                        <span onClick={()=>navigate('/login')} className={classes.textWrapper5}>{`Увійти`}</span>
+                        }
                         <DarkButton property1="Напишіть нам"></DarkButton>
                     </div>
                 </div>
@@ -86,4 +97,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default observer(Navbar);
