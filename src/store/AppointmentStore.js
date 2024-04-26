@@ -5,19 +5,19 @@ import React from "react";
 export default class AppointmentStore {
     constructor() {
         this._types = [
-            {id: 1, name: 'Усі повідомлення'},
-            {id: 2, name: 'Потенційні пацієнти'},
-            {id: 3, name: 'Рекрутинг'},
-            {id: 4, name: 'Партнерство'},
-            {id: 5, name: 'Спонсорство'},
-            {id: 6, name: 'Інше'},
-            {id: 7, name: 'Актуальні вакансії'},
-            {id: 8, name: 'Розсилка'}
+            // {id: 1, name: 'Усі повідомлення'},
+            // {id: 2, name: 'Потенційні пацієнти'},
+            // {id: 3, name: 'Рекрутинг'},
+            // {id: 4, name: 'Партнерство'},
+            // {id: 5, name: 'Спонсорство'},
+            // {id: 6, name: 'Інше'},
+            // {id: 7, name: 'Актуальні вакансії'},
+            // {id: 8, name: 'Розсилка'}
         ]
         this._activity = [
-            {id: 1, name: 'Важливі'},
-            {id: 2, name: 'Надіслані'},
-            {id: 3, name: 'Заблоковані'},
+            // {id: 1, name: 'Важливі'},
+            // {id: 2, name: 'Надіслані'},
+            // {id: 3, name: 'Заблоковані'},
         ]
          this._appointments = [
             {id: 1, avatar: "#", name: "Andrea Garsia", date: "26.09.2024", dateTime:"13:00", nameDoctor: "Ім'я Прізвище", address: "22869 youkalemene, halupasheta 18A", state: "Заплановано"},
@@ -25,24 +25,15 @@ export default class AppointmentStore {
             {id: 3, avatar: "#", name: "Andrea Garsia", date: "26.09.2024", dateTime:"13:00", nameDoctor: "Ім'я Прізвище", address: "22869 youkalemene, halupasheta 18A", state: "Заплановано"},
             {id: 4, avatar: "#", name: "Andrea Garsia", date: "26.09.2024", dateTime:"13:00", nameDoctor: "Ім'я Прізвище", address: "22869 youkalemene, halupasheta 18A", state: "Заплановано"},
             {id: 5, avatar: "#", name: "Andrea Garsia", date: "26.09.2024", dateTime:"13:00", nameDoctor: "Ім'я Прізвище", address: "22869 youkalemene, halupasheta 18A", state: "Заплановано"},
-
         ]
         makeAutoObservable(this)
     }
 
-
-    setIsAuth(bool) {
-        this._isAuth = bool
+    setTypes(types) {
+        this._types = types
     }
-    setUser(user) {
-        this._user = user
-    }
-
-    get isAuth() {
-        return this._isAuth
-    }
-    get user() {
-        return this._user
+    setActivity(activity) {
+        this._activity = activity
     }
 
 

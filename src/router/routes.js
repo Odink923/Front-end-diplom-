@@ -2,10 +2,10 @@ import {
     ABOUTUS_ROUTE, ADMIN_ROUTE,
     FAQ_ROUTE,
     LOGIN_ROUTE,
-    MAIN_ROUTE, PARTNER_ROUTE,
+    MAIN_ROUTE, PARTNER_ROUTE, PATIENT_ROUTE,
     PROTEZ_ROUTE,
     SERVICES_ROUTE,
-    TEAM_ROUTE, VISIT_ROUTE,
+    TEAM_ROUTE,
 } from "../utils/constsRoute";
 
 import ProtezPage from "../pages/Design/ProtezPage/ProtezPage";
@@ -17,6 +17,7 @@ import Login from "../pages/Design/LoginPage/components/Login/Login";
 import Faq from "../pages/Design/Faq/Faq";
 import PartnersPage from "../pages/Design/PartnersPage/PartnersPage";
 import Admin from "../pages/Admin/Admin";
+import PatientPage from "../pages/Design/PatientPage/PatientPage";
 
 export const authRoutes =[
     {
@@ -28,6 +29,10 @@ export const publicRoutes =[
     {
         path: PROTEZ_ROUTE,
         Component:ProtezPage
+    },
+    {
+        path: PATIENT_ROUTE,
+        Component:PatientPage
     },
     {
         path: TEAM_ROUTE,

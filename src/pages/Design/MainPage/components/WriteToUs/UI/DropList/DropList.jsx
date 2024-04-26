@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 import classes from './DropList.module.css'
 import {useSpring, animated} from "react-spring";
 import DropItem from "../DropItem/DropItem";
-const DropList = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const [selectedItem, setSelectedItem] = useState("Тема звернення*");
+const DropList = ({children,isOpen,selectedItem, toggleDropdown}) => {
+
+
     const dropdownAnimation = useSpring({
         height: isOpen ? '260px' : '68px',
         config: { duration: 200 },
@@ -12,13 +12,8 @@ const DropList = () => {
 
     });
 
-    const handleItemClick = (itemText) => {
-        setSelectedItem(itemText);
-        setIsOpen(false);
-    };
-    const toggleDropdown = () => {
-        setIsOpen(!isOpen);
-    };
+
+
 
 
     return (
@@ -41,11 +36,7 @@ const DropList = () => {
             </span>
             {isOpen && (
                 <div >
-                    <DropItem onClick={()=>handleItemClick("Хочу отримувати новини на пошту")}>Хочу отримувати новини на електронну пошту</DropItem>
-                    <DropItem onClick={()=>handleItemClick("Хочу стати спонсором")}>Хочу стати спонсором</DropItem>
-                    <DropItem onClick={()=>handleItemClick("Хочу стати партнером")}>Хочу стати партнером</DropItem>
-                    <DropItem onClick={()=>handleItemClick("Хочу дізнатися про актуальні вакансії ")}>Хочу дізнатися про актуальні вакансії  </DropItem>
-                    <DropItem onClick={()=>handleItemClick("Інше")}>Інше</DropItem>
+                    {children}
                 </div>
 
             )}

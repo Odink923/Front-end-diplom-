@@ -7,7 +7,7 @@ import Lifewithprotez from "../BlogSuccessPage/components/lifewithprotez/lifewit
 const BlogHistoryPage = () => {
     return (
         <div>
-            <LogoBlog ></LogoBlog>
+            <LogoBlog visible ={true}></LogoBlog>
             <Protezreview></Protezreview>
             <Lifewithprotez title="вас також може зацікавити"></Lifewithprotez>
         </div>
