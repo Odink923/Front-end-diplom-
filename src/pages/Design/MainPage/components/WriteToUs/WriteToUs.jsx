@@ -1,17 +1,33 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import classes from './WriteToUs.module.css'
 import SendButton from "./UI/SendButton/SendButton";
 import DropList from "./UI/DropList/DropList";
 import UiButton2 from "../../../UI/Buttons/UIButton2/UIButton2";
 import DropItem from "./UI/DropItem/DropItem";
+import {login} from "../../../../../http/userAPI";
+import {Context} from "../../../../../index";
 
-const WriteToUs = ({registration}) => {
-    const [selectedItem, setSelectedItem] = useState(registration?"Місцезнаходження":"Тема звернення*");
+const WriteToUs = ({register}) => {
+    const [selectedItem, setSelectedItem] = useState(register?"Місцезнаходження":"Тема звернення*");
     const [isOpen, setIsOpen] = useState(false);
+    const {user} = useContext(Context)
+    const [email, setEmail] = useState('')
+
     const handleItemClick = (itemText) => {
         setSelectedItem(itemText);
         setIsOpen(false);
     };
+
+    const click = async () => {
+        try {
+            let data;
+            data = await login(email);
+            user.setUser(user)
+            user.setIsAuth(true)
+        } catch (e) {
+            alert(e.response.data.message)
+        }
+    }
 
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
@@ -30,11 +46,12 @@ const WriteToUs = ({registration}) => {
                     <input placeholder="Ім’я та прізвище*" className={classes.formInput}/>
                 </div>
                 <div>
-                    <input placeholder="Електронна адреса*" className={classes.formInput}/>
+                    <input placeholder="Електронна адреса*" className={classes.formInput} onChange={e => setEmail(e.target.value)}
+                           value={email}/>
                 </div>
 
 
-                    {registration ? (
+                    {register ? (
                         <div>
                             <input placeholder="Дата народження*" className={classes.formInput} />
                             <input placeholder="Рік отримання травми*" className={classes.formInput} />
@@ -48,7 +65,7 @@ const WriteToUs = ({registration}) => {
                             <input placeholder="Документи*" className={classes.formInput} />
                         </div>
                     ) : (
-                        <DropList isOpen={isOpen} selectedItem={selectedItem}>
+                        <DropList toggleDropdown={toggleDropdown} isOpen={isOpen} selectedItem={selectedItem}>
                             <DropItem onClick={() => handleItemClick("Хочу отримувати новини на пошту")}>Хочу отримувати новини на електронну пошту</DropItem>
                             <DropItem onClick={() => handleItemClick("Хочу стати спонсором")}>Хочу стати спонсором</DropItem>
                             <DropItem onClick={() => handleItemClick("Хочу стати партнером")}>Хочу стати партнером</DropItem>
@@ -60,7 +77,7 @@ const WriteToUs = ({registration}) => {
                     <textarea  placeholder="Ваше повідомлення"  className={`${classes.formInput} ${classes.userInput}`}/>
                 </div>
                 <div className={classes.positionSendButton}>
-                <UiButton2 >Надіслати</UiButton2>
+                <UiButton2 onClick={click}>Надіслати</UiButton2>
                 </div>
                 </div>
             </div>

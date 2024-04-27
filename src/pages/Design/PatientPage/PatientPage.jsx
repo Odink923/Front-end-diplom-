@@ -8,7 +8,7 @@ const PatientPage = () => {
         <div>
             <LogoBlog visible={false} ></LogoBlog>
             <div style={{ marginTop: "235px", marginBottom: "326px" }}>
-                <WriteToUs registration={true} ></WriteToUs></div>
+                <WriteToUs register={true} ></WriteToUs></div>
             <Footerr></Footerr>
         </div>
 

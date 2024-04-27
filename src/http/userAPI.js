@@ -1,10 +1,8 @@
 import {$authHost, $host} from "./index";
 import { jwtDecode, InvalidTokenError } from 'jwt-decode';
 
-export const registration = async (email, password) => {
-    const {data} = await $host.post('api/user/registration', {email, password, role: 'USER'})
-    localStorage.setItem('token', data.token)
-    return jwtDecode(data.token)
+export const registration = async (email) => {
+    const {data} = await $host.post('api/user/registration', {email, role: 'USER'})
 }
 
 export const login = async (email, password) => {
