@@ -4,15 +4,16 @@ import SendButton from "./UI/SendButton/SendButton";
 import DropList from "./UI/DropList/DropList";
 import UiButton2 from "../../../UI/Buttons/UIButton2/UIButton2";
 import DropItem from "./UI/DropItem/DropItem";
-import {login} from "../../../../../http/userAPI";
+
 import {Context} from "../../../../../index";
+import {useNavigate} from "react-router-dom";
+import {registration} from "../../../../../http/userAPI";
 
 const WriteToUs = ({register}) => {
     const [selectedItem, setSelectedItem] = useState(register?"Місцезнаходження":"Тема звернення*");
     const [isOpen, setIsOpen] = useState(false);
-    const {user} = useContext(Context)
     const [email, setEmail] = useState('')
-
+    const navigate = useNavigate()
     const handleItemClick = (itemText) => {
         setSelectedItem(itemText);
         setIsOpen(false);
@@ -21,9 +22,9 @@ const WriteToUs = ({register}) => {
     const click = async () => {
         try {
             let data;
-            data = await login(email);
-            user.setUser(user)
-            user.setIsAuth(true)
+            data = await registration(email);
+            navigate('/');
+
         } catch (e) {
             alert(e.response.data.message)
         }
