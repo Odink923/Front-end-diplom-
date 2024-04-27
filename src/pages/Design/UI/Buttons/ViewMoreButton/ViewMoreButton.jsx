@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import classes from './ViewMoreButton.module.css';
 import {useSpring,animated} from "@react-spring/web";
+import {Link} from "react-router-dom";
 
 
-const ViewMoreButton = ({color}) => {
+    const ViewMoreButton = ({color}, {link}) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const svgAnimation = useSpring({
@@ -14,6 +15,7 @@ const ViewMoreButton = ({color}) => {
     });
 
     return (
+
         <div
             className={classes.frame}
             onMouseEnter={() => setIsHovered(true)}

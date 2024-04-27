@@ -8,10 +8,10 @@ import ServicesPage from "./pages/Design/ServicesPage/ServicesPage";
 import React from "react";
 import BlogPageNews from "./pages/Design/BlogPageNews/BlogPageNews";
 import BlogHistoryPage from "./pages/Design/BlogHistoryPage/BlogHistoryPage";
-import Faq from "./pages/Design/Faq/Faq";
+import FaqPage from "./pages/Design/Faq/FaqPage";
 import MainPage from "./pages/Design/MainPage/MainPage";
 import Admin from "./pages/Admin/Admin";
-import Login from "./pages/Design/LoginPage/components/Login/Login";
+import LoginPage from "./pages/Design/LoginPage/components/Login/LoginPage";
 
 function App() {
 
@@ -20,12 +20,13 @@ function App() {
             <Cursor></Cursor>
             <BrowserRouter>
                 <Routes>
-                    <Route path={"/"} element={<Login/>}/>
+                    <Route path={"/"} element={<MainPage/>}/>
                     <Route path={"/protezPage"} element={<ProtezPage/>}/>
                     <Route path={"/teamPage"} element={<TeamPage/>}/>
                     <Route path={"/aboutUsPage"} element={<AboutUsPage/>}/>
                     <Route path={"/servicesPage"} element={<ServicesPage/>} />
-                    <Route path={"/login"} element={<Login/>} />
+                    <Route path={"/login"} element={<LoginPage/>} />
+                    <Route path={"/faqpage"} element={<FaqPage/>}/>
                 </Routes>
             </BrowserRouter>
 

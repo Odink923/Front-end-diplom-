@@ -26,7 +26,7 @@ const AboutCenterProtez = ({inView}) => {
         config: { duration: 1000 },
     });
     return (
-        <div className={classes}>
+        <div className={classes} id="one">
             <div className={classes.content}>
                 <div className={classes.leftItems}>
                     <div className={classes.items}>

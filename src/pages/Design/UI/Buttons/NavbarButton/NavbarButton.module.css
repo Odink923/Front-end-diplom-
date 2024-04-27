@@ -10,6 +10,21 @@
     white-space: nowrap;
     width: auto;
 }
+.mainLink{
+    text-decoration: none;
+}
 .textWrapper3:hover{
     color: #5D638C;
+}
+.textWrapper4 {
+    color: white;
+    font-family: Unbounded-Regular, serif;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    line-height: 150%;
+    margin-bottom: -4px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: auto;
 }

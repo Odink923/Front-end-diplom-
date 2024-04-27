@@ -1,6 +1,7 @@
 
 .component {
-    margin-top: 14px;
+    /*margin-top: 14px;*/
+    /*padding-top: 14px;*/
     margin-left: 5.21%;
     height: 76px;
     position: relative;
@@ -11,6 +12,7 @@
 .overlapGroup {
     background: linear-gradient(93deg, rgba(243, 243, 253, 0.40) -12.78%, rgba(243, 243, 253, 0.08) 120.45%);
     border-radius: 50px;
+    margin-top: 14px;
     box-shadow: 0 6px 13px -1px rgba(173, 183, 198, 0.30);
     height: auto;
     left: 0;

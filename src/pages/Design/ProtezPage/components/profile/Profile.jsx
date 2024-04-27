@@ -39,7 +39,7 @@ const Profile = () => {
 
                         <div className={`${classes.spanAltParagraphLayout} ${classes.spanAltParagraph1}`}>
                             {/*If bug use display flex*/}
-                            <HorizontalLineButton><div >Дізнатися більше</div></HorizontalLineButton>
+                            <HorizontalLineButton><div ><a href="#one">Дізнатися більше</a></div></HorizontalLineButton>
                         </div>
 
                     </div>

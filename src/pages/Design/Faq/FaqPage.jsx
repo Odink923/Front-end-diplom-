@@ -6,7 +6,7 @@ import Footerr from "../UI/Managament/Footer/Footerr";
 import SpecificProtez from "../MainPage/components/SpecificProtez/SpecificProtez";
 import Navbar from "../UI/Managament/Navbar/Navbar";
 
-const Faq = () => {
+const FaqPage = () => {
     return (
         <div>
             <Navbar></Navbar>
@@ -30,4 +30,4 @@ const Faq = () => {
     );
 };
 
-export default Faq;
+export default FaqPage;

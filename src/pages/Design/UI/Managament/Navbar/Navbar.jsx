@@ -4,6 +4,8 @@ import DarkButton from "../../Buttons/DarkButton/DarkButton";
 import NavbarButton from "../../Buttons/NavbarButton/NavbarButton";
 import {animated, useSpring} from '@react-spring/web'
 import {Link} from "react-router-dom";
+import LogoSvgComp from "../../../../../images/SvgComponents/LogoSvgComp";
+
 
 const Navbar = () => {
 
@@ -28,18 +30,17 @@ const Navbar = () => {
                     <div className={classes.overlapGroupFrame}>
                         <div className={classes.div}>
                             <Link to={"/"}>
-                            <div className={classes.textWrapper2}>ЛОГОТИП</div>
+                            <div className={classes.textWrapper2}><LogoSvgComp></LogoSvgComp></div>
                             </Link>
                             <div className={classes.frame2}>
                                 <NavbarButton property1={"Пацієнтам"}/>
-                                    <Link to={"/aboutUsPage"}>
                                     <NavbarButton property1={"Про нас"}
                                                   onHover={() => setIsHovered(true)}
                                                   onMouseLeave={() => setIsHovered(false)}
+                                                  link="/aboutUsPage"
                                          />
-                                    </Link>
-                                <NavbarButton property1={"Блог"}/>
-                                <NavbarButton property1={"FAQ"}/>
+                                <NavbarButton property1={"Сервіс"} link={"/servicesPage"} />
+                                <NavbarButton property1={"FAQ"} link={"/faqpage"}/>
                             </div>
                         </div>
                     </div>

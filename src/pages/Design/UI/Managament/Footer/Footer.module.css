@@ -3,6 +3,7 @@
     border-radius: 60px 60px 0 0;
     background: linear-gradient(255deg, #2D3361 -20.46%, #BAC0DA 158.85%);
     color: #FFFFFF;
+    font-family: Unbounded-Regular, serif;
 }
 .futterContent{
     width: 85.57%;
@@ -63,7 +64,6 @@
     display: flex;
     justify-content: center;
     font-size: 24px;
-
 }
 .navFutterContent{
     width: 58.96%;
