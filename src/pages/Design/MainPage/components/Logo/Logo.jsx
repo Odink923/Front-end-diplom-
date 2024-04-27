@@ -14,19 +14,15 @@ const Logo = () => {
                 <div className={classes.text}>
                     <div className={classes.label}>
                         <div className={classes.textWrapper}>
-                            СЛОГАН / ДИСКРИПТОР <br/>
-                            КОМПАНІЇ
+                            ДОПОМАГАЄМО <br/>
+                            ВІДНОВИТИ КОНТРОЛЬ
                         </div>
                     </div>
                     <div className={classes.row}>
-                        <div>
                             <div className={classes.label2}>
-                                <p className={classes.description}>Короткий опис того, які послуги пропонуються і всяке
-                                    таке подібне.
-                                    Короткий опис того, які послуги пропонуються і всяке таке подібне
+                                <p className={classes.description}>Octa Bionics — сучасний центр протезування та реабілітації. Ми розробляємо біонічні протези, які дають можливість людям з ампутаціями верхніх кінцівок відновити контроль над власним життям.
                                 </p>
                             </div>
-                        </div>
                         <div>
                             <div className={classes.frameGif}>
                                 <div className={classes.gif}>фото/гіфка протеза</div>
