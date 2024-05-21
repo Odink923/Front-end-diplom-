@@ -41,10 +41,7 @@ const AnimatedItem = ({title, upItem, downItem}) => {
                     <animated.div style={titleAnimation} >
                         {title}
                     </animated.div>
-                    <animated.div style={animation} className={classes.text2Item2}>Короткий опис того, які послуги пропонуються і всяке таке подібне. Короткий опис того,
-                        які послуги пропонуються і всяке таке подібне  Короткий опис того, які
-                        послуги пропонуються і всяке таке подібне.
-                        Короткий опис того, які послуги пропонуються і всяке таке подібне </animated.div>
+                    <animated.div style={animation} className={classes.text2Item2}>Протез може стати способом самовираження. Оболонки на протез з кастомним дизайном нелише нададуть додатковий захист, а й підкреслять індивідуальність. </animated.div>
                 </div>
                 <div  className={classes.iconMarg}>
                     <animated.div style={animation} className={classes.icon}

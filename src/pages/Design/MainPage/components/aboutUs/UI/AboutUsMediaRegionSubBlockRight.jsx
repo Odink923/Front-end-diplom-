@@ -27,15 +27,13 @@ const AboutUsMediaRegionSubBlockRight = () => {
                       onMouseEnter={() => set(toggleAnimation(true))}
                       onMouseLeave={() => set(toggleAnimation(false))}>
             <span className={`${classes.spanTitleLayout} ${classes.spanTitle3}`}>медіа</span>
-            <span className={`${classes.spanParagraphTitleLayout} ${classes.spanParagraphTitle1}`}>Заголовок статті про центр протезування</span>
-            <span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph2}`}>Екскурсії для навчальних закладів,
-                                        можливість відвідати центр. Екскурсії для навчальних закладів,
-                                        можливість відвідати центр і так далі тому подібне.
+            <span className={`${classes.spanParagraphTitleLayout} ${classes.spanParagraphTitle1}`}>Олена Зеленська відвідала відкриття нового медичного центру з протезування та реабілітації Octa Bionics у Києві</span>
+            <span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph2}`}>На відкриття національного медичного центру Octa Bionics завітала перша леді України, членкиня Наглядової ради Superhumans, Олена Зеленська.
                         </span>
-            <span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph3}`}>Екскурсії для навчальних закладів,
-                                        можливість відвідати центр. Екскурсії для навчальних закладів,
-                                        можливість відвідати центр і так далі тому подібне.
-                        </span>
+            {/*<span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph3}`}>Екскурсії для навчальних закладів,*/}
+            {/*                            можливість відвідати центр. Екскурсії для навчальних закладів,*/}
+            {/*                            можливість відвідати центр і так далі тому подібне.*/}
+            {/*            </span>*/}
             <shape className={classes.aboutUsPhotoFrame2}></shape>
         </animated.div>
     );

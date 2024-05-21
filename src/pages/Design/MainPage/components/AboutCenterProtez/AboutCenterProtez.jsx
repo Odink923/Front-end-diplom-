@@ -31,14 +31,11 @@ const AboutCenterProtez = ({inView}) => {
                 <div className={classes.leftItems}>
                     <div className={classes.items}>
                         <animated.div  style={showTopOpacity}>ПРО ЦЕНТР ПРОТЕЗУВАННЯ</animated.div>
-                        <animated.div style={showOpacity} className={classes.descriptions}>Короткий опис того, які послуги пропонуються і всяке таке подібне
-                            Короткий опис того, які послуги пропонуються і всяке таке подібне. Короткий опис того, які послуги пропонуються і всяке таке подібне </animated.div>
+                        <animated.div style={showOpacity} className={classes.descriptions}>Центр протезування Octa Bionics — це місце, де ми скурпульозно створюємо протези, які допомагають сотням людей відновити мобільність. Це також місце реабілітації, яка допомагає відновити надію і впевненість. </animated.div>
                         <animated.div style={showLeftOpacity} className={classes.icon}></animated.div>
                     </div>
                     <div className={classes.itemsRight}>
-                        <animated.div style={showOpacity} className={classes.descriptionsRight}>Екскурсії для навчальних закладів,
-                            можливість відвідати центр. Екскурсії для навчальних закладів,
-                            можливість відвідати центр і так далі тому подібне. </animated.div>
+                        <animated.div style={showOpacity} className={classes.descriptionsRight}>Хочете самі переконатися, що все саме так як ми розповідаємо? Чи, можливо, бажаєте підглянути за процесом створення наших протезів? У вас є така можливість! </animated.div>
                         <animated.div style={showDownOpacity} className={classes.reusableItem}>
                             {/*if bug use display flex*/}
                            <HorizontalLineButton>

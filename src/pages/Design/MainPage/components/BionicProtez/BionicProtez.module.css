@@ -49,10 +49,10 @@
 
 .icon{
     width: 432px;
-    height: 411px;
-    background: #D4D8FF;
+    height: 395px;
+    /*background: #D4D8FF;*/
     border-radius: 60px;
-
+    background: url('/src/images/rectangle-8.jpg'), #333237 50% / cover no-repeat;
 
 }
 

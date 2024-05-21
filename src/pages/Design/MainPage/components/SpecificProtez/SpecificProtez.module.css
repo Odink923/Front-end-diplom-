@@ -11,6 +11,7 @@
     font-size: 48px;
     font-family: Unbounded-Regular;
     margin-top: 41px;
+    white-space: nowrap;
 }
 .image {
     position: absolute;

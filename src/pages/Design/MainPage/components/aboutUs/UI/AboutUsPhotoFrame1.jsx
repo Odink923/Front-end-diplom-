@@ -7,14 +7,16 @@ const AboutUsPhotoFrame1 = () => {
     const [shapeAnimation, set] = useSpring(() => ({
         config:{
             duration: 200
-        }
+        },
+
     }))
 
 
     const toggleAnimation = hovering =>({
         borderRadius: hovering
             ? `0px`
-            : `60px`
+            : `60px`,
+
     })
 
     return (

@@ -152,7 +152,7 @@
   height: 540px;
   flex-shrink: 0;
   border-radius: 60px;
-  background: #D4D8FF;
+  background: url('/src/images/rectangle-13.jpg');
   margin: 71px 0px 0px 98px;
 }
 .aboutUsPhotoFrame2{
@@ -162,6 +162,7 @@
   height: 558px;
   flex-shrink: 0;
   margin: 196px 0px 0px 100px;
+  background: url('/src/images/rectangle-14-2.jpg');
 }
 
 

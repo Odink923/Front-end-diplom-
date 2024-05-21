@@ -24,10 +24,8 @@ const AboutUsSuperSubBlock1 = ( props ) => {
                           onMouseEnter={() => set(toggleAnimation(true))}
                           onMouseLeave={() => set(toggleAnimation(false))}>
 
-                <span className={`${classes.spanParagraphTitleLayout} ${classes.spanParagraphTitle2}`}>Заголовок статті про центр протезування</span>
-                <span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph4}`}>Екскурсії для навчальних закладів,
-                                        можливість відвідати центр. Екскурсії для навчальних закладів,
-                                        можливість відвідати центр і так далі тому подібне.
+                <span className={`${classes.spanParagraphTitleLayout} ${classes.spanParagraphTitle2}`}>Футуризм в дії: як у Києві працює реабілітаційний центр світового рівня</span>
+                <span className={`${classes.spanParagraphLayout2} ${classes.spanParagraph4}`}>Сьогодні ведучий ZAXID.NET Новин Андрій Дрозда розповість про те, як у Києві працює надсучасний центр протезування для постраждалих від війни українців. 
                 </span>
             </animated.div>
     );

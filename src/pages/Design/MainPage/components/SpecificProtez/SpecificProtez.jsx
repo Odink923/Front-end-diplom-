@@ -7,7 +7,7 @@ import {useSpring} from "react-spring";
 const SpecificProtez = ({inView,title}) => {
 
     const mockedItems = [
-        { id: 1, title: "3Д ДРУК",
+        { id: 1, title: "ТЕХНОЛОГІЇ 3Д ДРУКУ",
             description: "Технології, використані при створенні NeuroSync" +
                 " - 305 дозволяють за відносно короткий термін спроектувати протез," +
                 " який ідеально відповідатиме анатомічним потребам кожного користувача.",

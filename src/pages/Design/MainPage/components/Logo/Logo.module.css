@@ -85,15 +85,17 @@
     color: #2D3361;
     font-family: Unbounded-Light, serif;
     font-size: 24px;
+    font-weight: 300;
     letter-spacing: -0.264px;
     font-style: normal;
     line-height: 150%;
     margin: 0;
+    padding-left: 0;
 }
 
 
 .viewMore {
-    top: 217px;
+    margin-top: 177px;
     width: auto;
     position: relative;
 }
