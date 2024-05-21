@@ -1,14 +1,16 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect} from 'react';
 import classes from './Users.module.css';
 import ElementUser from '../UI/Elements/ElementUser/ElementUser';
 import {Context} from "../../../index";
 import ElementVisit from "../UI/Elements/ElementVisit/ElementVisit";
 import {NavLink} from "react-router-dom";
+import {fetchTypes} from "../../../http/appointmentApi";
 
 
 
 const Users = ({visit, children}) => {
     const {appointment} = useContext(Context);
+
     const users = [
         {avatar: "#", name: "Andrea Garsia", mail: "popapisyachleeen@gmail.com", phone: "+380 50 709 72 76", address: "22869 youkalemene, halupasheta 18A" },
         {avatar: "#", name: "Andrea Garsia", mail: "popapisyachleeen@gmail.com", phone: "+380 50 709 72 76", address: "22869 youkalemene, halupasheta 18A" },

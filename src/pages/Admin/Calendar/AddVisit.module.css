@@ -31,3 +31,23 @@
     font-size: 16px;
     color: #343D46;
 }
+
+.modalContent{
+    width: 511px;
+    padding-left: 31px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.RobotoGrey{
+    font-family: 'Roboto';
+
+    font-size: 16px;
+    color: #9AAFC4;
+}
+.Roboto20{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #343D46;
+}

@@ -12,8 +12,8 @@ const LeftMenu = () => {
             <div className={classes.subGeneral}>
                 <details className={classes.leftMenuDetails}>
                     <summary>Меню</summary>
-                    <SummaryMenuButtonsType1><NavLink to={"/admin/user"}>Користувачі</NavLink></SummaryMenuButtonsType1>
-                    <SummaryMenuButtonsType1><NavLink to={"/admin/visit"}>Візити</NavLink></SummaryMenuButtonsType1>
+                    <NavLink to={"/admin/user"}>  <SummaryMenuButtonsType1>Користувачі</SummaryMenuButtonsType1></NavLink>
+                    <NavLink to={"/admin/visit"}> <SummaryMenuButtonsType1>Візити</SummaryMenuButtonsType1></NavLink>
                     <SummaryMenuButtonsType1>Вхідні повідомлення</SummaryMenuButtonsType1>
                     <SummaryMenuButtonsType1>Керування контентом</SummaryMenuButtonsType1>
                 </details>
