@@ -3,7 +3,7 @@ import classes from './ViewMoreButton.module.css';
 import {useSpring,animated} from "@react-spring/web";
 
 
-const ViewMoreButton = ({color}) => {
+const ViewMoreButton = ({color, onClick}) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const svgAnimation = useSpring({
@@ -16,6 +16,7 @@ const ViewMoreButton = ({color}) => {
     return (
         <div
             className={classes.frame}
+            onClick={onClick}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >

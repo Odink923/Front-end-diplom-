@@ -4,7 +4,7 @@ import classes from './Logo.module.css'
 
 import Navbar from "../../../UI/Managament/Navbar/Navbar";
 import ViewMoreButton from "../../../UI/Buttons/ViewMoreButton/ViewMoreButton";
-const Logo = () => {
+const Logo = ({scrollToNextBlock }) => {
     return (
         <div className={classes.box}>
             <div className={classes.rectangle}>
@@ -30,7 +30,7 @@ const Logo = () => {
                         </div>
                     </div>
                     <div className={classes.viewMore}>
-                        <ViewMoreButton color={"#F2F5FF"}></ViewMoreButton>
+                        <ViewMoreButton color={"#F2F5FF"} onClick={scrollToNextBlock}></ViewMoreButton>
                     </div>
 
 

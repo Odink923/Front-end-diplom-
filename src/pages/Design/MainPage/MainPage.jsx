@@ -12,12 +12,16 @@ import {useSpring, animated} from "react-spring";
 import PartnerSponsors from "./components/PartnerSponsors/PartnerSponsors";
 import classes from "./MainPage.module.css"
 import NavMenu from "../UI/Managament/NavMenu/NavMenu";
+import specificProtez from "./components/SpecificProtez/SpecificProtez";
 const MainPage = () => {
     const parallaxRef = useRef();
+    const specificProtezRef = useRef();
     const scrollToPage = (pageNumber) => {
         parallaxRef.current.scrollTo(pageNumber);
     };
-
+    const scrollToNextBlock = (pageNumber) => {
+        parallaxRef.current.scrollTo(pageNumber);
+    };
 
     return (
         <Parallax ref={parallaxRef} style={{background: "#F2F5FF"}} pages={7}>
@@ -26,12 +30,12 @@ const MainPage = () => {
 
             <ParallaxLayer style={{marginTop: "-100px"}} offset={1} factor={10} speed={0}>
                 <CustomWaypoint>
-                    <SpecificProtez></SpecificProtez>
+                    <SpecificProtez ref={specificProtezRef}></SpecificProtez>
                 </CustomWaypoint>
             </ParallaxLayer>
 
             <ParallaxLayer offset={0} speed={0.3}>
-                <Logo/>
+                <Logo scrollToNextBlock={() => scrollToNextBlock(1)}/>
             </ParallaxLayer>
 
             <ParallaxLayer offset={2}>
