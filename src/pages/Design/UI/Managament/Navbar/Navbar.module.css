@@ -1,13 +1,10 @@
 
 .component {
-    display: flex;
-    flex-direction: row;
     margin-top: 14px;
     margin-left: 5.21%;
-    margin-right: 5.21%;
     height: 76px;
     position: relative;
-    width: 89.58%;
+    width: 89.73%;
     z-index: 10;
 }
 
@@ -19,15 +16,16 @@
     background: linear-gradient(93deg, rgba(243, 243, 253, 0.40) -12.78%, rgba(243, 243, 253, 0.08) 120.45%);
     border-radius: 50px;
     box-shadow: 0 6px 13px -1px rgba(173, 183, 198, 0.30);
-    height: 76px;
-    margin-left: 0;
+    height: auto;
+    left: 0;
     position: relative;
+    top: 1px;
     width:69.53%;
     display: flex;
     flex-direction: column;
 }
 .overlapGroupFrame{
-    height: 100%;
+    height: 75px;
     position: relative;
     width:100%;
     display: flex;
@@ -36,17 +34,17 @@
     align-items: flex-start;
     display: flex;
     justify-content: space-between;
-    height: fit-content;
+    height: 22px;
     position: relative;
-    margin-top: 26px;
-    width: 94.42%;
+    top: 26px;
+    width: 94.4%;
     flex-shrink: 0;
-    margin-right: 2.83%;
-    margin-left: 2.75%;
+    padding-right: 2.75%;
+    padding-left: 2.75%;
 }
 
-.logo {
-   /* color: #4E516C;
+/*.textWrapper2 {
+    color: #4E516C;
     font-family: "PP Neue Machina-InktrapUltrabold", serif;
     font-size: 20px;
     font-style: normal;
@@ -55,16 +53,16 @@
     letter-spacing: -0.22px;
     text-transform: uppercase;
 
-    width: 102px;*/
-    /*margin-right: 33px;*/
-    /*flex-shrink: 0;*/
-}
+    width: 102px;
+    height: 21px;
+    flex-shrink: 0;
+}*/
 
-.frame2 {
+.component .frame2 {
     align-items: flex-start;
     display: flex;
     justify-content: space-between;
-    height: 100%;
+    height: 22px;
     width: 44.12%;
 }
 
@@ -124,33 +122,33 @@
 
 
 
-.overlap {
-    display: flex;
+.component .overlap {
     -webkit-backdrop-filter: blur(40px) brightness(100%);
     backdrop-filter: blur(40px) brightness(100%);
     background: linear-gradient(93deg, rgba(243, 243, 253, 0.40) -12.78%, rgba(243, 243, 253, 0.08) 120.45%);
     border-radius: 50px;
     box-shadow: 0 6px 13px -1px #adb6c54c;
     height: 75px;
-    margin-left: 2.32%;
-    position: relative;
+    left: 71.85%;
+    position: absolute;
     top: 0;
-    width: 28.148%;
+    width: 28.14%;
 }
 
-.frame3 {
+.component .frame3 {
     align-items: center;
     display: flex;
     gap: 7.56%;
     height: 68px;
-    margin-left: 8.247%;
+    left: 8.247%;
     position: relative;
-    margin-top: 3px;
+    top: 3px;
+    width: 87.21%;
 }
 
-.ENG {
+.component .ENG {
     color: transparent;
-    font-family: "Unbounded-Light", Helvetica, serif;
+    font-family: "Unbounded-Light", Helvetica;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: -0.2px;
@@ -158,21 +156,19 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
-    margin: 0;
-    padding: 0;
 }
 
-.span {
+.component .span {
     color: #8b95c1;
 }
 
-.textWrapper4 {
+.component .textWrapper4 {
     color: #2d3361;
 }
 
-.textWrapper5 {
+.component .textWrapper5 {
     color: #2D3361;
-    font-family: "Unbounded-Light", Helvetica, serif;
+    font-family: "Unbounded-Light", Helvetica;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: -0.2px;
