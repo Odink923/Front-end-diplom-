@@ -86,7 +86,9 @@ const Navbar = () => {
                                 </div>
                             </Link>
                             <div className={classes.frame2}>
+                                <Link to={"/patientPage"}>
                                 <NavbarButton property1={"Пацієнтам"}/>
+                                </Link>
                                 <Link to={"/aboutUsPage"}>
                                     <NavbarButton property1={"Про нас"}
                                                   onHover={() => setIsHovered(true)}
@@ -105,21 +107,21 @@ const Navbar = () => {
                         <animated.div className={classes.line} style={lineAnimation}></animated.div>
                         <div className={classes.dropdownFrame}>
                             <div className={classes.dropdownMenuBlock}>
-                                <div className={classes.dropdownMenuImage}></div>
+                                <div className={`${classes.dropdownMenuImage} ${classes.img1 }`} ></div>
                                 <Link to={"/protezPage"}>
                                     <div className={classes.dropdownMenuText}>Біонічна рука</div>
                                 </Link>
                             </div>
                             <div className={classes.dropdownMenuBlock}>
-                                <div className={classes.dropdownMenuImage}></div>
+                                <div className={`${classes.dropdownMenuImage} ${classes.img2 }`}></div>
                                 <div className={classes.dropdownMenuText}>Послуги</div>
                             </div>
                             <div className={classes.dropdownMenuBlock}>
-                                <div className={classes.dropdownMenuImage}></div>
+                                <div className={`${classes.dropdownMenuImage} ${classes.img3 }`}></div>
                                 <div className={classes.dropdownMenuText}>Команда</div>
                             </div>
                             <div className={classes.dropdownMenuBlock}>
-                                <div className={classes.dropdownMenuImage}></div>
+                                <div className={`${classes.dropdownMenuImage} ${classes.img4 }`}></div>
                                 <div className={classes.dropdownMenuText}>Партнери</div>
                             </div>
                         </div>

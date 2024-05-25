@@ -98,13 +98,25 @@
 
 }
 .dropdownMenuImage{
-    background-color: #F2F5FF;
+    background: #F2F5FF;
     border-radius: 40px;
     height: 184px;
     position: relative;
     width: 184px;
     display: flex;
     transition: border-radius 0.3s ease;
+}
+.img1{
+    background: url('/src/images/bionic-hand.jpg');
+}
+.img2{
+    background: url('/src/images/services.jpg');
+}
+.img3{
+    background: url('/src/images/comand.jpg');
+}
+.img4{
+    background: url('/src/images/partners.jpg');
 }
 .dropdownMenuImage:hover{
     border-radius: 5px;
