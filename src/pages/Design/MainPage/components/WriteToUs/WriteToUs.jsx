@@ -5,7 +5,7 @@ import DropList from "./UI/DropList/DropList";
 import UiButton2 from "../../../UI/Buttons/UIButton2/UIButton2";
 import DropItem from "./UI/DropItem/DropItem";
 
-const WriteToUs = ({registration}) => {
+const WriteToUs = ({registration, title}) => {
     const [selectedItem, setSelectedItem] = useState(registration?"Місцезнаходження":"Тема звернення*");
     const [isOpen, setIsOpen] = useState(false);
     const handleItemClick = (itemText) => {
@@ -19,7 +19,7 @@ const WriteToUs = ({registration}) => {
     return (
         <div className={classes.all}>
             <div className={classes.title}>
-                ВИ ЗАЦІКАВЛЕНІ У СПІВПРАЦІ ЧИ ПРОСТО ХОЧЕТЕ ПЕРШИМИ ДІЗНАВАТИСЯ ЩО У НАС НОВОГО?
+                {title}
             </div>
             <div className={classes.formContent}>
                 <div className={classes.rightTitle}>

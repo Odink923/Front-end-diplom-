@@ -20,7 +20,7 @@
 
 .statsPhotoBlock{
     border-radius: 60px;
-    background: #D4D8FF;
+    background: url('/src/images/about-us-stats.jpg');
     width: 644px;
     height: 759px;
     flex-shrink: 0;

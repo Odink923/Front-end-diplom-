@@ -86,7 +86,7 @@ const Navbar = () => {
                                 </div>
                             </Link>
                             <div className={classes.frame2}>
-                                <Link to={"/patientPage"}>
+                                <Link to={"/patient"}>
                                 <NavbarButton property1={"Пацієнтам"}/>
                                 </Link>
                                 <Link to={"/aboutUsPage"}>

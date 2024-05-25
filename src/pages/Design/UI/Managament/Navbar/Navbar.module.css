@@ -107,16 +107,20 @@
     transition: border-radius 0.3s ease;
 }
 .img1{
-    background: url('/src/images/bionic-hand.jpg');
+    background: url('/src/images/bionic-hand.jpg') no-repeat center;
+    background-size: auto 100%;
 }
 .img2{
-    background: url('/src/images/services.jpg');
+    background: url('/src/images/services.jpeg') no-repeat center;
+    background-size: auto 100%;
 }
 .img3{
-    background: url('/src/images/comand.jpg');
+    background: url('/src/images/team.jpg') no-repeat center;
+    background-size: auto 100%;
 }
 .img4{
-    background: url('/src/images/partners.jpg');
+    background: url('/src/images/partners.jpg') no-repeat center;
+    background-size: auto 100%;
 }
 .dropdownMenuImage:hover{
     border-radius: 5px;

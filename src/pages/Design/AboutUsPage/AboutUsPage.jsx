@@ -36,7 +36,7 @@ const AboutUsPage = () => {
 
             <ParallaxLayer offset={3.3}  >
                 <div>
-                <WriteToUs></WriteToUs>
+                <WriteToUs title={"ви зацікавлені у співпраці чи просто хочете першими дізнаватися що у нас нового?"}></WriteToUs>
                 <Footerr></Footerr>
                 </div>
             </ParallaxLayer>

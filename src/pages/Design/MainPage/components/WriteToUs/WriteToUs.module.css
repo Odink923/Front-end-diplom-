@@ -4,12 +4,13 @@
     height: 629px;
     padding-bottom: 205px;
     color: #2D3361;
-    font-family: "Unbounded-Regular";
+    font-family: "Unbounded-Regular", serif;
 }
 .title{
     font-size: 48px;
-    width: 30.68%;
+    width: 31%;
     margin-right: 15.16%;
+    text-transform: uppercase;
 }
 .leftTitle{
     font-size: 48px;
@@ -27,7 +28,7 @@
     color: #8C96C1;
     padding-right: 49px;
     cursor: none;
-    font-family: "Unbounded-Light";
+    font-family: "Unbounded-Light", serif;
     font-size: 20px;
     box-sizing: border-box;
 

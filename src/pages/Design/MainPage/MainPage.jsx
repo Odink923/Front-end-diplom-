@@ -58,7 +58,7 @@ const MainPage = () => {
             </ParallaxLayer>
 
             <ParallaxLayer offset={5}>
-            <WriteToUs></WriteToUs>
+            <WriteToUs title={"ВИ ЗАЦІКАВЛЕНІ У СПІВПРАЦІ ЧИ ПРОСТО ХОЧЕТЕ ПЕРШИМИ ДІЗНАВАТИСЯ ЩО У НАС НОВОГО?"}></WriteToUs>
             <Footerr></Footerr>
             </ParallaxLayer>
 
