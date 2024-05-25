@@ -152,7 +152,7 @@ const Navbar = () => {
                             <span onClick={() => logOut()} className={classes.textWrapper5}>{`Вихід`}</span> :
                             <span onClick={() => navigate('/login')} className={classes.textWrapper5}>{`Увійти`}</span>
                         }
-                        <DarkButton property1="Напишіть нам"></DarkButton>
+                        <DarkButton property1="Напишіть нам" onClick={()=>navigate('/')}></DarkButton>
                     </div>
                 </div>
             </div>

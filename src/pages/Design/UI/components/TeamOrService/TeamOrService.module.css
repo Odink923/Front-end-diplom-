@@ -60,7 +60,8 @@
     position: relative;
     height: 100%;
     width: 100%;
-    background: #D4D8FF;
+    /*background: url('/src/images/services-logo.jpg'),  no-repeat center;*/
+    background-size: 100%;
     border-radius:60px;
     left: 0;
     align-items: flex-start;
@@ -84,6 +85,10 @@
     font-weight: 300;
     line-height: 150%;
     letter-spacing: -0.264px;
+}
+.img{
+    width: 100%;
+    background: url('/src/images/services-logo.jpg'), lightgray 50% / cover no-repeat;
 }
 .viewMore{
     position: relative;

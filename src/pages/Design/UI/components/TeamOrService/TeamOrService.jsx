@@ -17,9 +17,10 @@ const TeamOrService = ({text1, text2, discription}) => {
                     <div className={classes.label3}>
                         <div className={classes.discription}>{discription}</div>
                     </div>
-                    <div className={classes.viewMore}>
+                <div className={classes.img}></div>
+                    {/*<div className={classes.viewMore}>
                         <ViewMoreButton color={"#8C96C1"}></ViewMoreButton>
-                    </div>
+                    </div>*/}
             </div>
         </div>
     );

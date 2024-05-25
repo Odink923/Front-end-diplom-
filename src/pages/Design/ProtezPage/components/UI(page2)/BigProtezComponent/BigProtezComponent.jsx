@@ -19,9 +19,9 @@ const BigProtezComponent = ({header, text}) => {
                     </div>
                 </div>
                 <div className={classes.image}></div>
-                <div className={classes.viewMore}>
+               {/* <div className={classes.viewMore}>
                     <ViewMoreButton></ViewMoreButton>
-                </div>
+                </div>*/}
             </div>
         </div>
     );

@@ -9,6 +9,7 @@
     width: 1723px;
     position: absolute;
     display: flex;
+    flex-direction: row;
 }
 .text{
     top: 81px;
@@ -31,7 +32,7 @@
     position: relative;
 }
 .paragraf{
-    width: 100%;
+    width: fit-content;
 }
 .textWrapper{
     color: #F2F5FF;
@@ -40,6 +41,12 @@
     letter-spacing: -0.198px;
     line-height: 150%;
     position: relative;
+}
+.image{
+
+    width: 70%;
+    /*background: url('/src/images/hand.png'), lightgray 50% / cover no-repeat;*/
+    background-size: 100%;
 }
 
 .viewMore{
