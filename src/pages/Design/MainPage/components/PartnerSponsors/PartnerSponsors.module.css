@@ -31,14 +31,14 @@
         transform: translateX(0%);
     }
     to{
-        transform: translateX(-45%);
+        transform: translateX(-49.77%);
     }
 }
 .icon{
     width: 272px;
-    height: 272px;
+    /*height: 272px;*/
     margin-right: 2.34%;
-    background: #D4D8FF;
+    background: transparent;
 }
 .reusableItemContent{
     font-size: 20px;
