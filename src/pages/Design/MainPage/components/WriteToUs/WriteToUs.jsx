@@ -20,6 +20,7 @@ const WriteToUs = ({register}) => {
     const [date, setDate] = useState('');
     const [yearGetHurt, setYearGetHurt] = useState('');
     const [message, setMessage] = useState('')
+    const [isSubmitted, setIsSubmitted] = useState(false);
 
     const handleItemClick = (itemText) => {
         setSelectedItem(itemText);
@@ -58,11 +59,12 @@ const WriteToUs = ({register}) => {
 
             }];
             await registration({ email, userInfos: JSON.stringify(userInfoData) });
-            navigate('/');
         } catch (e) {
             alert(e.response.data.message)
         }
+        navigate("/");
     }
+
 
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
@@ -126,7 +128,8 @@ const WriteToUs = ({register}) => {
                                className={`${classes.formInput} ${classes.userInput}`}/>
                 </div>
                 <div className={classes.positionSendButton}>
-                <UiButton2 onClick={click}>Надіслати</UiButton2>
+                    {
+                <UiButton2 onClick={click}>Надіслати</UiButton2>}
                 </div>
                 </div>
             </div>

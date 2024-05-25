@@ -1,5 +1,5 @@
 import {
-    ABOUTUS_ROUTE, ADMIN_ROUTE,
+    ABOUTUS_ROUTE, ADMIN_ROUTE, BLOG_ROUTE,
     FAQ_ROUTE,
     LOGIN_ROUTE,
     MAIN_ROUTE, PARTNER_ROUTE, PATIENT_ROUTE,
@@ -18,6 +18,7 @@ import Faq from "../pages/Design/Faq/Faq";
 import PartnersPage from "../pages/Design/PartnersPage/PartnersPage";
 import Admin from "../pages/Admin/Admin";
 import PatientPage from "../pages/Design/PatientPage/PatientPage";
+import BlogPage from "../pages/Design/BlogPage/BlogPage";
 
 export const authRoutes =[
     {
@@ -26,6 +27,10 @@ export const authRoutes =[
     },
 ]
 export const publicRoutes =[
+    {
+        path: BLOG_ROUTE,
+        Component:BlogPage
+    },
     {
         path: PROTEZ_ROUTE,
         Component:ProtezPage

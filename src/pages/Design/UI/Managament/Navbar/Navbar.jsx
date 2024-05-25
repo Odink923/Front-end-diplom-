@@ -86,15 +86,21 @@ const Navbar = () => {
                                 </div>
                             </Link>
                             <div className={classes.frame2}>
+                                <Link to={"/patient"}>
                                 <NavbarButton property1={"Пацієнтам"}/>
+                                </Link>
                                 <Link to={"/aboutUsPage"}>
                                     <NavbarButton property1={"Про нас"}
                                                   onHover={() => setIsHovered(true)}
                                                   onMouseLeave={() => setIsHovered(false)}
                                     />
                                 </Link>
+                                <Link to={"/blog"}>
                                 <NavbarButton property1={"Блог"}/>
+                                </Link>
+                                <Link to={"/faq"}>
                                 <NavbarButton property1={"FAQ"}/>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -104,24 +110,32 @@ const Navbar = () => {
                                   onMouseLeave={() => setIsHovered(false)}>
                         <animated.div className={classes.line} style={lineAnimation}></animated.div>
                         <div className={classes.dropdownFrame}>
+                            <Link to={"/protezPage"}>
                             <div className={classes.dropdownMenuBlock}>
                                 <div className={classes.dropdownMenuImage}></div>
-                                <Link to={"/protezPage"}>
                                     <div className={classes.dropdownMenuText}>Біонічна рука</div>
-                                </Link>
                             </div>
+                            </Link>
+                            <Link to={"/servicesPage"}>
                             <div className={classes.dropdownMenuBlock}>
+
                                 <div className={classes.dropdownMenuImage}></div>
                                 <div className={classes.dropdownMenuText}>Послуги</div>
+
                             </div>
+                            </Link>
+                            <Link to={"/teamPage"}>
                             <div className={classes.dropdownMenuBlock}>
                                 <div className={classes.dropdownMenuImage}></div>
                                 <div className={classes.dropdownMenuText}>Команда</div>
                             </div>
+                            </Link>
+
                             <div className={classes.dropdownMenuBlock}>
                                 <div className={classes.dropdownMenuImage}></div>
                                 <div className={classes.dropdownMenuText}>Партнери</div>
                             </div>
+
                         </div>
                     </animated.div>
                 </animated.div>

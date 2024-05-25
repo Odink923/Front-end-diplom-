@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Profile.module.css";
 import UIButton3 from "../../../UI/Buttons/UIButton3/UIButton3";
 import HorizontalLineButton from "../../../UI/components/HorizontalLineButton/HorizontalLineButton";
+import {Link} from "react-router-dom";
 
 const Profile = () => {
 
@@ -39,7 +40,9 @@ const Profile = () => {
 
                         <div className={`${classes.spanAltParagraphLayout} ${classes.spanAltParagraph1}`}>
                             {/*If bug use display flex*/}
+                            <Link style={{textDecorationLine:"none", color:"inherit"}} to={"/servicesPage"}>
                             <HorizontalLineButton><div >Дізнатися більше</div></HorizontalLineButton>
+                            </Link>
                         </div>
 
                     </div>
