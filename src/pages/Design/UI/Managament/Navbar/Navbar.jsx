@@ -115,6 +115,7 @@ const Navbar = () => {
                                 <div className={`${classes.dropdownMenuImage} ${classes.img1 }`} ></div>
                                 <Link to={"/protezPage"}>
                                     <div className={classes.dropdownMenuText}>Біонічна рука</div>
+                                </Link>
                             </div>
                             </Link>
                             <Link to={"/servicesPage"}>
