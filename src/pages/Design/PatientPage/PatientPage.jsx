@@ -8,7 +8,7 @@ const PatientPage = () => {
         <div>
             <PatientLogo visible={false} ></PatientLogo>
             <div style={{ marginTop: "235px", marginBottom: "326px" }}>
-                <WriteToUs registration={true} title={"Дайте відповідь на декілька запитань і ми зв’яжемося з вами найближчим часом"} ></WriteToUs></div>
+                <WriteToUs register={true} title={"Дайте відповідь на декілька запитань і ми зв’яжемося з вами найближчим часом"></WriteToUs></div>
             <Footerr></Footerr>
         </div>
 

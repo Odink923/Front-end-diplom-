@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './AboutCenterProtez.module.css'
 import HorizontalLineButton from "../../../UI/components/HorizontalLineButton/HorizontalLineButton";
 import {useSpring,animated} from "react-spring";
+import {Link} from "react-router-dom";
 const AboutCenterProtez = ({inView}) => {
     const showLeftOpacity = useSpring({
         opacity: inView ? 1 : 0,
@@ -38,9 +39,10 @@ const AboutCenterProtez = ({inView}) => {
                         <animated.div style={showOpacity} className={classes.descriptionsRight}>Хочете самі переконатися, що все саме так як ми розповідаємо? Чи, можливо, бажаєте підглянути за процесом створення наших протезів? У вас є така можливість! </animated.div>
                         <animated.div style={showDownOpacity} className={classes.reusableItem}>
                             {/*if bug use display flex*/}
+                            <Link style={{textDecorationLine:"none", color:"inherit"}} to={"/aboutUsPage"}>
                            <HorizontalLineButton>
                                Відвідати центр</HorizontalLineButton>
-
+                            </Link>
                         </animated.div>
                     </div>
 
