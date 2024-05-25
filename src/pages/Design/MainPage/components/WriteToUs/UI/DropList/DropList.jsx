@@ -11,11 +11,6 @@ const DropList = ({children,isOpen,selectedItem, toggleDropdown}) => {
         overflow: 'hidden',
 
     });
-
-
-
-
-
     return (
         <animated.div style={dropdownAnimation} className={classes.formInput}>
             <span className={classes.customButton}   onClick={toggleDropdown}>
